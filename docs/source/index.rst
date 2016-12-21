@@ -13,15 +13,15 @@ Welcome to turtlebot3_tutorials's documentation!
    :caption: Contents:
 
    overview
-   About
-   Preparation
-   Bringup
-   SLAM
-   Navigation
-   Applications
-   Simulation
-   FAQ
-   Appendix
+   about
+   preparation
+   bringup
+   slam
+   navigation
+   applications
+   simulation
+   faq
+   appendix
 
 Indices and tables
 ==================
