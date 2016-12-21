@@ -6,7 +6,7 @@
 Welcome to turtlebot3_tutorials's documentation!
 ================================================
 
-.. image:: _static/turtlebot3_log.jpg
+.. image:: _static/turtlebot3_logo.jpg
 
 .. toctree::
    :maxdepth: 2
