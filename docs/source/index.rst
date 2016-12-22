@@ -12,8 +12,7 @@ Welcome to turtlebot3_tutorials's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   overview
-   about
+   introduction
    preparation
    bringup
    slam
