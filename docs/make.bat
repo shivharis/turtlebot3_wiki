@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=source
 set BUILDDIR=build
-set SPHINXPROJ=turtlebot3_tutorials
+set SPHINXPROJ=turtlebot3
 
 if "%1" == "" goto help
 

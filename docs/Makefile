@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
-SPHINXPROJ    = turtlebot3_tutorials
+SPHINXPROJ    = turtlebot3
 SOURCEDIR     = source
 BUILDDIR      = build
 

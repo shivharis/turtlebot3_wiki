@@ -1,2 +1,2 @@
-# turtlebot3_tutorials
+# turtlebot3
 Tutorials for the TurtleBot3
