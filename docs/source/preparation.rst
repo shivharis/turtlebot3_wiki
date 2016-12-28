@@ -131,10 +131,6 @@ When running the Arduino IDE on Linux, run the arduino command as shown below.
   arduino
 
 .. image:: _static/preparation/ide0.png
-  ..  :height: 100px
-  ..  :width: 200 px
-  ..  :scale: 50 %
-  ..  :align: right
 
 4. Adding OpenCR board into Arduino IDE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -148,44 +144,24 @@ Run the Arduino IDE installed above (type arduino in the terminal window) and cl
   https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR/master/arduino/opencr_release/package_opencr_index.json
 
 .. image:: _static/preparation/ide1.png
-  ..  :height: 100px
-  ..  :width: 200 px
-  ..  :scale: 50 %
-  ..  :align: right
 
 2) Install the OpenCR package via Boards Manager
 
 [Tools] -> [Board] -> [Boards Manager].
 
 .. image:: _static/preparation/ide2.png
-  ..  :height: 100px
-  ..  :width: 200 px
-  ..  :scale: 50 %
-  ..  :align: right
 
 Click [OpenCR by ROBOTIS] at the bottom to activate the [Install] button. Click this to install the OpenCR package.
 
 .. image:: _static/preparation/ide3.png
-  ..  :height: 100px
-  ..  :width: 200 px
-  ..  :scale: 50 %
-  ..  :align: right
 
 When the installation is complete, you will see the following message: "INSTALLED".
 
 .. image:: _static/preparation/ide4.png
-  ..  :height: 100px
-  ..  :width: 200 px
-  ..  :scale: 50 %
-  ..  :align: right
 
 If you look at the list of [Tools] -> [Board] again, you can see that [OpenCR Board] is added at the bottom. Click this to add the OpenCR Board.
 
 .. image:: _static/preparation/ide5.png
-  ..  :height: 100px
-  ..  :width: 200 px
-  ..  :scale: 50 %
-  ..  :align: right
 
 3) Port setting
 
@@ -197,10 +173,6 @@ Select [Tools] -> [Port] -> [/ dev / ttyACM0].
 .. WARNING:: The value of '/dev/ttyACM0' may be different depending on the environment connected to the PC.
 
 .. image:: _static/preparation/ide6.png
-  ..  :height: 100px
-  ..  :width: 200 px
-  ..  :scale: 50 %
-  ..  :align: right
 
 6. Remove modemmanager
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -222,30 +194,18 @@ The STM32F7xx, which is used as the main MCU on the OpenCR board, supports DFU(D
 Select [Tools] -> [DFU-UTIL]
 
 .. image:: _static/preparation/ide7.png
-  ..  :height: 100px
-  ..  :width: 200 px
-  ..  :scale: 50 %
-  ..  :align: right
 
 2) Run DFU mode
 
 Pressing the [Reset] button while holding down the [Boot] button activates the DFU mode.
 
 .. image:: _static/preparation/ide8.png
-  ..  :height: 100px
-  ..  :width: 200 px
-  ..  :scale: 50 %
-  ..  :align: right
 
 3) Download the bootloder
 
 Click [Tools] -> [Burn Bootloader] to download the bootloader.
 
 .. image:: _static/preparation/ide9.png
-  ..  :height: 100px
-  ..  :width: 200 px
-  ..  :scale: 50 %
-  ..  :align: right
 
 5. Add the TurtleBot3 firmware into OpenCR
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
