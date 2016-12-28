@@ -1,87 +1,34 @@
 Preparation
 ===========
 
-Components
-----------
+Configuring your Raspberry Pi 3
+-------------------------------
 
-Turtlebot is divided into Basic model and Premium model according to the components as shown in the table below. The biggest difference is the type of motor used and the configuration of SBC and Sensor.
+1. Install the Ubuntu MATE for the Raspberry Pi 3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-+------------+--------------------------+--------+---------+
-|            |                          | Basic  | Premium |
-+============+==========================+========+=========+
-|            | item                     | number | number  |
-+------------+--------------------------+--------+---------+
-|            | Waffle-plate             | 8      | 24      |
-+            +--------------------------+--------+---------+
-|            | Plate-support            | 10     | 20      |
-+            +--------------------------+--------+---------+
-|            | Board-support            | 10     | 10      |
-+            +--------------------------+--------+---------+
-|            | Wheel                    | 2      | 2       |
-+            +--------------------------+--------+---------+
-| Frame      | Rubber tire              | 2      | 2       |
-+            +--------------------------+--------+---------+
-| Wheel      | Ball caster              | 1      | 2       |
-+            +--------------------------+--------+---------+
-|            | Bolt and nut set         | 1      | 1       |
-+            +--------------------------+--------+---------+
-|            | Dream plate 5x5 K        | 1      | 1       |
-+            +--------------------------+--------+---------+
-|            | Dream L-bracket 2P K     | 1      | 1       |
-+            +--------------------------+--------+---------+
-|            | Rivet set                | 10     | 10      |
-+------------+--------------------------+--------+---------+
-|            | XL430-W350-T             | 2      | x       |
-+            +--------------------------+--------+---------+
-|            | Horn for XL430           | 2      | x       |
-+ Motor      +--------------------------+--------+---------+
-|            | XM430-W350-T             | x      | 2       |
-+            +--------------------------+--------+---------+
-|            | Horn for XM430           | x      | 2       |
-+------------+--------------------------+--------+---------+
-| Controller | OpenCR                   | 1      | 1       |
-+------------+--------------------------+--------+---------+
-|            | SMPS 12V 5A              | 1      | 1       |
-+            +--------------------------+--------+---------+
-|            | LIPO 11.1V 1800mAh       | 1      | 1       |
-+            +--------------------------+--------+---------+
-| Power      | Battery conversion cable | 1      | 1       |
-+            +--------------------------+--------+---------+
-| Battery    | Velcro                   | 2      | 2       |
-+            +--------------------------+--------+---------+
-| Cable      | Robot Cable-X3P 180mm    | 2      | 2       |
-+            +--------------------------+--------+---------+
-|            | Robot Cable-X3P 240mm    | x      | 2       |
-+            +--------------------------+--------+---------+
-|            | LIPO Battery Charger     | 1      | 1       |
-+            +--------------------------+--------+---------+
-|            | MicroUSB cable           | 1      | 1       |
-+            +--------------------------+--------+---------+
-|            | SBC power cable          | 1      | 1       |
-+------------+--------------------------+--------+---------+
-|            | RaspberryPi 3            | 1      | x       |
-+ SBC        +--------------------------+--------+---------+
-|            | Intel Joule              | x      | 1       |
-+------------+--------------------------+--------+---------+
-|            | Laser Distance Sensor    | 1      | 1       |
-+ Sensor     +--------------------------+--------+---------+
-|            | Intel Realsense R200/400 | x      | 1       |
-+------------+--------------------------+--------+---------+
+https://ubuntu-mate.org/raspberry-pi/
 
-Assembly
---------
+2. Install the ROS
+~~~~~~~~~~~~~~~~~~
 
-Turtlebots are delivered in a single package, not each assembly. In order for the user to use TurtleBot, it is necessary to assemble according to the following procedure.
+.. code:: bash
 
-Basic model
-~~~~~~~~~~~
+  wget https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh && chmod 755 ./ros_install.sh && bash ./ros_install.sh catkin_ws kinetic
 
-(TODO)
+.. code:: bash
 
-Premium model
-~~~~~~~~~~~~~
+  git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
 
-(TODO)
+.. code:: bash
+
+  sudo apt-get install ros-kinetic-joy ros-kinetic-teleop-twist-joy ros-kinetic-teleop-twist-keyboard ros-kinetic-laser-proc ros-kinetic-urg-c ros-kinetic-urg-node ros-kinetic-rplidar-ros ros-kinetic-astra-camera ros-kinetic-astra-launch ros-kinetic-rgbd-launch ros-kinetic-depthimage-to-laserscan ros-kinetic-rosserial-arduino ros-kinetic-rosserial-python ros-kinetic-rosserial-server ros-kinetic-rosserial-client ros-kinetic-rosserial-msgs ros-kinetic-amcl ros-kinetic-map-server ros-kinetic-move-base
+
+.. code:: bash
+
+  wget https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR/master/99-opencr-cdc.rules
+  sudo cp ./99-opencr-cdc.rules /etc/udev/rules.d/
+  sudo udevadm control --reload-rules
 
 Configuring your OpenCR
 -----------------------
@@ -209,5 +156,87 @@ Click [Tools] -> [Burn Bootloader] to download the bootloader.
 
 5. Add the TurtleBot3 firmware into OpenCR
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+(TODO)
+
+Components
+----------
+
+Turtlebot is divided into Basic model and Premium model according to the components as shown in the table below. The biggest difference is the type of motor used and the configuration of SBC and Sensor.
+
++------------+--------------------------+--------+---------+
+|            |                          | Basic  | Premium |
++============+==========================+========+=========+
+|            | item                     | number | number  |
++------------+--------------------------+--------+---------+
+|            | Waffle-plate             | 8      | 24      |
++            +--------------------------+--------+---------+
+|            | Plate-support            | 10     | 20      |
++            +--------------------------+--------+---------+
+|            | Board-support            | 10     | 10      |
++            +--------------------------+--------+---------+
+|            | Wheel                    | 2      | 2       |
++            +--------------------------+--------+---------+
+| Frame      | Rubber tire              | 2      | 2       |
++            +--------------------------+--------+---------+
+| Wheel      | Ball caster              | 1      | 2       |
++            +--------------------------+--------+---------+
+|            | Bolt and nut set         | 1      | 1       |
++            +--------------------------+--------+---------+
+|            | Dream plate 5x5 K        | 1      | 1       |
++            +--------------------------+--------+---------+
+|            | Dream L-bracket 2P K     | 1      | 1       |
++            +--------------------------+--------+---------+
+|            | Rivet set                | 10     | 10      |
++------------+--------------------------+--------+---------+
+|            | XL430-W350-T             | 2      | x       |
++            +--------------------------+--------+---------+
+|            | Horn for XL430           | 2      | x       |
++ Motor      +--------------------------+--------+---------+
+|            | XM430-W350-T             | x      | 2       |
++            +--------------------------+--------+---------+
+|            | Horn for XM430           | x      | 2       |
++------------+--------------------------+--------+---------+
+| Controller | OpenCR                   | 1      | 1       |
++------------+--------------------------+--------+---------+
+|            | SMPS 12V 5A              | 1      | 1       |
++            +--------------------------+--------+---------+
+|            | LIPO 11.1V 1800mAh       | 1      | 1       |
++            +--------------------------+--------+---------+
+| Power      | Battery conversion cable | 1      | 1       |
++            +--------------------------+--------+---------+
+| Battery    | Velcro                   | 2      | 2       |
++            +--------------------------+--------+---------+
+| Cable      | Robot Cable-X3P 180mm    | 2      | 2       |
++            +--------------------------+--------+---------+
+|            | Robot Cable-X3P 240mm    | x      | 2       |
++            +--------------------------+--------+---------+
+|            | LIPO Battery Charger     | 1      | 1       |
++            +--------------------------+--------+---------+
+|            | MicroUSB cable           | 1      | 1       |
++            +--------------------------+--------+---------+
+|            | SBC power cable          | 1      | 1       |
++------------+--------------------------+--------+---------+
+|            | RaspberryPi 3 model B    | 1      | x       |
++ SBC        +--------------------------+--------+---------+
+|            | Intel Joule              | x      | 1       |
++------------+--------------------------+--------+---------+
+|            | Laser Distance Sensor    | 1      | 1       |
++ Sensor     +--------------------------+--------+---------+
+|            | Intel Realsense R200/400 | x      | 1       |
++------------+--------------------------+--------+---------+
+
+Assembly
+--------
+
+Turtlebots are delivered in a single package, not each assembly. In order for the user to use TurtleBot, it is necessary to assemble according to the following procedure.
+
+Basic model
+~~~~~~~~~~~
+
+(TODO)
+
+Premium model
+~~~~~~~~~~~~~
 
 (TODO)
