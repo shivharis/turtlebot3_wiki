@@ -76,25 +76,22 @@ Turtlebots are delivered in a single package, not each assembly. In order for th
 Basic model
 ~~~~~~~~~~~
 
-(comming soon)
+(TODO)
 
 Premium model
 ~~~~~~~~~~~~~
 
-(comming soon)
+(TODO)
 
-Configuring your environment
-----------------------------
+Configuring your OpenCR
+-----------------------
 
-OpenCR
-~~~~~~
+Let's build the OpenCR Arduino development environment.
 
-OpenCR 아두이노 개발 환경을 구축해 보자.
+1. USB settings
+~~~~~~~~~~~~~~~
 
-1. USB 관련 설정
-''''''''''''''
-
-root 권한없이 OpenCR USB 포트를 Arduino IDE에서 사용할 수 있게한다.
+Allows the OpenCR USB port to be used in the Arduino IDE without root privileges.
 
 .. code:: bash
 
@@ -102,81 +99,155 @@ root 권한없이 OpenCR USB 포트를 Arduino IDE에서 사용할 수 있게한
   sudo cp ./99-opencr-cdc.rules /etc/udev/rules.d/
   sudo udevadm control --reload-rules
 
-2. Arduino IDE 설치
-''''''''''''''''''
+2. Install the Arduino IDE
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-아래와 같이 arduino 공식 사이트에서 최신 버전의 아두이노 IDE를 다운로드하여 설치하자. 현재 1.16.0 이상의 버전에서 OpenCR 은 구동되는 것이 확인 되었다.
+Download the latest version of Arduino IDE from the official arduino site and install it. At present, OpenCR is confirmed to be running in version 1.16.0 or later.
 
 https://www.arduino.cc/en/Main/Software
 
-설치시에는 원하는 폴더에 다운로드 받은 압축 파일을 풀고, 터미널 창에서 다음과 같이 설치 파일을 실행하면 된다. 참고로 아래의 예제는 Arduino IDE 가 유저 최 상위 폴더(~/)의 tools 라는 폴더에 있을 경우이다.
+When installing, unzip the downloaded compressed file into the desired folder and execute the installation file from the terminal as follows. For reference, the example below uses the folder named 'tools' in the user's top folder (~/) as the Arduino IDE folder.
 
-$ cd ~/tools/arduino-1.6.12
-$ ./install.sh
+.. code:: bash
 
-끝으로 아래와 같이 bashrc 파일에 위에서 설치한 Arduino IDE 위치를 PATH 라는 절대 경로 설정에 포함시켜 주자. gedit 편집기(유저가 편한 편집기로 설정해도 된다.)로 bashrc 에 다음 경로를 추가하고 source 명령어로 변경된 사항을 반영 시켜주자.
+  cd ~/tools/arduino-1.6.12
+  ./install.sh
 
-gedit ~/.bashrc
-export PATH=$PATH:$HOME/tools/arduino-1.6.12
-source ~/.bashrc
+Finally, add the location of the Arduino IDE installed above to the absolute path setting named PATH in the bashrc file as shown below. Add the following path to bashrc with the gedit editor (you can use another editor that you are comfortable with) and use the 'source' command to apply the changes.
 
-3. Arduino IDE 실행
-''''''''''''''''''
+.. code:: bash
 
-Arduino IDE를 리눅스에서 구동할 때는 아래와 같이 arduino 실행 명령어로 구동하도록 하자.
+  gedit ~/.bashrc
+  export PATH=$PATH:$HOME/tools/arduino-1.6.12
+  source ~/.bashrc
 
-$ arduino
+3. Run the Arduino IDE
+~~~~~~~~~~~~~~~~~~~~~~
 
-4. OpenCR 보드 설정
-'''''''''''''''''
+When running the Arduino IDE on Linux, run the arduino command as shown below.
 
-1) 환경 설정
+.. code:: bash
 
-위에서 설치한 Arduino IDE를 실행(터미널 창에서 arduino 입력)하고 IDE의 상단 메뉴에서 [File] --> [Preferences] 를 클릭한다. Preferences 화면이 뜨면 [Additional Boards Manager URLs] 항목에 다음 링크를 복사해서 붙여 넣는다.
+  arduino
 
-https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR/master/arduino/opencr_release/package_opencr_index.json
+.. image:: _static/preparation/ide0.png
+  ..  :height: 100px
+  ..  :width: 200 px
+  ..  :scale: 50 %
+  ..  :align: right
 
-2) Boards Manager 를 통한 OpenCR 패키지 설치
+4. Adding OpenCR board into Arduino IDE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-[Tools] --> [Board] --> [Boards Manager] 를 실행한다.
+1) Preferences
 
-하단에 위치되어 있는 [OpenCR by ROBOTIS] 의 부분을 클릭하면 [Install] 버튼이 활성화 된다. 이를 클릭하여 OpenCR 패키지를 설치하도록 하자.
+Run the Arduino IDE installed above (type arduino in the terminal window) and click [File] -> [Preferences] in the top menu of the IDE. When the Preferences screen appears, copy and paste the following link into the [Additional Boards Manager URLs] field.
 
-설치가 완료되면 다음과 같이 "INSTALLED" 라는 문구를 확인할 수 있다.
+.. code::
 
-다시 [Tools] --> [Board] 의 목록을 보면 하단에 [OpenCR Board] 라는 항목이 추가 되었음을 확인할 수 있다. 이를 클릭하여 보드를 지정해주도록 하자.
+  https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR/master/arduino/opencr_release/package_opencr_index.json
 
-3) Port 설정
+.. image:: _static/preparation/ide1.png
+  ..  :height: 100px
+  ..  :width: 200 px
+  ..  :scale: 50 %
+  ..  :align: right
 
-Arduino IDE 에서 작업한 프로그램을 OpenCR에 라이팅하기 위한 포트 설정을 한다. 이 작업을 위해서는 OpenCR에 전원이 PC와 OpenCR이 USB로 연결되어 있어야 한다.
+2) Install the OpenCR package via Boards Manager
 
-[Tools] --> [Port] --> [/dev/ttyACM0] 를 선택한다.
-(* PC 에 접속된 환경에 따라서 /dev/ttyACM0 값은 다를 수 있다.)
+[Tools] -> [Board] -> [Boards Manager].
 
-6. modemmanager 삭제
-'''''''''''''''''''
+.. image:: _static/preparation/ide2.png
+  ..  :height: 100px
+  ..  :width: 200 px
+  ..  :scale: 50 %
+  ..  :align: right
 
-Arduino IDE에서 프로그래밍한 후 OpenCR에 프로그램을 다운로드 하면 OpenCR이 재시작되는데 이때에 OpenCR과 USB이 다시 접속된다. 이때에 리눅스의 modem 관련 패키지가 이를 관장하는데 AT 명령어를 보내게 된다. 이는 OpenCR의 접속 오류를 나타내기 때문에 관련 패키지를 삭제해줘야 한다. 다음과 같이 modemmanager를 삭제하도록 하자.
+Click [OpenCR by ROBOTIS] at the bottom to activate the [Install] button. Click this to install the OpenCR package.
 
-sudo apt-get purge modemmanager
+.. image:: _static/preparation/ide3.png
+  ..  :height: 100px
+  ..  :width: 200 px
+  ..  :scale: 50 %
+  ..  :align: right
+
+When the installation is complete, you will see the following message: "INSTALLED".
+
+.. image:: _static/preparation/ide4.png
+  ..  :height: 100px
+  ..  :width: 200 px
+  ..  :scale: 50 %
+  ..  :align: right
+
+If you look at the list of [Tools] -> [Board] again, you can see that [OpenCR Board] is added at the bottom. Click this to add the OpenCR Board.
+
+.. image:: _static/preparation/ide5.png
+  ..  :height: 100px
+  ..  :width: 200 px
+  ..  :scale: 50 %
+  ..  :align: right
+
+3) Port setting
 
 
-7. 부트로더 라이팅
-'''''''''''''''
+This is the port setting for writing programs to Arduino IDE in OpenCR. To do this, OpenCR must be connected to a PC and OpenCR via USB.
+ 
+Select [Tools] -> [Port] -> [/ dev / ttyACM0].
 
-OpenCR 보드에 메인 MCU로 사용되는 STM32F7xx 는 DFU를 지원하고 있다. 이는 MCU 자체에 내장된 부트로더가 실행되어 USB를 이용하여 DFU 프로토콜로 플래쉬에 테이터를 라이팅할 수 있게 되는데 주로 부트로더 초기 라이팅, 복구 모드 및 부트로더 업데이트에 사용된다. 기타 JTAG 장비 없이 USB로 부트로더를 올릴 수 있다는 것이 가장 큰 장점이다. STLink와 같은 라이팅 / 디버깅 장비 없이 MCU에 내장된 DFU 모드를 사용해서 펌웨어 라이팅해보자.
+.. WARNING:: The value of '/dev/ttyACM0' may be different depending on the environment connected to the PC.
 
-1) 프로그래머 설정
+.. image:: _static/preparation/ide6.png
+  ..  :height: 100px
+  ..  :width: 200 px
+  ..  :scale: 50 %
+  ..  :align: right
 
-[Tools] -> [DFU-UTIL] 을 선택한다.
+6. Remove modemmanager
+~~~~~~~~~~~~~~~~~~~~~~
 
-2) DFU 모드 실행
+After programming in the Arduino IDE and downloading the program to OpenCR, OpenCR will be restarted, at which time OpenCR and USB will be reconnected. At this time, the modem related package of Linux sends AT command to manage it. This indicates an OpenCR connection error, so you should remove the relevant package. Let's remove modemmanager as follows.
 
-[Boot] 버튼을 누르고 있는 상태에서 [Reset] 버튼을 누르면 DFU 모드가 실행된다.
+.. code:: bash
 
-3) DFU 모드 실행
+  sudo apt-get purge modemmanager
 
-[Tools] -> [Burn Bootloader] 을 클릭하여 부트로더를 다운로드한다.
 
-5. OpenCR에 TurtleBot3 펌웨어 넣기
-'''''''''''''''''''''''''''''''
+7. bootloader writing
+~~~~~~~~~~~~~~~~~~~~~~
+
+The STM32F7xx, which is used as the main MCU on the OpenCR board, supports DFU(Device Firmware Upgrade). This enables the built-in bootloader of the MCU itself to boot the DFU protocol using USB, primarily for the bootloader initialization, recovery mode, and bootloader update. The biggest advantage is that you can user bootloader with USB without any other JTAG equipment. Let's write firmware using the DFU mode embedded in MCU without writing / debugging equipment such as STLink.
+
+1) Programmer Setting
+
+Select [Tools] -> [DFU-UTIL]
+
+.. image:: _static/preparation/ide7.png
+  ..  :height: 100px
+  ..  :width: 200 px
+  ..  :scale: 50 %
+  ..  :align: right
+
+2) Run DFU mode
+
+Pressing the [Reset] button while holding down the [Boot] button activates the DFU mode.
+
+.. image:: _static/preparation/ide8.png
+  ..  :height: 100px
+  ..  :width: 200 px
+  ..  :scale: 50 %
+  ..  :align: right
+
+3) Download the bootloder
+
+Click [Tools] -> [Burn Bootloader] to download the bootloader.
+
+.. image:: _static/preparation/ide9.png
+  ..  :height: 100px
+  ..  :width: 200 px
+  ..  :scale: 50 %
+  ..  :align: right
+
+5. Add the TurtleBot3 firmware into OpenCR
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+(TODO)
