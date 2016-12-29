@@ -13,12 +13,16 @@ Welcome to turtlebot3's documentation!
    :caption: Contents:
 
    introduction
-   preparation
+   hardware
+   software
    bringup
+   teleoperation
    slam
    navigation
-   applications
+   manipulation
    simulation
+   applications
+   friends
    faq
    appendix
 
