@@ -3,7 +3,7 @@ Friends
 
 Let’s see how we can build your own TurtleBots with small parts. You need normally a few kinds of volts and nuts for assemblying, We took the diversity of the frames into account, we made several size or shape of holes on the waffle-Plate. You can reassemble to another type of turtlebot3 like video below.
 
-https://www.youtube.com/watch?v=o9d7NVC0A1Y
+.. youtube:: o9d7NVC0A1Y
 
 From this idea, we made examples of different TurtleBots. You can customize the construction more than shown as follows.
 

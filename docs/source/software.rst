@@ -22,6 +22,10 @@ To install Ubuntu MATE using the downloaded image file, please refer to the link
 2. Install the ROS and related packages
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: images/logo_ros.png
+    :align: center
+    :target: http://wiki.ros.org
+
 Install the ROS using simple script file below.
 
 .. code-block:: bash
