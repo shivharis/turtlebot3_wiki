@@ -1,10 +1,12 @@
 Hardware Setup
 ==============
 
+.. image:: _static/hardware/turtlebot3_models.png
+
 Components
 ----------
 
-Turtlebot is divided into Basic model and Premium model according to the components as shown in the table below. The biggest difference is the type of motor used and the configuration of SBC and Sensor.
+turtlebot3 is divided into Basic model and Premium model according to the components as shown in the table below. The biggest difference is the type of motor used and the configuration of SBC and Sensor.
 
 +------------+--------------------------+--------+---------+
 |            |                          | Basic  | Premium |
@@ -68,10 +70,10 @@ Turtlebot is divided into Basic model and Premium model according to the compone
 |            | Intel Realsense R200/400 | x      | 1       |
 +------------+--------------------------+--------+---------+
 
-assembling
---------
+Assembling
+----------
 
-Turtlebots are delivered in a single package, not each assembly. In order for the user to use TurtleBot, it is necessary to assemble according to the following procedure.
+TurtleBots are delivered in a single package, not each assembly. In order for the user to use TurtleBot, it is necessary to assemble according to the following procedure.
 
 Basic model
 ~~~~~~~~~~~
