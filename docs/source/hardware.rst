@@ -68,7 +68,7 @@ Turtlebot is divided into Basic model and Premium model according to the compone
 |            | Intel Realsense R200/400 | x      | 1       |
 +------------+--------------------------+--------+---------+
 
-Assembly
+assembling
 --------
 
 Turtlebots are delivered in a single package, not each assembly. In order for the user to use TurtleBot, it is necessary to assemble according to the following procedure.
@@ -76,9 +76,18 @@ Turtlebots are delivered in a single package, not each assembly. In order for th
 Basic model
 ~~~~~~~~~~~
 
-(TODO)
+.. youtube:: rvm-m2ogrLA
+
+.. raw:: html
+
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/rvm-m2ogrLA" frameborder="0" allowfullscreen></iframe>
+
 
 Premium model
 ~~~~~~~~~~~~~
 
-(TODO)
+.. youtube:: 1nTMyr4ybi0
+
+.. raw:: html
+
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/1nTMyr4ybi0" frameborder="0" allowfullscreen></iframe>
