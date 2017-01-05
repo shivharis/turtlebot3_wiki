@@ -50,7 +50,7 @@ Install the ROS and packages (SBCs and Remote PC)
     :align: center
     :target: http://wiki.ros.org
 
-Install the `ROS<http://wiki.ros.org>`_ using simple script file below.
+Install the `ROS`_ using simple script file below.
 
 .. code-block:: bash
 
@@ -208,3 +208,5 @@ Click ``Tools`` → ``Burn Bootloader`` to download the bootloader.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 (TODO)
+
+.. ROS: http://wiki.ros.org
