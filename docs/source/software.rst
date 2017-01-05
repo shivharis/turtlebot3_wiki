@@ -209,4 +209,4 @@ Click ``Tools`` → ``Burn Bootloader`` to download the bootloader.
 
 (TODO)
 
-.. ROS: http://wiki.ros.org
+.. _ROS: http://wiki.ros.org

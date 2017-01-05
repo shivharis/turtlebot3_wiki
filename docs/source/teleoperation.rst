@@ -78,7 +78,7 @@ Nunchuk
 Android App
 -----------
 
-Downloads the `ROS Teleop<https://play.google.com/store/apps/details?id=com.github.rosjava.android_apps.teleop.indigo>`_ and run this app.
+Downloads the `ROS Teleop`_ and run this app.
 
 
 LEAP Motion
@@ -101,3 +101,5 @@ Myo
 ---
 
 (TODO)
+
+.. _ROS Teleop: https://play.google.com/store/apps/details?id=com.github.rosjava.android_apps.teleop.indigo
