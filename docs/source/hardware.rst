@@ -84,6 +84,7 @@ Basic model
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/rvm-m2ogrLA" frameborder="0" allowfullscreen></iframe>
 
+|
 
 Premium model
 ~~~~~~~~~~~~~
@@ -93,3 +94,5 @@ Premium model
 .. raw:: html
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/1nTMyr4ybi0" frameborder="0" allowfullscreen></iframe>
+
+|

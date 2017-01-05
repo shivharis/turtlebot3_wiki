@@ -9,6 +9,8 @@ The TurtleBot3 would be teleoperated by various devices. We tested it using seve
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/Z4s18hlazb4" frameborder="0" allowfullscreen></iframe>
 
+|
+
 Preparation on SBC
 ------------------
 
