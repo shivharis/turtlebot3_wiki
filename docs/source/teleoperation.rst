@@ -23,28 +23,52 @@ Keyboard
 
 .. code-block:: bash
 
-  roslaunch turtlebot3_bringup turtlebot3_bringup_pc.launch
-  roslaunch turtlebot_teleop keyboard_teleop.launch
+  sudo apt-get install ros-kinetic-teleop-twist-keyboard
+
+.. code-block:: bash
+
+  rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 
 RC100
 -----
 
-(TODO)
+When using RC100 of ROBOTIS, it is used directly with OpenCR, so no other package is required.
 
 PS3 Joystick
 ------------
 
-(TODO)
+.. code-block:: bash
+
+  sudo apt-get install ros-kinetic-joy ros-kinetic-joystick-drivers ros-kinetic-teleop-twist-joy
+
+.. code-block:: bash
+
+  roslaunch teleop_twist_joy teleop.launch
 
 XBOX 360 Joystick
 -----------------
 
-(TODO)
+.. code-block:: bash
+
+  sudo apt-get install xboxdrv ros-kinetic-joy ros-kinetic-joystick-drivers ros-kinetic-teleop-twist-joy
+
+.. code-block:: bash
+
+  xboxdrv --silent
+  roslaunch teleop_twist_joy teleop.launch
 
 Wii Remote
 ----------
 
-(TODO)
+.. code-block:: bash
+
+  rosdep install wiimote
+  rosmake wiimote
+
+.. code-block:: bash
+
+  rosrun wiimote wiimote_node.py
+  rosrun learning_wiimote turtle_teleop_wiimote
 
 Nunchuk
 -------
@@ -52,14 +76,26 @@ Nunchuk
 (TODO)
 
 Android App
--------
+-----------
 
-(TODO)
+Downloads the `ROS Teleop<https://play.google.com/store/apps/details?id=com.github.rosjava.android_apps.teleop.indigo>`_ and run this app.
+
 
 LEAP Motion
--------
+-----------
 
-(TODO)
+- https://www.leapmotion.com/setup
+- https://developer.leapmotion.com/downloads/sdk-preview
+
+.. code-block:: bash
+
+  leapd
+  LeapCommandPanel
+  git clone git@github.com:warp1337/rosleapmotion.git
+
+.. code-block:: bash
+
+  rosrun leap_motion sender.py
 
 Myo
 ---
