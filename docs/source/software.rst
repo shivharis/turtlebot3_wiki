@@ -3,11 +3,8 @@ Software Setup
 
 .. NOTE:: We tested the Turtlebot 3 on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
 
-Raspberry Pi 3 (TurtleBot3 Basic Model)
---------------------------------------------------------
-
-Install the Ubuntu MATE for the Raspberry Pi 3
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Install the Ubuntu MATE for the Raspberry Pi 3 (TurtleBot3 Basic Model)
+-----------------------------------------------------------------------
 
 Download the ``Ubuntu MATE 16.04.1`` version for raspberry Pi 3 from the address below.
 
@@ -19,13 +16,10 @@ To install Ubuntu MATE using the downloaded image file, please refer to the link
 
 - https://ubuntu-mate.org/raspberry-pi/
 
-Intel Joule (TurtleBot3 Premium Model)
---------------------------------------------------------
+Install the Ubuntu for the Intel Joule (TurtleBot3 Premium Model)
+-----------------------------------------------------------------
 
-Install the Ubuntu for ther Intel Joule
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Download the ``Ubuntu 16.04`` version for Intel Joule from the address below.
+Download the ``Ubuntu 16.04.1`` version for Intel Joule from the address below.
 
 - https://developer.ubuntu.com/en/snappy/start/intel-joule/
 
@@ -38,13 +32,10 @@ Other information
 - https://software.intel.com/en-us/node/700692
 
 
-Remote PC (Desktop or Laptop PC)
---------------------------------
+Install the Ubuntu for the remote PC (Desktop or Laptop PC)
+-----------------------------------------------------------
 
-Install the Ubuntu for remote PC
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Download the ``Ubuntu 16.04.1`` version from the address below.
+Download the ``Ubuntu 16.04.1`` version for desktop PC from the address below.
 
 - https://www.ubuntu.com/download/desktop
 
@@ -82,12 +73,11 @@ The next step is to install the relevant package for TurtleBot3.
 
 If catkin_make completes successfully without any errors, you have completed the preparation to use TurtlebBot3.
 
+
 Network Configuration
 ---------------------
 
 .. image:: _static/software/network_configuration.png
-    :align: center
-
 
 
 OpenCR
@@ -181,7 +171,7 @@ Select ``Tools`` → ``Port`` → ``/dev/ttyACM0``.
 
 .. image:: _static/preparation/ide6.png
 
-6. Remove modemmanager
+5. Remove modemmanager
 ~~~~~~~~~~~~~~~~~~~~~~
 
 After programming in the Arduino IDE and downloading the program to OpenCR, OpenCR will be restarted, at which time OpenCR and USB will be reconnected. At this time, the modem related package of Linux sends AT command to manage it. This indicates an OpenCR connection error, so you should remove the relevant package. Let's remove modemmanager as follows.
@@ -191,7 +181,7 @@ After programming in the Arduino IDE and downloading the program to OpenCR, Open
   sudo apt-get purge modemmanager
 
 
-7. bootloader writing
+6. Bootloader writing
 ~~~~~~~~~~~~~~~~~~~~~~
 
 The STM32F7xx, which is used as the main MCU on the OpenCR board, supports DFU(Device Firmware Upgrade). This enables the built-in bootloader of the MCU itself to boot the DFU protocol using USB, primarily for the bootloader initialization, recovery mode, and bootloader update. The biggest advantage is that you can user bootloader with USB without any other JTAG equipment. Let's write firmware using the DFU mode embedded in MCU without writing / debugging equipment such as STLink.
@@ -214,7 +204,7 @@ Click ``Tools`` → ``Burn Bootloader`` to download the bootloader.
 
 .. image:: _static/preparation/ide9.png
 
-5. Add the TurtleBot3 firmware into OpenCR
+7. Add the TurtleBot3 firmware into OpenCR
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 (TODO)
