@@ -14,15 +14,15 @@ We would like to introduce the video related to SLAM which is the basic function
 :Date: 2016.11.29
 :Robot: TurtleBot3 basic model
 :Sensor: Laser Distance Sensor
-:ROS packages for SLAM: Gmapping / Cartographer
+:Packages: Gmapping / Cartographer
 :Place: ROBOTIS Labs & HQ, 15th-floor corridor
 :Duration: 55 minutes
-:Total travel distance: 351 meters
+:Distance: Total 351 meters
 
 1. Bringup the TurtleBot3
 -------------------------
 
-On the TurtleBot, start gmapping_demo on the turtlebot laptop.
+Now, we try to bring up the TurtleBot. Enter the following line in a terminal on the TurtleBot's SBC:
 
 .. code-block:: bash
 
@@ -30,8 +30,10 @@ On the TurtleBot, start gmapping_demo on the turtlebot laptop.
   roslaunch turtlebot3_bringup turtlebot3_bringup.launch
   stty -F /dev/ttyACM0
 
-Remote PC
----------
+2. Create a map via teleoperation
+---------------------------------
+
+On the remote PC, open a terminal window and run:
 
 .. code-block:: bash
 
@@ -39,10 +41,15 @@ Remote PC
   roslaunch turtlebot3_slam turtlebot3_slam.launch
   rosrun rviz rviz -d `rospack find turtlebot3_slam`/rviz/turtlebot3_slam.rviz
 
+.. NOTE:: Instead of using the keyboard, We recommend using a joystick that is better in operability.
+
+3. Save the map to file
+-----------------------
+
+On TurtleBot, open a terminal window and run:
+
 .. code-block:: bash
 
-  rosrun map_server map_saver
+  rosrun map_server map_saver -f ~/map
 
-.. code-block:: bash
-  roslaunch turtlebot3_navigation turtlebot3_navigation.launch
-  rosrun rviz rviz -d `rospack find turtlebot3_navigation`/rviz/turtlebot3_nav.rviz
+You will now see two files in the `~/` directory ``map.pgm`` and ``map.yaml``
