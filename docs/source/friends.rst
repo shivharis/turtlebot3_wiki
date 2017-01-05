@@ -35,6 +35,8 @@ TurtleBot3 Friends: OpenManipulator Chain
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/qbht0ssv8M0" frameborder="0" allowfullscreen></iframe>
 
+|
+
 TurtleBot3 Friends: Conveyor
 ----------------------------
 
@@ -46,6 +48,8 @@ TurtleBot3 Friends: Conveyor
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/uv2faO7GhXc" frameborder="0" allowfullscreen></iframe>
 
+|
+
 TurtleBot3 Friends: Monster
 ---------------------------
 
@@ -53,12 +57,16 @@ TurtleBot3 Friends: Monster
 
 (TODO)
 
+|
+
 TurtleBot3 Friends: Tank
 ------------------------
 
 - Type: Caterpillar
 
 (TODO)
+
+|
 
 TurtleBot3 Friends: Omni
 ------------------------
@@ -71,6 +79,8 @@ TurtleBot3 Friends: Omni
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/r8wRACM_ZbE" frameborder="0" allowfullscreen></iframe>
 
+|
+
 TurtleBot3 Friends: Mechnum
 ---------------------------
 
@@ -82,12 +92,16 @@ TurtleBot3 Friends: Mechnum
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/r8wRACM_ZbE" frameborder="0" allowfullscreen></iframe>
 
+|
+
 TurtleBot3 Friends: Segway
 --------------------------
 
 - Type: Segway robot
 
 (TODO)
+
+|
 
 TurtleBot3 Friends: bike
 ------------------------------
@@ -96,12 +110,16 @@ TurtleBot3 Friends: bike
 
 (TODO)
 
+|
+
 TurtleBot3 Friends: Snake
 -------------------------
 
 - Type: Snake robot
 
 (TODO)
+
+|
 
 TurtleBot3 Friends: Blue
 ----------------------------------
@@ -114,8 +132,12 @@ TurtleBot3 Friends: Blue
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/KNWkAe0ob9g" frameborder="0" allowfullscreen></iframe>
 
+|
+
 .. youtube:: vort-z9HDlU
 
 .. raw:: html
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/vort-z9HDlU" frameborder="0" allowfullscreen></iframe>
+
+|

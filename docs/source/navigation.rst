@@ -1,5 +1,2 @@
 Navigation
 ==========
-
-Test
-----
