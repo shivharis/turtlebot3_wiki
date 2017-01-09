@@ -9,6 +9,8 @@ Let’s see how we can build your own TurtleBots with small parts. You need norm
 
 From this idea, we made examples of different TurtleBots. You can customize the construction more than shown as follows.
 
+.. _auto:
+
 TurtleBot3 Friends: Auto
 ------------------------
 
@@ -42,6 +44,8 @@ TurtleBot3 Friends: Conveyor
 
 |
 
+.. _monster:
+
 TurtleBot3 Friends: Monster
 ---------------------------
 
@@ -58,7 +62,9 @@ TurtleBot3 Friends: Tank
 
 - Type: Caterpillar
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/vndnwpVEpVE" frameborder="0" allowfullscreen></iframe>
+.. raw:: html
+
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/vndnwpVEpVE" frameborder="0" allowfullscreen></iframe>
 
 |
 
@@ -100,7 +106,7 @@ TurtleBot3 Friends: Bike
 
 - Type: 3-DOF Motorcycle
 
-Please see videos 'Friends: Auto' and 'Friends: Monster' above.
+Please see videos :ref:`Friends-Auto<auto>` and :ref:`Friends-Monster<monster>` above.
 
 TurtleBot3 Friends: Snake
 -------------------------
