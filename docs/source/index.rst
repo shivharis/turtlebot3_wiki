@@ -4,6 +4,7 @@ TURTLEBOT3 TUTORIALS
 .. image:: _static/hardware/turtlebot3_models.png
 
 .. toctree::
+   :numbered:
    :maxdepth: 2
    :caption: Contents:
 
