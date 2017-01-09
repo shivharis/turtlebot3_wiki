@@ -17,8 +17,8 @@ We would like to introduce the video related to SLAM which is the basic function
 :Duration: 55 minutes
 :Distance: Total 351 meters
 
-1. Bringup the TurtleBot3
--------------------------
+Bringup the TurtleBot3
+----------------------
 
 Now, we try to bring up the TurtleBot. Enter the following line in a terminal on the TurtleBot's SBC:
 
@@ -28,8 +28,8 @@ Now, we try to bring up the TurtleBot. Enter the following line in a terminal on
   roslaunch turtlebot3_bringup turtlebot3_bringup.launch
   stty -F /dev/ttyACM0
 
-2. Create a map via teleoperation
----------------------------------
+Create a map via teleoperation
+------------------------------
 
 On the remote PC, open a terminal window and run:
 
@@ -41,8 +41,8 @@ On the remote PC, open a terminal window and run:
 
 .. NOTE:: Instead of using the keyboard, We recommend using a joystick that is better in operability.
 
-3. Save the map to file
------------------------
+Save the map to file
+--------------------
 
 On TurtleBot, open a terminal window and run:
 
