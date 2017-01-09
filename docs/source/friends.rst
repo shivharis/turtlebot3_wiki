@@ -100,7 +100,7 @@ TurtleBot3 Friends: Bike
 
 - Type: 3-DOF Motorcycle
 
-Please see above (auto and monster) videos.
+Please see videos 'Friends: Auto' and 'Friends: Monster' above.
 
 TurtleBot3 Friends: Snake
 -------------------------

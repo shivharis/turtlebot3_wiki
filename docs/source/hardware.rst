@@ -6,7 +6,7 @@ Hardware Setup
 Components
 ----------
 
-turtlebot3 is divided into Basic model and Premium model according to the components as shown in the table below. The biggest difference is the type of motor used and the configuration of SBC and Sensor.
+The TurtleBot3 is divided into Basic model and Premium model according to the components as shown in the table below. The biggest difference is the type of motor used and the configuration of SBC and Sensor.
 
 +------------+--------------------------+--------+---------+
 |            |                          | Basic  | Premium |

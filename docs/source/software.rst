@@ -85,8 +85,8 @@ OpenCR
 
 Let's build the OpenCR Arduino development environment.
 
-1. USB settings
-~~~~~~~~~~~~~~~
+USB settings
+~~~~~~~~~~~~
 
 Allows the OpenCR USB port to be used in the ``Arduino IDE`` without root privileges.
 
@@ -96,8 +96,8 @@ Allows the OpenCR USB port to be used in the ``Arduino IDE`` without root privil
   sudo cp ./99-opencr-cdc.rules /etc/udev/rules.d/
   sudo udevadm control --reload-rules
 
-2. Install the Arduino IDE
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+Install the Arduino IDE
+~~~~~~~~~~~~~~~~~~~~~~~
 
 Download the latest version of ``Arduino IDE`` from the official arduino site and install it. At present, OpenCR is confirmed to be running in version ``1.16.0`` or later.
 
@@ -118,8 +118,8 @@ Finally, add the location of the ``Arduino IDE`` installed above to the absolute
   export PATH=$PATH:$HOME/tools/arduino-1.6.12
   source ~/.bashrc
 
-3. Run the Arduino IDE
-~~~~~~~~~~~~~~~~~~~~~~
+Run the Arduino IDE
+~~~~~~~~~~~~~~~~~~~
 
 When running the ``Arduino IDE`` on Linux, run the arduino command as shown below.
 
@@ -129,8 +129,8 @@ When running the ``Arduino IDE`` on Linux, run the arduino command as shown belo
 
 .. image:: _static/preparation/ide0.png
 
-4. Adding OpenCR board into Arduino IDE
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Adding OpenCR board into Arduino IDE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 1) Preferences
 
@@ -171,8 +171,8 @@ Select ``Tools`` → ``Port`` → ``/dev/ttyACM0``.
 
 .. image:: _static/preparation/ide6.png
 
-5. Remove modemmanager
-~~~~~~~~~~~~~~~~~~~~~~
+Remove modemmanager
+~~~~~~~~~~~~~~~~~~~
 
 After programming in the Arduino IDE and downloading the program to OpenCR, OpenCR will be restarted, at which time OpenCR and USB will be reconnected. At this time, the modem related package of Linux sends AT command to manage it. This indicates an OpenCR connection error, so you should remove the relevant package. Let's remove modemmanager as follows.
 
@@ -181,8 +181,8 @@ After programming in the Arduino IDE and downloading the program to OpenCR, Open
   sudo apt-get purge modemmanager
 
 
-6. Bootloader writing
-~~~~~~~~~~~~~~~~~~~~~~
+Bootloader writing
+~~~~~~~~~~~~~~~~~~
 
 The STM32F7xx, which is used as the main MCU on the OpenCR board, supports DFU(Device Firmware Upgrade). This enables the built-in bootloader of the MCU itself to boot the DFU protocol using USB, primarily for the bootloader initialization, recovery mode, and bootloader update. The biggest advantage is that you can user bootloader with USB without any other JTAG equipment. Let's write firmware using the DFU mode embedded in MCU without writing / debugging equipment such as STLink.
 
@@ -204,8 +204,8 @@ Click ``Tools`` → ``Burn Bootloader`` to download the bootloader.
 
 .. image:: _static/preparation/ide9.png
 
-7. Add the TurtleBot3 firmware into OpenCR
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Add the TurtleBot3 firmware into OpenCR
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 (TODO)
 
