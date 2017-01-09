@@ -68,6 +68,8 @@ TurtleBot3 Friends: Tank
 
 |
 
+.. _omni:
+
 TurtleBot3 Friends: Omni
 ------------------------
 
@@ -84,9 +86,7 @@ TurtleBot3 Friends: Mecanum
 
 - Type: Mecanum wheel
 
-.. raw:: html
-
-  <iframe width="640" height="360" src="https://www.youtube.com/embed/r8wRACM_ZbE" frameborder="0" allowfullscreen></iframe>
+Please see video :ref:`Friends-Omni<omni>` above.
 
 |
 
