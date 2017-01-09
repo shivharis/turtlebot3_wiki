@@ -58,7 +58,7 @@ TurtleBot3 Friends: Tank
 
 - Type: Caterpillar
 
-(TODO)
+<iframe width="640" height="360" src="https://www.youtube.com/embed/vndnwpVEpVE" frameborder="0" allowfullscreen></iframe>
 
 |
 
@@ -73,10 +73,10 @@ TurtleBot3 Friends: Omni
 
 |
 
-TurtleBot3 Friends: Mechnum
+TurtleBot3 Friends: Mecanum
 ---------------------------
 
-- Type: Mechnum wheel
+- Type: Mecanum wheel
 
 .. raw:: html
 
@@ -89,18 +89,18 @@ TurtleBot3 Friends: Segway
 
 - Type: Segway robot
 
-(TODO)
+.. raw:: html
+
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/VAY-0xBOE2g" frameborder="0" allowfullscreen></iframe>
 
 |
 
-TurtleBot3 Friends: bike
+TurtleBot3 Friends: Bike
 ------------------------------
 
 - Type: 3-DOF Motorcycle
 
-(TODO)
-
-|
+Please see above (auto and monster) videos.
 
 TurtleBot3 Friends: Snake
 -------------------------
