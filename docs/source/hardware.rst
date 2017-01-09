@@ -78,8 +78,6 @@ TurtleBots are delivered in a single package, not each assembly. In order for th
 Basic model
 ~~~~~~~~~~~
 
-.. youtube:: rvm-m2ogrLA
-
 .. raw:: html
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/rvm-m2ogrLA" frameborder="0" allowfullscreen></iframe>
@@ -88,8 +86,6 @@ Basic model
 
 Premium model
 ~~~~~~~~~~~~~
-
-.. youtube:: 1nTMyr4ybi0
 
 .. raw:: html
 

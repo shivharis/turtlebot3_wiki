@@ -5,8 +5,6 @@ The SLAM is abbreviation of 'Simultaneous Localization and Mapping'. It refers t
 
 We would like to introduce the video related to SLAM which is the basic function of TurtleBot3. Even if it is small size, low cost, we will do our best to SLAM and Navigation which is the basic function of Turtlebot brand.
 
-.. youtube:: lkW4-dG2BCY
-
 .. raw:: html
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/lkW4-dG2BCY" frameborder="0" allowfullscreen></iframe>

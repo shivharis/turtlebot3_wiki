@@ -51,8 +51,6 @@ To send a goal:
 This can fail if the path or goal is blocked.
 If you want to stop the robot before it reaches it's goal, send it a goal at it's current location.
 
-.. youtube:: o4yjNPKj3ps
-
 .. raw:: html
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/o4yjNPKj3ps" frameborder="0" allowfullscreen></iframe>

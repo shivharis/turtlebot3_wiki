@@ -3,8 +3,6 @@ Teleoperation
 
 The TurtleBot3 would be teleoperated by various devices. We tested it using several wireless devices e.g. PS3, XBOX 360, ROBOTIS RC100, etc. This example is operated by ROS on Ubuntu mate 16.04 with Raspberry Pi 3 (except that it tested by LEAP Motion) and OpenCR which controlls Dynamixel XM-430.
 
-.. youtube:: Z4s18hlazb4
-
 .. raw:: html
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/Z4s18hlazb4" frameborder="0" allowfullscreen></iframe>
