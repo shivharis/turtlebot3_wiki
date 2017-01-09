@@ -132,7 +132,8 @@ When running the ``Arduino IDE`` on Linux, run the arduino command as shown belo
 Adding OpenCR board into Arduino IDE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1) Preferences
+Preferences
+...........
 
 Run the ``Arduino IDE`` installed above (type arduino in the terminal window) and click ``File`` → ``Preferences`` in the top menu of the IDE. When the Preferences screen appears, copy and paste the following link into the ``Additional Boards Manager URLs`` field.
 
@@ -142,7 +143,8 @@ Run the ``Arduino IDE`` installed above (type arduino in the terminal window) an
 
 .. image:: _static/preparation/ide1.png
 
-2) Install the OpenCR package via Boards Manager
+Install the OpenCR package via Boards Manager
+.............................................
 
 ``Tools`` → ``Board`` → ``Boards Manager``.
 
@@ -160,8 +162,8 @@ If you look at the list of ``Tools`` → ``Board`` again, you can see that ``Ope
 
 .. image:: _static/preparation/ide5.png
 
-3) Port setting
-
+Port setting
+............
 
 This is the port setting for writing programs to Arduino IDE in OpenCR. To do this, OpenCR must be connected to a PC and OpenCR via USB.
  
@@ -186,19 +188,22 @@ Bootloader writing
 
 The STM32F7xx, which is used as the main MCU on the OpenCR board, supports DFU(Device Firmware Upgrade). This enables the built-in bootloader of the MCU itself to boot the DFU protocol using USB, primarily for the bootloader initialization, recovery mode, and bootloader update. The biggest advantage is that you can user bootloader with USB without any other JTAG equipment. Let's write firmware using the DFU mode embedded in MCU without writing / debugging equipment such as STLink.
 
-1) Programmer Setting
+Programmer Setting
+..................
 
 Select ``Tools`` → ``DFU-UTIL``
 
 .. image:: _static/preparation/ide7.png
 
-2) Run DFU mode
+Run DFU mode
+............
 
 Pressing the ``Reset`` button while holding down the ``Boot`` button activates the DFU mode.
 
 .. image:: _static/preparation/ide8.png
 
-3) Download the bootloder
+Download the bootloder
+......................
 
 Click ``Tools`` → ``Burn Bootloader`` to download the bootloader.
 
