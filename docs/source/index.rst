@@ -20,4 +20,6 @@ TURTLEBOT3 TUTORIALS
    applications
    friends
    faq
+   contact
+
 ..   appendix
