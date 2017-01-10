@@ -54,17 +54,20 @@ There are many answers to this question, but we strive to develop and apply prod
 :Web: http://wwww.robotis.com/
 :E-Mail: ost@robotis.com
 
-ABOUT OST
----------
+ABOUT OST (Open Source Team)
+----------------------------
 
 .. image:: _static/contact/open_source_team.jpg
    :width: 600px
 
 :Members: Ashe Kim, Darby Lim, Leon Jung, Hancheol Cho, Yoonseok Pyo
 :Alumni: Yoshihiro Shibata
+:Supporter: Jinwook Kim, Woosik Yang, JangHo Kim, OROCA Memebers
 
-We are an open source team of ROBOTIS. Through open source hardware / software, our robot friends are hoping to enrich our lives. We mainly develop / support Dynamixel SDK, OpenManipulator, OpenCM, OpenCR and OpenAutonomousCar. Our favorite platform is ROS! :)
+We are an **Open Source Team** of ROBOTIS. Through open source hardware / software, our robot friends are hoping to enrich our lives. We mainly develop / support the Dynamixel SDK, OpenManipulator, OpenCM, OpenCR and OpenAutonomousCar.
+Our favorite platform is ROS! :) We are delighted to be in charge of developing TurtleBot3, the official reference platform for ROS, and in the future we will be a team that can support you to create your dream robot through TurtleBot3.
 
+:GutHub: https://github.com/ROBOTIS-GIT
 :E-Mail: ost@robotis.com
 
 .. _Open Source Robotics Foundation, Inc. (OSRF): http://www.osrfoundation.org/
