@@ -41,7 +41,7 @@ There are many answers to this question, but we strive to develop and apply prod
 
 **Japan Office**
 
-:Address: 北京市朝阳区佳境天城B座1103
+:Address: BIZ SMART 8F,1 Chome-10-6 Kajichō, Chiyoda-ku, Tōkyō-to
 :Tel: +81-3-4330-3660
 :Web: http://jp.robotis.com/
 :E-Mail: japan@robotis.com
