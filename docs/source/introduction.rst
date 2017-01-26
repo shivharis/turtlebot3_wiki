@@ -37,22 +37,22 @@ We will provide full open-source software. The main license is `Apache 2.0 licen
 Open Source License
 -------------------
 
-License: Hardware
-~~~~~~~~~~~~~~~~~
+Hardware License
+~~~~~~~~~~~~~~~~
 
 TurtleBot3 is an open source hardware project as described by the `Open Source Hardware Statement of Principles and Definition v1.0`_.
 
-License: Software
-~~~~~~~~~~~~~~~~~
+Software License
+~~~~~~~~~~~~~~~~
 Main software are released under the `Apache 2.0 license`_. In addition, we use various licenses like `3-Clause BSD License`_ / `GPLv3`_ in some cases.
 
-License: Documents
-~~~~~~~~~~~~~~~~~~
+Documents License
+~~~~~~~~~~~~~~~~~
 
 Documents are released under the `CC BY 4.0`_.
 
-Licensed Distributor or Manufacturer
-------------------------------------
+Licensed Distributor and Manufacturer
+-------------------------------------
 
 The `Open Source Robotics Foundation`_ licenses the use of the `TurtleBot`_ trademark for manufacturing and distributing TurtleBot branded products. Controlling the use of the TurtleBot trademark ensures the highest quality user experience for TurtleBot users and community.
 
