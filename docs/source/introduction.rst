@@ -34,20 +34,20 @@ We will provide full open-source software. The main license is `Apache 2.0 licen
 - https://github.com/ROBOTIS-GIT/turtlebot3
 - https://github.com/ROBOTIS-GIT/OpenCR
 
-Open Source
------------
+Open Source License
+-------------------
 
-Hardware
-~~~~~~~~
+License: Hardware
+~~~~~~~~~~~~~~~~~
 
 TurtleBot3 is an open source hardware project as described by the `Open Source Hardware Statement of Principles and Definition v1.0`_.
 
-Software
-~~~~~~~~
+License: Software
+~~~~~~~~~~~~~~~~~
 Main software are released under the `Apache 2.0 license`_. In addition, we use various licenses like `3-Clause BSD License`_ / `GPLv3`_ in some cases.
 
-Documents
-~~~~~~~~~
+License: Documents
+~~~~~~~~~~~~~~~~~~
 
 Documents are released under the `CC BY 4.0`_.
 
