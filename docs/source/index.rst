@@ -10,7 +10,9 @@ TURTLEBOT3 TUTORIALS
 
    introduction
    hardware
-   software
+   pc_software
+   sbc_software
+   opencr_software
    bringup
    teleoperation
    slam
