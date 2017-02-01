@@ -19,9 +19,9 @@ To install Ubuntu MATE using the downloaded image file, please refer to the link
 Install the Ubuntu for the Intel Joule (TurtleBot3 Premium Model)
 -----------------------------------------------------------------
 
-Download the ``Ubuntu 16.04.1`` version for Intel Joule from the address below.
+Download the image ``Ubuntu 16.04`` version for Intel Joule from the address below.
 
-- https://developer.ubuntu.com/en/snappy/start/intel-joule/
+- https://developer.ubuntu.com/core/get-started/intel-joule#alternative-install:-ubuntu-desktop-16.04-lts
 
 Creating a bootable USB drive to install Ubuntu.
 
@@ -52,6 +52,8 @@ Install the ROS and packages (SBCs and Remote PC)
 
 Install the `ROS`_ using simple script file below.
 
+.. WARNING:: If you have used the Rasberry PI image provided by ROBOTIS, the ROS and packages described below have already been installed and so you do not need to run the following.
+
 .. code-block:: bash
 
   wget https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh && chmod 755 ./ros_install.sh && bash ./ros_install.sh catkin_ws kinetic
@@ -64,7 +66,11 @@ The next step is to install the relevant package for TurtleBot3.
 
 .. code-block:: bash
 
-  sudo apt-get install ros-kinetic-joy ros-kinetic-teleop-twist-joy ros-kinetic-teleop-twist-keyboard ros-kinetic-laser-proc ros-kinetic-urg-c ros-kinetic-urg-node ros-kinetic-rplidar-ros ros-kinetic-astra-camera ros-kinetic-astra-launch ros-kinetic-rgbd-launch ros-kinetic-depthimage-to-laserscan ros-kinetic-rosserial-arduino ros-kinetic-rosserial-python ros-kinetic-rosserial-server ros-kinetic-rosserial-client ros-kinetic-rosserial-msgs ros-kinetic-amcl ros-kinetic-map-server ros-kinetic-move-base
+  sudo apt-get install ros-kinetic-joy ros-kinetic-teleop-twist-joy ros-kinetic-teleop-twist-keyboard ros-kinetic-laser-proc ros-kinetic-urg-c ros-kinetic-urg-node ros-kinetic-rplidar-ros ros-kinetic-astra-camera ros-kinetic-astra-launch ros-kinetic-rgbd-launch ros-kinetic-depthimage-to-laserscan ros-kinetic-rosserial-arduino ros-kinetic-rosserial-python ros-kinetic-rosserial-server ros-kinetic-rosserial-client ros-kinetic-rosserial-msgs ros-kinetic-amcl ros-kinetic-map-server ros-kinetic-move-base ros-kinetic-hls-lfcd-lds-driver
+
+.. code-block:: bash
+
+  sudo apt-get install ros-kinetic-joy ros-kinetic-teleop-twist-joy ros-kinetic-teleop-twist-keyboard ros-kinetic-laser-proc ros-kinetic-rgbd-launch ros-kinetic-depthimage-to-laserscan ros-kinetic-rosserial-arduino ros-kinetic-rosserial-python ros-kinetic-rosserial-server ros-kinetic-rosserial-client ros-kinetic-rosserial-msgs ros-kinetic-amcl ros-kinetic-map-server ros-kinetic-move-base ros-kinetic-hls-lfcd-lds-driver
 
 .. code-block:: bash
 
