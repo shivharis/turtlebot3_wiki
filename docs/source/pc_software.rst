@@ -14,16 +14,14 @@ If you need some help installing Ubuntu, please check out step-by-step guide bel
 
 - https://www.ubuntu.com/download/desktop/install-ubuntu-desktop
 
-Install the ROS and packages (SBCs and Remote PC)
--------------------------------------------------
+Install the ROS and packages
+----------------------------
 
 .. image:: _static/logo_ros.png
     :align: center
     :target: http://wiki.ros.org
 
 Install the `ROS`_ using simple script file below.
-
-.. WARNING:: If you have used the Rasberry PI image provided by ROBOTIS, the ROS and packages described below have already been installed and so you do not need to run the following.
 
 .. code-block:: bash
 

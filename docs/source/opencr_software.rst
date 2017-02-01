@@ -6,7 +6,7 @@ OpenCR Software Setup
 OpenCR
 ------
 
-Let's build the OpenCR Arduino development environment on remote PC.
+Let's build the OpenCR Arduino development environment on your remote PC.
 
 USB settings
 ~~~~~~~~~~~~
