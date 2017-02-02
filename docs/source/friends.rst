@@ -11,6 +11,20 @@ From this idea, we made examples of different TurtleBots. You can customize the 
 
 .. _auto:
 
+TurtleBot3 Friends List (2017.02.03)
+
+- TurtleBot3 Friends: Conveyor
+- TurtleBot3 Friends: OpenManipulator Chain
+- TurtleBot3 Friends: Auto
+- TurtleBot3 Friends: Tank
+- TurtleBot3 Friends: Omni
+- TurtleBot3 Friends: Mecanum
+- TurtleBot3 Friends: Segway
+- TurtleBot3 Friends: Bike
+- TurtleBot3 Friends: Blue (Real TurtleBot)
+- TurtleBot3 Friends: Road Train
+- TurtleBot3 Friends: Monster
+
 TurtleBot3 Friends: Auto
 ------------------------
 
@@ -108,12 +122,14 @@ TurtleBot3 Friends: Bike
 
 Please see videos :ref:`Friends-Auto<auto>` and :ref:`Friends-Monster<monster>` above.
 
-TurtleBot3 Friends: Snake
+TurtleBot3 Friends: Road Train
 -------------------------
 
-- Type: Snake robot
+- Type: Road train
 
-(TODO)
+.. raw:: html
+
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/uhkq1w4YoEE" frameborder="0" allowfullscreen></iframe>
 
 |
 
