@@ -37,7 +37,7 @@ On the remote PC, open a terminal window and run:
 
 .. code-block:: bash
 
-  roslaunch turtlebot3_bringup turtlebot3_bringup_pc.launch
+  roslaunch turtlebot3_bringup turtlebot3_bringup_pc_basic.launch
   roslaunch turtlebot3_slam turtlebot3_slam.launch
   rosrun rviz rviz -d `rospack find turtlebot3_slam`/rviz/turtlebot3_slam.rviz
 
