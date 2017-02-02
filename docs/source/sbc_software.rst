@@ -107,4 +107,15 @@ The next step is to install the relevant package for TurtleBot3.
 
 If catkin_make completes successfully without any errors, you have completed the preparation to use TurtlebBot3.
 
+[Manual] USB settings
+---------------------
+
+Allows the OpenCR USB port to be used on TurtleBot3 without root privileges.
+
+.. code-block:: bash
+
+  wget https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR/master/99-opencr-cdc.rules
+  sudo cp ./99-opencr-cdc.rules /etc/udev/rules.d/
+  sudo udevadm control --reload-rules
+
 .. _ROS: http://wiki.ros.org
