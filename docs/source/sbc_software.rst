@@ -17,22 +17,22 @@ Making a microSDHC: We recommend using GNOME Disks and the ``Restore Disk Imageâ
   gnome-disks
 
 .. image:: _static/software/rpi_disk1.png
-   :width: 300px
+   :width: 350px
 
 .. image:: _static/software/rpi_disk2.png
-   :width: 300px
+   :width: 350px
 
 .. image:: _static/software/rpi_disk3.png
-   :width: 300px
+   :width: 350px
 
 .. image:: _static/software/rpi_disk4.png
-   :width: 300px
+   :width: 350px
 
 .. image:: _static/software/rpi_disk5.png
-   :width: 300px
+   :width: 350px
 
 .. image:: _static/software/rpi_disk6.png
-   :width: 300px
+   :width: 350px
 
 Install the Ubuntu for the Intel Joule (TurtleBot3 Premium Model)
 -----------------------------------------------------------------
