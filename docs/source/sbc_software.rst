@@ -34,6 +34,13 @@ Making a microSDHC: We recommend using GNOME Disks and the ``Restore Disk Imageâ
 .. image:: _static/software/rpi_disk6.png
    :width: 350px
 
+After saving, insert the microSD card into your Raspberry Pi and turn on the power. At this point, you must connect your Raspberry Pi to your monitor with an HDMI cable and connect a USB or wireless keyboard and mouse. The initial user ID is ``turtlebot`` and the password is ``turtlebot``. The user ID and password can be changed later if you want to.
+
+.. image:: _static/software/login.png
+   :width: 400px
+
+If there was no problem, you have completed the preparation to use TurtlebBot3.
+
 Install the Ubuntu for the Intel Joule (TurtleBot3 Premium Model)
 -----------------------------------------------------------------
 
