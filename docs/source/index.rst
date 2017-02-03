@@ -9,6 +9,7 @@ TURTLEBOT3 TUTORIALS
    :caption: Contents:
 
    introduction
+   features
    hardware
    pc_software
    sbc_software

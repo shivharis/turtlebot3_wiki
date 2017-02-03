@@ -60,7 +60,7 @@ ABOUT OST (Open Source Team)
 .. image:: _static/contact/open_source_team.jpg
    :width: 600px
 
-:Members: Ashe Kim, Darby Lim, Leon Jung, Hancheol Cho, Yoonseok Pyo
+:Members: Ashe Kim, Darby Lim, Leon Jung, MyungWoo Yoo, Hancheol Cho, Yoonseok Pyo
 :Alumni: Yoshihiro Shibata
 :Supporter: Jinwook Kim, Woosik Yang, JangHo Kim, OROCA Memebers
 
