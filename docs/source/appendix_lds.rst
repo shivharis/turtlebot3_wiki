@@ -1,7 +1,7 @@
 Appendix #LDS
 ==============
 
-.. image:: _static/appendix/lds.png
+.. image:: _static/appendix/lds/lds.png
 
 Overview
 --------
