@@ -69,8 +69,8 @@ The following attachments include the contents like basic performance, measureme
 here is detail specification document :download:`pdf <_static/doc/20170203_LDS_Basic_Specification.pdf>`
 
 
-Use cases
----------
+LDS for TurtleBot
+-----------------
 
 The HLS-LFCD LDS is used for the TurtleBot3 basic and premium model.
 
