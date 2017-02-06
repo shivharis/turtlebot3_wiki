@@ -6,13 +6,11 @@ Hardware Setup
 Components
 ----------
 
-The TurtleBot3 has two different models: Basic model and Premium model. The following list shows their components. The big differences between two models are the Motor, the SBC and the Sensor.
+The TurtleBot3 has two different models: the Basic and the Premium. The following list shows their components. The big differences between two models are the Motor, the SBC and the Sensor.
 
 +------------+--------------------------+--------+---------+
-|            |                          | Basic  | Premium |
+| The number of the parts of each model | Basic  | Premium |
 +============+==========================+========+=========+
-|            | Item                     | number | number  |
-+------------+--------------------------+--------+---------+
 |            | Waffle-plate             | 8      | 24      |
 +            +--------------------------+--------+---------+
 |            | Plate-support            | 10     | 20      |
