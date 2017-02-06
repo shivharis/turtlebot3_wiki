@@ -22,6 +22,7 @@ TURTLEBOT3 TUTORIALS
    simulation
    applications
    friends
+   appendix_opencr
    appendix_lds
    faq
    contact
