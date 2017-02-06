@@ -11,6 +11,7 @@ The TurtleBot3 has two different models: the Basic and the Premium. The followin
 +------------+--------------------------+--------+---------+
 | The number of the parts of each model | Basic  | Premium |
 +============+==========================+========+=========+
++------------+--------------------------+--------+---------+
 |            | Waffle-plate             | 8      | 24      |
 +            +--------------------------+--------+---------+
 |            | Plate-support            | 10     | 20      |
