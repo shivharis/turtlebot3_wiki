@@ -46,7 +46,7 @@ To image a bootable microSDHC, follow the instructions as shown below. Here reco
 .. image:: _static/software/rpi_disk6.png
    :width: 320px
 
-At second, insert the microSD card into your Raspberry Pi 3 and turn on the power. Then, connect the Raspberry Pi to the monitor with an HDMI cable and connect a USB or wireless input devices. The initial user ID is ``turtlebot`` and the password is ``turtlebot``. The user ID and the password is configurable after the login is succeeded.
+Now, insert the microSD card into your Raspberry Pi 3 and turn on the power. Then, connect the Raspberry Pi to the monitor with an HDMI cable and connect a USB or wireless input devices. The initial user ID is ``turtlebot`` and the password is ``turtlebot``. The user ID and the password is configurable after the login is succeeded.
 
 .. image:: _static/software/login.png
    :width: 600px
