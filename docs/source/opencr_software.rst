@@ -1,17 +1,19 @@
 OpenCR Software Setup
 =====================
 
-.. NOTE:: We tested the Turtlebot 3 on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
+.. NOTE:: The Turtlebot3 has been tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
+
+The OpenCR controls the Dynamixels on the instructions from the SBC. To do this, a specific firmware should be built in the board. See the descriptions and configure the settings. 
 
 OpenCR
 ------
 
-Let's build the OpenCR Arduino development environment on your remote PC.
+Follow the instructions to get the OpenCR Arduino development environment on the remote PC.
 
 USB settings
 ~~~~~~~~~~~~
 
-Allows the OpenCR USB port to be used in the ``Arduino IDE`` without root privileges.
+Make the OpenCR USB port be able to upload the ``Arduino IDE`` program without root permission.
 
 .. code-block:: bash
 
@@ -22,18 +24,18 @@ Allows the OpenCR USB port to be used in the ``Arduino IDE`` without root privil
 Install the Arduino IDE
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Download the latest version of ``Arduino IDE`` from the official arduino site and install it. At present, OpenCR is confirmed to be running in version ``1.16.0`` or later.
+Download the latest version of ``Arduino IDE`` from the official arduino homepage, and install it. Currently, the OpenCR will be on service in the version ``1.16.0`` or later.
 
 https://www.arduino.cc/en/Main/Software
 
-When installing, unzip the downloaded compressed file into the desired folder and execute the installation file from the terminal as follows. For reference, the example below uses the folder named ``tools`` in the user's top folder (``~/``) as the Arduino IDE folder.
+Then, extract the downloaded file to the desired folder and execute the installation file from the terminal. In this case, the example shown below makes the folder *tools* in the user's top folder (``~/``). This folder will act as the Arduino IDE folder.
 
 .. code-block:: bash
 
   cd ~/tools/arduino-1.6.12
   ./install.sh
 
-Finally, add the location of the ``Arduino IDE`` installed above to the absolute path setting named ``PATH`` in the ``bashrc`` file as shown below. Add the following path to bashrc with the gedit editor (you can use another editor that you are comfortable with) and use the ``source`` command to apply the changes.
+Set the file path of installed ``Arduino IDE`` as an absolute path named ``PATH`` in the ``bashrc`` file. Here recommends to use **gedit editor**. (Use another editor, if necessary.) Finally, `source` it to apply the changes.
 
 .. code-block:: bash
 
@@ -44,7 +46,7 @@ Finally, add the location of the ``Arduino IDE`` installed above to the absolute
 Run the Arduino IDE
 ~~~~~~~~~~~~~~~~~~~
 
-When running the ``Arduino IDE`` on Linux, run the arduino command as shown below.
+To run the ``Arduino IDE`` on Linux platform, type into the terminal as follows.
 
 .. code-block:: bash
 
@@ -52,13 +54,13 @@ When running the ``Arduino IDE`` on Linux, run the arduino command as shown belo
 
 .. image:: _static/preparation/ide0.png
 
-Adding OpenCR board into Arduino IDE
+Porting the OpenCR board with the Arduino IDE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Preferences
 ...........
 
-Run the ``Arduino IDE`` installed above (type arduino in the terminal window) and click ``File`` → ``Preferences`` in the top menu of the IDE. When the Preferences screen appears, copy and paste the following link into the ``Additional Boards Manager URLs`` field.
+After ``Arduino IDE`` is run, click ``File`` → ``Preferences`` in the top menu of the IDE. When the *Preferences* window appears, copy and paste following link to the ``Additional Boards Manager URLs`` textbox.
 
 .. code-block::
 
@@ -69,26 +71,26 @@ Run the ``Arduino IDE`` installed above (type arduino in the terminal window) an
 Install the OpenCR package via Boards Manager
 .............................................
 
-``Tools`` → ``Board`` → ``Boards Manager``.
+Click ``Tools`` → ``Board`` → ``Boards Manager``.
 
 .. image:: _static/preparation/ide2.png
 
-Click ``OpenCR by ROBOTIS`` at the bottom to activate the ``Install`` button. Click this to install the OpenCR package.
+Type `OpenCR` into the textbox to find the ``OpenCR by ROBOTIS`` package. After it finds out, click ``Install``. 
 
 .. image:: _static/preparation/ide3.png
 
-When the installation is complete, you will see the following message: "INSTALLED".
+After the installation, "INSTALLED" will be appeared.
 
 .. image:: _static/preparation/ide4.png
 
-If you look at the list of ``Tools`` → ``Board`` again, you can see that ``OpenCR Board`` is added at the bottom. Click this to add the OpenCR Board.
+See if ``OpenCR Board`` is now on the list of ``Tools`` → ``Board``. Click this to import the OpenCR Board source.
 
 .. image:: _static/preparation/ide5.png
 
 Port setting
 ............
 
-This is the port setting for writing programs to Arduino IDE in OpenCR. To do this, OpenCR must be connected to a PC and OpenCR via USB.
+This step shows the port setting for the program uploads. The OpenCR should be connected to the PC and the OpenCR via the USB ports.
  
 Select ``Tools`` → ``Port`` → ``/dev/ttyACM0``.
 
@@ -96,10 +98,10 @@ Select ``Tools`` → ``Port`` → ``/dev/ttyACM0``.
 
 .. image:: _static/preparation/ide6.png
 
-Remove modemmanager
+Modemmanager removal
 ~~~~~~~~~~~~~~~~~~~
 
-After programming in the Arduino IDE and downloading the program to OpenCR, OpenCR will be restarted, at which time OpenCR and USB will be reconnected. At this time, the modem related package of Linux sends AT command to manage it. This indicates an OpenCR connection error, so you should remove the relevant package. Let's remove modemmanager as follows.
+After programming by using the Arduino IDE and uploading the program to the OpenCR, the OpenCR will be restarted and be reconnected. At the same moment, the modem-related packages of the Linux will send the AT command to manage the device. Thus indicates an connection error on the OpenCR, so this step should be done previously.
 
 .. code-block:: bash
 
@@ -109,7 +111,7 @@ After programming in the Arduino IDE and downloading the program to OpenCR, Open
 Bootloader writing
 ~~~~~~~~~~~~~~~~~~
 
-The STM32F7xx, which is used as the main MCU on the OpenCR board, supports DFU(Device Firmware Upgrade). This enables the built-in bootloader of the MCU itself to boot the DFU protocol using USB, primarily for the bootloader initialization, recovery mode, and bootloader update. The biggest advantage is that you can user bootloader with USB without any other JTAG equipment. Let's write firmware using the DFU mode embedded in MCU without writing / debugging equipment such as STLink.
+The STM32F7xx, which is used for the main MCU on the OpenCR board, supports DFU(Device Firmware Upgrade). This enables the built-in bootloader of the MCU by itself to boot the DFU protocol by using USB, primarily for the bootloader initialization, the recovery mode, and the bootloader update. The biggest advantage to let the users be able to use bootloader with USB but no other JTAG equipment. Write the firmware by using the DFU mode which is embedded in MCU without writing / debugging equipment, such as STLink.
 
 Programmer Setting
 ..................
@@ -118,21 +120,21 @@ Select ``Tools`` → ``DFU-UTIL``
 
 .. image:: _static/preparation/ide7.png
 
-Run DFU mode
+Run DFU mode.
 ............
 
-Pressing the ``Reset`` button while holding down the ``Boot`` button activates the DFU mode.
+Press the ``Reset`` button while the ``Boot`` button is being pushed. This activates the DFU mode.
 
 .. image:: _static/preparation/ide8.png
 
-Download the bootloder
+Download the bootloader.
 ......................
 
 Click ``Tools`` → ``Burn Bootloader`` to download the bootloader.
 
 .. image:: _static/preparation/ide9.png
 
-Add the TurtleBot3 firmware into OpenCR
+Add the TurtleBot3 firmware into the OpenCR.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 (TODO)
