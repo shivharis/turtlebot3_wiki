@@ -1,6 +1,8 @@
 Bringup
 =======
 
+.. NOTE:: The Turtlebot3 has been tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
+
 Bringup the TurtleBot3
 ----------------------
 
