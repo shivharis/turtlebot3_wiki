@@ -4,9 +4,9 @@ Overview
 Turtlebot3
 ----------
 
-TurtleBot3 is a small, low­cost, fully programmable, ROS­ based mobile robot. It is intended to be used for education, research, product prototyping, and hobby application.
+TurtleBot3 is a small, low cost, fully programmable, ROS­ based mobile robot. It is intended to be used for education, research, product prototyping, and hobby application.
 
-The goal of the TurtleBot3 is to drastically reduce the size and the price of the platform without sacrificing capability, functionality, and quality. Since the additional options, such as the chassis, the computers, and the sensors, are available, the TurtleBot3 can be customized in various ways. The TurtleBot3 is willing to be in the center of the maker movement by applying the latest technical advances of the single­board computer, the depth sensor, and and the 3­D printing.
+The goal of the TurtleBot3 is to drastically reduce the size and the price of the platform without sacrificing capability, functionality, and quality. Since the additional options, such as the chassis, the computers, and the sensors, are available, the TurtleBot3 can be customized in various ways. The TurtleBot3 is willing to be in the center of the maker movement by applying the latest technical advances of the SBC(Single­Board Computer), the Depth sensor, and the 3D printing.
 
 "Introducing the Turtlebot3" on ROSCon2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -19,7 +19,7 @@ Authors: Yoonseok Pyo, Yoshihiro Shibata, Leon Jung, Darby Lim (`ROBOTIS`_)
 Hardware
 --------
 
-The components of Turtlebot3 in default version is as follows: Chassis, Motors, Wheels, OpenCR board, Computer, Sensor, Battery. The chassis is composed in several kind of parts like plates, board support, ball caster. Main feature of the chassis are small size, For example, the Octa-plate,which is the biggest of the basic parts, is smaller than your hand. We will provide this parts as injection molded plates for low-cost. But we also have a plan to provide CAD data for 3D printing. The basic model of Turtlebot3 is Two-wheeled differential drive type, but we will provide various examples of mechanical customization.
+The components of Turtlebot3 as a default are the following: the Chassis, the Motors, the Wheels, the OpenCR board, the Computer, the Sensor, the Battery. The chassis are the Waffle plates, the Board support, the Ball caster, etc. The big feature of the chassis is in the Waffle plate, which is the biggest in all parts used, but is smaller than the hand. This plate will be provided as an injection molded and this achieves the low cost, but the CAD data for 3D printing is also available. The Turtlebot3 Basic is a Two-wheeled differential drive type platform, but is able to be customized in many ways: the Cars, the Bikes, the Trailers and so on.
 
 We release the data in Onshape, it is a full-cloud 3D CAD system. You can access by using web browser, or phones. Here you can do your work like drawing, or assemblying the part, working with your co-workers together.
 
