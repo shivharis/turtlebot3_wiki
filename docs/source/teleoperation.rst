@@ -15,7 +15,7 @@ Bringup the TurtleBot3
 .. code-block:: bash
 
   sudo chmod a+rw /dev/ttyUSB0
-  roslaunch turtlebot3_bringup turtlebot3_bringup.launch
+  roslaunch turtlebot3_bringup turtlebot3_bringup_sbc_lds.launch
   stty -F /dev/ttyACM0
 
 .. NOTE:: The following instructions are for remotely controlling the TurtleBot3. Therefore, it should be run on the user's remote PC, not the TurtleBot3's SBC.

@@ -27,7 +27,7 @@ Now, we try to bring up the TurtleBot. Enter the following line in a terminal on
 .. code-block:: bash
 
   sudo chmod a+rw /dev/ttyUSB0
-  roslaunch turtlebot3_bringup turtlebot3_bringup.launch
+  roslaunch turtlebot3_bringup turtlebot3_bringup_sbc_lds.launch
   stty -F /dev/ttyACM0
 
 Create a map via teleoperation
@@ -37,6 +37,7 @@ On the remote PC, open a terminal window and run:
 
 .. code-block:: bash
 
+  export TURTLEBOT3_MODEL=basic
   roslaunch turtlebot3_slam turtlebot3_slam.launch
 
 .. code-block:: bash

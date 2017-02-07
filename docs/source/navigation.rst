@@ -11,7 +11,7 @@ Now, we try to bring up the TurtleBot. Enter the following line in a terminal on
 .. code-block:: bash
 
   sudo chmod a+rw /dev/ttyUSB0
-  roslaunch turtlebot3_bringup turtlebot3_bringup.launch
+  roslaunch turtlebot3_bringup turtlebot3_bringup_sbc_lds.launch
   stty -F /dev/ttyACM0
 
 On the PC, run the navigation launch file
@@ -19,6 +19,7 @@ On the PC, run the navigation launch file
 
 .. code-block:: bash
 
+  export TURTLEBOT3_MODEL=basic
   roslaunch turtlebot3_navigation turtlebot3_navigation.launch
 
 On the PC, launch rviz with the following command
