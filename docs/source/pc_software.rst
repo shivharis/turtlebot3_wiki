@@ -1,37 +1,37 @@
 PC Software Setup
 =================
 
-.. NOTE:: We tested the Turtlebot 3 on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
+.. NOTE:: The Turtlebot3 has been tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
 
-Install the Ubuntu for the remote PC (Desktop or Laptop PC)
+Install the Ubuntu in the remote PC (Desktop or Laptop PC)
 -----------------------------------------------------------
 
-Download the ``Ubuntu 16.04.1`` version for desktop PC from the address below.
+Download the ``Ubuntu 16.04.1`` version on the remote PC from the following link.
 
 - https://www.ubuntu.com/download/desktop
 
-If you need some help installing Ubuntu, please check out step-by-step guide below.
+If it needs some help to install Ubuntu, check out the step-by-step guide.
 
 - https://www.ubuntu.com/download/desktop/install-ubuntu-desktop
 
-Install the ROS and packages
+Install the ROS and dependent packages
 ----------------------------
 
 .. image:: _static/logo_ros.png
     :align: center
     :target: http://wiki.ros.org
 
-Install the `ROS`_ using simple script file below.
+Install the `ROS`_ by using a simple installation script file
 
 .. code-block:: bash
 
   wget https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh && chmod 755 ./ros_install.sh && bash ./ros_install.sh catkin_ws kinetic
 
-or you can use the typical instructions below.
+or follow the typical instruction in the link.
 
 - http://wiki.ros.org/kinetic/Installation/Ubuntu
 
-The next step is to install the relevant package for TurtleBot3.
+The next step is to install the dependent packages for the TurtleBot3 control.
 
 .. code-block:: bash
 
@@ -42,7 +42,7 @@ The next step is to install the relevant package for TurtleBot3.
   git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
   cd ~/catkin_ws && catkin_make
 
-If catkin_make completes successfully without any errors, you have completed the preparation to use TurtlebBot3.
+If catkin_make is completed without any errors, the preparation for using TurtleBot3 will be finished.
 
 
 Network Configuration
