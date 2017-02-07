@@ -10,27 +10,38 @@ Download the disk image file for Raspberry Pi 3 from the following link. The dis
 
 - https://goo.gl/rdum6W
 
-Imaging a bootable microSDHC: The recommendation is to use GNOME Disks and the ``Restore Disk Image…`` option, which natively supports XZ compressed disk image. 
-At first, insert the microSD card into the remote PC (ubuntu) and restore the disk image as follows. (This step may take about 15 min.)
+To image a bootable microSDHC, follow the instructions as shown below. Here recommends to use **GNOME Disks**. 
+
+1. Run **GNOME Disks** through the terminal.
 
 .. code-block:: bash
 
   gnome-disks
-
-.. image:: _static/software/rpi_disk1.png
+  
+  .. image:: _static/software/rpi_disk1.png
    :width: 320px
+
+2. Choose the disk for imaging, then click ``Restore Disk Image…`` option, which supports XZ compressed disk image natively. 
 
 .. image:: _static/software/rpi_disk2.png
    :width: 320px
 
+3. Select the image file which is wanted to be imaged on to the disk, then click ``Start Restoring...``. 
+
 .. image:: _static/software/rpi_disk3.png
    :width: 320px
+
+4. Click ``Restore`` to continue.
 
 .. image:: _static/software/rpi_disk4.png
    :width: 320px
 
+5. Type the password of the PC, then click ``Authenticate``. (This step may take about 15 min.)
+
 .. image:: _static/software/rpi_disk5.png
    :width: 320px
+
+6. Check whether the image is burned to the disk.
 
 .. image:: _static/software/rpi_disk6.png
    :width: 320px
