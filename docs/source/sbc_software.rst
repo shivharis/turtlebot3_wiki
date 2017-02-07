@@ -10,23 +10,23 @@ Download the disk image file for Raspberry Pi 3 from the following link. The dis
 
 - https://goo.gl/rdum6W
 
-To image a bootable microSDHC, follow the instructions as shown below. Here recommends to use **GNOME Disks**. 
+To image a bootable microSDHC, follow the instructions as shown below. Here recommends to use **GNOME Disks**.
 
 1. Run **GNOME Disks** through the terminal.
 
 .. code-block:: bash
 
   gnome-disks
-  
+
 .. image:: _static/software/rpi_disk1.png
    :width: 320px
 
-2. Choose the disk for imaging, then click ``Restore Disk Image…`` option, which supports XZ compressed disk image natively. 
+2. Choose the disk for imaging, then click ``Restore Disk Image…`` option, which supports XZ compressed disk image natively.
 
 .. image:: _static/software/rpi_disk2.png
    :width: 320px
 
-3. Select the image file which is wanted to be imaged on to the disk, then click ``Start Restoring...``. 
+3. Select the image file which is wanted to be imaged on to the disk, then click ``Start Restoring...``.
 
 .. image:: _static/software/rpi_disk3.png
    :width: 320px
@@ -117,13 +117,13 @@ The next step is to install the dependent packages for the TurtleBot3 control.
 
 .. code-block:: bash
 
-  sudo apt-get install ros-kinetic-joy ros-kinetic-teleop-twist-joy ros-kinetic-teleop-twist-keyboard ros-kinetic-laser-proc ros-kinetic-rgbd-launch ros-kinetic-depthimage-to-laserscan ros-kinetic-rosserial-arduino ros-kinetic-rosserial-python ros-kinetic-rosserial-server ros-kinetic-rosserial-client ros-kinetic-rosserial-msgs ros-kinetic-amcl ros-kinetic-map-server ros-kinetic-move-base ros-kinetic-hls-lfcd-lds-driver ros-kinetic-urdf ros-kinetic-xacro
+  sudo apt-get install ros-kinetic-joy ros-kinetic-teleop-twist-joy ros-kinetic-teleop-twist-keyboard ros-kinetic-laser-proc ros-kinetic-rgbd-launch ros-kinetic-depthimage-to-laserscan ros-kinetic-rosserial-arduino ros-kinetic-rosserial-python ros-kinetic-rosserial-server ros-kinetic-rosserial-client ros-kinetic-rosserial-msgs ros-kinetic-amcl ros-kinetic-map-server ros-kinetic-move-base ros-kinetic-hls-lfcd-lds-driver ros-kinetic-urdf ros-kinetic-xacro ros-kinetic-turtlebot-teleop
 
 .. code-block:: bash
 
   git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
   cd ~/catkin_ws && catkin_make
-  
+
 If catkin_make is completed without any errors, the preparation for using TurtleBot3 will be finished.
 
 [Manual] USB settings
