@@ -18,7 +18,7 @@ To image a bootable microSDHC, follow the instructions as shown below. Here reco
 
   gnome-disks
   
-  .. image:: _static/software/rpi_disk1.png
+.. image:: _static/software/rpi_disk1.png
    :width: 320px
 
 2. Choose the disk for imaging, then click ``Restore Disk Image…`` option, which supports XZ compressed disk image natively. 
