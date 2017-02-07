@@ -6,7 +6,7 @@ Turtlebot3
 
 TurtleBot3 is a small, low­cost, fully programmable, ROS­ based mobile robot. It is intended to be used for education, research, product prototyping, and hobby application.
 
-The goal of the TurtleBot3 is to drastically reduce the size and the price of the platform without sacrificing capability, functionality, or quality. Since the additional options, such as the chassis, the computers, and the sensors are available, the TurtleBot3 can be customized in various ways. The TurtleBot3 is willing to be in the center of the maker movement by applying the latest technical advances of the single­board computer, the depth sensor, and and the 3­D printing.
+The goal of the TurtleBot3 is to drastically reduce the size and the price of the platform without sacrificing capability, functionality, and quality. Since the additional options, such as the chassis, the computers, and the sensors, are available, the TurtleBot3 can be customized in various ways. The TurtleBot3 is willing to be in the center of the maker movement by applying the latest technical advances of the single­board computer, the depth sensor, and and the 3­D printing.
 
 "Introducing the Turtlebot3" on ROSCon2016
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
