@@ -71,7 +71,7 @@ The TurtleBot3 has two different models: the Basic and the Premium. The followin
 Assembling
 ----------
 
-TurtleBots are delivered in a single package, not each assembly. In order for the user to use TurtleBot, it is necessary to assemble according to the following procedure.
+Every TurtleBots come unassembled in boxes. Follow the instructions to assemble the TurtleBot3.
 
 Basic model
 ~~~~~~~~~~~
