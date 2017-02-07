@@ -19,9 +19,9 @@ Authors: Yoonseok Pyo, Yoshihiro Shibata, Leon Jung, Darby Lim (`ROBOTIS`_)
 Hardware
 --------
 
-The components of Turtlebot3 as a default are the following: the Chassis, the Motors, the Wheels, the OpenCR board, the Computer, the Sensor, the Battery. The chassis are the Waffle plates, the Board support, the Ball caster, etc. The big feature of the chassis is in the Waffle plate, which is the biggest in all parts used, but is smaller than the hand. This plate will be provided as an injection molded and this achieves the low cost, but the CAD data for 3D printing is also available. The Turtlebot3 Basic is a Two-wheeled differential drive type platform, but is able to be customized in many ways: the Cars, the Bikes, the Trailers and so on.
+The components of Turtlebot3 as a default are the following: the Chassis, the Motors, the Wheels, the OpenCR board, the Computer, the Sensor, the Battery. The chassis are the Waffle plates, the Board support, the Ball caster, etc. The big feature of the chassis is in the Waffle plate, which is the biggest in all TurtleBot3 parts, but is smaller than the hand. This plate will be provided as an injection molded, and it achieves the low cost, but the CAD data for 3D printing is also available. The Turtlebot3 Basic is a Two-wheeled differential drive type platform, but is able to be customized in many ways: the Cars, the Bikes, the Trailers and so on.
 
-We release the data in Onshape, it is a full-cloud 3D CAD system. You can access by using web browser, or phones. Here you can do your work like drawing, or assemblying the part, working with your co-workers together.
+The CAD data is released to the Onshape, which is a full-cloud 3D CAD editor. Please access through a web browser by using the computer or even by the portable devices. Here allows the works of drawing, assemblying with the co-workers.
 
 - Turtlebot3 basic model: https://goo.gl/Om7f9O
 - Turtlebot3 premium model: (comming soon)
