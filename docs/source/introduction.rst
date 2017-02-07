@@ -29,7 +29,7 @@ The CAD data is released to the Onshape, which is a full-cloud 3D CAD editor. Pl
 Software
 --------
 
-We will provide full open-source software. The main license is `Apache 2.0 license`_. The full source release we are looking at would be first quarter of 2017.
+We will provide full open-source software. The main license is `Apache 2.0 license`_. The full source release we are expecting would be at first quarter of 2017.
 
 - https://github.com/ROBOTIS-GIT/turtlebot3
 - https://github.com/ROBOTIS-GIT/OpenCR
@@ -44,7 +44,7 @@ TurtleBot3 is an open source hardware project as described by the `Open Source H
 
 Software License
 ~~~~~~~~~~~~~~~~
-Main software are released under the `Apache 2.0 license`_. In addition, we use various licenses like `3-Clause BSD License`_ / `GPLv3`_ in some cases.
+Main software is released under the `Apache 2.0 license`_. However, some of the sources are under the licenses `3-Clause BSD License`_ / `GPLv3`_.
 
 Documents License
 ~~~~~~~~~~~~~~~~~
@@ -56,11 +56,11 @@ Licensed Distributor and Manufacturer
 
 The `Open Source Robotics Foundation`_ licenses the use of the `TurtleBot`_ trademark for manufacturing and distributing TurtleBot branded products. Controlling the use of the TurtleBot trademark ensures the highest quality user experience for TurtleBot users and community.
 
-There are two licenses available, one for manufacturing and one for distributing. A licensed manufacturer can produce TurtleBot branded products and sell them to licensed TurtleBot distributors. TurtleBot distributors are licensed to sell TurtleBot branded products to their region.
+There are two licenses available: one for manufacturing and one for distributing. A licensed manufacturer can produce TurtleBot branded products and sell them to licensed TurtleBot distributors. TurtleBot distributors are licensed to sell TurtleBot branded products to their region.
 
 TurtleBot3 is a project of `ROBOTIS`_ that is formally contracted with `OSRF`_.
 
-If you are interested in becoming a TurtleBot Manufacturer or Distributor please contact turtlebot@osrfoundation.org
+If you are interested in becoming a TurtleBot Manufacturer or Distributor, please contact turtlebot@osrfoundation.org
 
 Resources
 ---------
