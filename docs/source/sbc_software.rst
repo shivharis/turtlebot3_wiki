@@ -3,7 +3,7 @@ SBC Software Setup
 
 .. NOTE:: The Turtlebot3 has been tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
 
-Install the Ubuntu MATE for the Raspberry Pi 3 (TurtleBot3 Basic Model)
+Install the Ubuntu MATE in the Raspberry Pi 3 (TurtleBot3 Basic)
 -----------------------------------------------------------------------
 
 Download the disk image file for Raspberry Pi 3 from the following link. The disk image file contains ``Ubuntu MATE 16.04.1`` and ``ROS kinetic kame``, and all ROS packages which are needed for TurtleBot3 Basic.
@@ -35,14 +35,14 @@ At first, insert the microSD card into the remote PC (ubuntu) and restore the di
 .. image:: _static/software/rpi_disk6.png
    :width: 320px
 
-At second, insert the microSD card into your Raspberry Pi 3 and turn on the power. Then, connect the Raspberry Pi to the monitor with an HDMI cable and connect a USB or wireless input devices. The initial user ID is ``turtlebot`` and the password is ``turtlebot``. The user ID and password can be changed later if you want to.
+At second, insert the microSD card into your Raspberry Pi 3 and turn on the power. Then, connect the Raspberry Pi to the monitor with an HDMI cable and connect a USB or wireless input devices. The initial user ID is ``turtlebot`` and the password is ``turtlebot``. The user ID and the password is configurable after the login is succeeded.
 
 .. image:: _static/software/login.png
    :width: 600px
 
-If there was no problem, you have completed the preparation to use TurtlebBot3.
+If the settings are finished, go to the next step.
 
-Install the Ubuntu for the Intel Joule (TurtleBot3 Premium Model)
+Install the Ubuntu in the Intel Joule (TurtleBot3 Premium)
 -----------------------------------------------------------------
 
 (TODO)
@@ -55,33 +55,33 @@ Network Configuration
 Manual setting (Ubuntu and ROS)
 -------------------------------
 
-.. WARNING:: If you have used the Rasberry PI image provided by ROBOTIS, the ROS and packages described below have already been installed and so you do not need to run the following.
+.. NOTE:: While provided Raspberry Pi 3 image is being used, skip the following step (Manual Installation).
 
 [Manual] Install the Ubuntu MATE for the Raspberry Pi 3 (TurtleBot3 Basic Model)
 --------------------------------------------------------------------------------
 
-Download the ``Ubuntu MATE 16.04.1`` version for raspberry Pi 3 from the address below.
+Download the ``Ubuntu MATE 16.04.1`` version on the Raspberry Pi 3 from the link.
 
 - https://ubuntu-mate.org/download/
 
 .. image:: _static/preparation/download_ubuntu_mate_image.png
 
-To install Ubuntu MATE using the downloaded image file, please refer to the link below.
+To install Ubuntu MATE by using the image file, please refer to the link shown below.
 
 - https://ubuntu-mate.org/raspberry-pi/
 
 [Manual] Install the Ubuntu for the Intel Joule (TurtleBot3 Premium Model)
 --------------------------------------------------------------------------
 
-Download the image ``Ubuntu 16.04`` version for Intel Joule from the address below.
+Download the image ``Ubuntu 16.04`` version in the Intel Joule from the link.
 
 - https://developer.ubuntu.com/core/get-started/intel-joule#alternative-install:-ubuntu-desktop-16.04-lts
 
-Creating a bootable USB drive to install Ubuntu.
+Make a bootable USB drive to install Ubuntu.
 
 - https://software.intel.com/en-us/node/705675#ubuntu
 
-Other information
+If necessary, see the other information in the link.
 
 - https://software.intel.com/en-us/node/700692
 
@@ -92,17 +92,17 @@ Other information
     :align: center
     :target: http://wiki.ros.org
 
-Install the `ROS`_ using simple script file below.
+Install the `ROS`_ by using a simple installation script file.
 
 .. code-block:: bash
 
   wget https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh && chmod 755 ./ros_install.sh && bash ./ros_install.sh catkin_ws kinetic
 
-or you can use the typical instructions below.
+or follow the typical instruction in the link.
 
 - http://wiki.ros.org/kinetic/Installation/Ubuntu
 
-The next step is to install the relevant package for TurtleBot3.
+The next step is to install the dependent packages for the TurtleBot3 control.
 
 .. code-block:: bash
 
@@ -112,13 +112,13 @@ The next step is to install the relevant package for TurtleBot3.
 
   git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
   cd ~/catkin_ws && catkin_make
-
-If catkin_make completes successfully without any errors, you have completed the preparation to use TurtlebBot3.
+  
+If catkin_make is completed without any errors, the preparation for using TurtleBot3 will be finished.
 
 [Manual] USB settings
 ---------------------
 
-Allows the OpenCR USB port to be used on TurtleBot3 without root privileges.
+The following allows the USB port to be used for the OpenCR board without root privileges.
 
 .. code-block:: bash
 
