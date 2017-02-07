@@ -37,8 +37,10 @@ On the remote PC, open a terminal window and run:
 
 .. code-block:: bash
 
-  roslaunch turtlebot3_bringup turtlebot3_bringup_pc_basic.launch
   roslaunch turtlebot3_slam turtlebot3_slam.launch
+
+.. code-block:: bash
+
   rosrun rviz rviz -d `rospack find turtlebot3_slam`/rviz/turtlebot3_slam.rviz
 
 .. NOTE:: Instead of using the keyboard, We recommend using a joystick that is better in operability.
