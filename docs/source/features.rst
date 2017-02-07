@@ -9,31 +9,33 @@ TurtleBot is the world’s most popular open source robot for education and rese
 
 LOW COST
 --------
-TurtleBot was built for the cost-conscious needs from the educations and the proto-type research & developments. TurtleBot3 is the most affordable robot among the SLAM-capable mobile robots equipped with the 360-degree Lidar that are sold on the market.
+TurtleBot was built for the cost-conscious needs from the educations and the proto-type research & developments. TurtleBot3 is the most affordable robot among the SLAM-able mobile robots equipped with a general 360-degree LiDAR.
 
 SMALL SIZE
 ----------
-The size of the TurtleBot basic model is 140mm x 140mm x 150mm (L x W x H). This size is about 1/4 of that of TurtleBot 1, 2. You just imagine that you can now just put your TurtleBot in your backpack.
+The size of the TurtleBot3 Basic is 140mm x 140mm x 150mm (L x W x H). Its size is about 1/4 of the size of the TurtleBot 1, 2. Try to imagine that the TurtleBot can be carried into the backpack.
 
 BUILT FOR ROS
 -------------
-The TurtleBot brand is managed by `Open Source Robotics Foundation, Inc. (OSRF)`_, which develops and manages ROS. Since then, ROS has quickly become the go-to software platform for roboticists around the world. Not only will the TurtleBot seamlessly integrate with your existing ROS-driven robots, it also offers an affordable platform to get started learning with ROS.
+The TurtleBot brand is managed by `Open Source Robotics Foundation, Inc. (OSRF)`_, which develops and manages ROS. Nowadays, ROS has become the go-to platform for all the roboticists around the world. The TurtleBot obviously can be integrated by the existing ROS-based robots, but basically can be an affordable platform for whom want to get started learning ROS.
 
-EXTENSIBILITY FOR CUSTOMIZING
+EXTENSIBILITY IN CUSTOMIZING
 -----------------------------
-We will offer extensibility for customizing on the mechanical structure with some alternative options: open-source embedded board, the computer, and the sensors. The basic model of Turtlebot3 is Two-wheeled differential drive type, but we will provide various examples of mechanical customization. Let you make many shapes of robots with any ideas that you can imagine.
+TurtleBot3 encourages users to customize its mechanical structure themselves using some alternative options: the open-source embedded board (as a control board), the computer, and the sensor. The Turtlebot3 Basic is a two-wheeled differential drive type platform, but is able to be structurally and mechanically customized in many ways: the Cars, the Bikes, the Trailers and so on. Extend the ideas beyond the imagination.
 
 MODULAR ACTUATOR FOR MOBILE ROBOT
 ---------------------------------
-TurtleBot3 uses the 2 Dynamixels as wheel joints. Dynamixel X series supports 6 operating modes, like velocity control mode for wheels, torque and position control mode for joint. We want to tell you this with special emphasis, since if you want to make a mobile manipulator, it is very suitable solution for using velocity, torque and position control.
-
+TurtleBot3 allows to get precise spatial data by using 2 Dynamixels in the wheel joints. The Dynamixel X series can be operated by one of 6 operating modes: the Velocity control mode for wheels, the Torque control mode or the Position control mode for joint, etc. The Dynamixel can be used even to make a mobile manipulator, since it is light but can be precisely controlled with the velocity, the torque and the position. The Dynamixel is a core component that makes the TurtleBot be completed.
+ 
 POWERFULL SENSORS
 -----------------
-The TurtleBot3 Basic model uses a 360° Lidar. The TurtleBot3 premium model is equipped with a 360° Lidar as well as a powerful Intel RealSense with recognition SDK. This will be the best solution for your mobile robot.
+TurtleBot3 Basic uses a 360° LiDAR. The TurtleBot3 premium model is equipped with the 360° Lidar as well, but additionally proposes a powerful Intel RealSense with the recognition SDK. This will be the best solution for making a mobile robot.
 
 OPEN SOURCE
 -----------
-We will provide open-source H/W, F/W, and S/W. Basically, we will provide TurtleBot's parts as injection molded plates for low-cost. But we also have a plan to provide CAD data for 3D printing. We release the data in Onshape, it’s a full-cloud 3D CAD system. You can access by using web browser, or phones. Here you can do your work like drawing, or assemblying the part, Working with your co-workers together. You can change your Turtlebot3 design as you want. Also, we will provide everything of OpenCR board including Schematics, PCB Gerber, BOM / firmware for turtlebot3 with open-source licenses for you and ROS community.
+TurtleBot3's Hardware, Firmware, and Software are provided as open-sources. Basically, all components of the TurtleBot3 will be provided as the injection molded, and it achieves the low cost, but the CAD data for 3D printing is also available. 
+The CAD data is released to the Onshape, which is a full-cloud 3D CAD editor. Get access through a web browser by using the computer or even by the portable devices. Here allows the works of drawing, assemblying with the co-workers. 
+Besides, all details of the OpenCR board that are necessary for the users who want to make it by themselves, including the Schematics, the PCB Gerber, the BOM and the Firmware source are fully opened under the open-source licenses for the user and the ROS community.
 
 .. _Open Source Robotics Foundation, Inc. (OSRF): http://www.osrfoundation.org/
 .. _ROBOTIS: http://wwww.robotis.com/
