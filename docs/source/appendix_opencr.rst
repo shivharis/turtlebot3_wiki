@@ -77,6 +77,47 @@ Specification
 
 * Hot-swap for switching from "shore power"(12V, 5A SMPS) to "mobile power"(battery): power board to support uninterruptible power supply (UPS) type of functionality.
 
+User's guide
+------------
+
+Turn on the serial_node package
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. code-block:: bash
+
+  rosrun rosserial_python serial_node.py __name:=turtlebot3_core _port:=/dev/ttyACM0 _baud:=115200
+
+Testing
+~~~~~~~
+
+.. code-block:: bash
+
+  rostopic echo /imu
+
+  header:
+    seq: 179
+    stamp:
+      secs: 1486448047
+      nsecs: 147523921
+    frame_id: imu_link
+  orientation:
+    x: 0.0165222994983
+    y: -0.0212152898312
+    z: 0.276503056288
+    w: 0.960632443428
+  orientation_covariance: [0.0024999999441206455, 0.0, 0.0, 0.0, 0.0024999999441206455, 0.0, 0.0, 0.0, 0.0024999999441206455]
+  angular_velocity:
+    x: 2.0
+    y: 1.0
+    z: -1.0
+  angular_velocity_covariance: [0.019999999552965164, 0.0, 0.0, 0.0, 0.019999999552965164, 0.0, 0.0, 0.0, 0.019999999552965164]
+  linear_acceleration:
+    x: 528.0
+    y: 295.0
+    z: 16648.0
+  linear_acceleration_covariance: [0.03999999910593033, 0.0, 0.0, 0.0, 0.03999999910593033, 0.0, 0.0, 0.0, 0.03999999910593033]
+  ---
+
 GitHub repository
 -----------------
 
