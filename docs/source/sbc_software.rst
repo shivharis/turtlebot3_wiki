@@ -1,16 +1,17 @@
 SBC Software Setup
 ==================
 
-.. NOTE:: We tested the Turtlebot 3 on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
+.. NOTE:: The Turtlebot3 has been tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
 
 Install the Ubuntu MATE for the Raspberry Pi 3 (TurtleBot3 Basic Model)
 -----------------------------------------------------------------------
 
-Download the disk image file for raspberry Pi 3 from the address below. This disk image file contains ``Ubuntu MATE 16.04.1`` and ``ROS kinetic kame``. In addition, all the ROS packages needed for TurtleBot Basic are included.
+Download the disk image file for Raspberry Pi 3 from the following link. The disk image file contains ``Ubuntu MATE 16.04.1`` and ``ROS kinetic kame``, and all ROS packages which are needed for TurtleBot3 Basic.
 
 - https://goo.gl/rdum6W
 
-Making a microSDHC: We recommend using GNOME Disks and the ``Restore Disk Image…`` option, which natively supports XZ compressed images. First, insert the microSD card into your remote PC (ubuntu) and restore the disk image as shown below.
+Making a bootable microSDHC: We recommend using GNOME Disks and the ``Restore Disk Image…`` option, which natively supports XZ compressed disk image. 
+At first, insert the microSD card into the remote PC (ubuntu) and restore the disk image as following.
 
 .. code-block:: bash
 
@@ -34,7 +35,7 @@ Making a microSDHC: We recommend using GNOME Disks and the ``Restore Disk Image�
 .. image:: _static/software/rpi_disk6.png
    :width: 320px
 
-After saving, insert the microSD card into your Raspberry Pi and turn on the power. At this point, you must connect your Raspberry Pi to your monitor with an HDMI cable and connect a USB or wireless keyboard and mouse. The initial user ID is ``turtlebot`` and the password is ``turtlebot``. The user ID and password can be changed later if you want to.
+At second, insert the microSD card into your Raspberry Pi 3 and turn on the power. Then, connect the Raspberry Pi to the monitor with an HDMI cable and connect a USB or wireless input devices. The initial user ID is ``turtlebot`` and the password is ``turtlebot``. The user ID and password can be changed later if you want to.
 
 .. image:: _static/software/login.png
    :width: 600px
