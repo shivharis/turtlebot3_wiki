@@ -71,4 +71,4 @@ Control test with keyboard
 
   currently:	speed 0.2	turn 1
 
-.. WARNING:: If you are testing a turtle bot on a table, you should be careful of falling accidents.
+.. WARNING:: Be careful when the test is being carried on a table.
