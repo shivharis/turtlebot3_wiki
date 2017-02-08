@@ -69,7 +69,7 @@ Manual setting (Ubuntu and ROS)
 .. NOTE:: While provided Raspberry Pi 3 image is being used, skip the following step (Manual Installation).
 
 [Manual] Install the Ubuntu MATE for the Raspberry Pi 3 (TurtleBot3 Basic Model)
---------------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Download the ``Ubuntu MATE 16.04.1`` version on the Raspberry Pi 3 from the link.
 
@@ -82,7 +82,7 @@ To install Ubuntu MATE by using the image file, please refer to the link shown b
 - https://ubuntu-mate.org/raspberry-pi/
 
 [Manual] Install the Ubuntu for the Intel Joule (TurtleBot3 Premium Model)
---------------------------------------------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Download the image ``Ubuntu 16.04`` version in the Intel Joule from the link.
 
@@ -97,7 +97,7 @@ If necessary, see the other information in the link.
 - https://software.intel.com/en-us/node/700692
 
 [Manual] Install the ROS and packages
--------------------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: _static/logo_ros.png
     :align: center
@@ -127,7 +127,7 @@ The next step is to install the dependent packages for the TurtleBot3 control.
 If catkin_make is completed without any errors, the preparation for using TurtleBot3 will be finished.
 
 [Manual] USB settings
----------------------
+~~~~~~~~~~~~~~~~~~~~~
 
 The following allows the USB port to be used for the OpenCR board without root privileges.
 
