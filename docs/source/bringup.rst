@@ -45,7 +45,7 @@ Bring up the basic packages to start the TurtleBot3 applications.
 
   stty -F /dev/ttyACM0
 
-Simple testing using keyboard
+Control test with keyboard
 -----------------------------
 
 .. code-block:: bash
