@@ -55,28 +55,50 @@ Initialized user ID and password are ``turtlebot``. The user ID and the password
 .. image:: _static/software/login.png
    :width: 600px
 
-How to resize
+The Ubuntu Mate image get from previous steps was shrinked of its own size to mimimum so that the image can be adapted to a small-capacity SD card. 
+
+.. WARNING:: This image needs at least **8 GB** free space on the SD card.
+
+To use the full space that the SD card has, on the other hand, the image on the SD card should be resized again. Here recommends **GParted** to resize the SD card. The following instructions describes how to resize **16 GB** SD card after imaging.
+
+Run **GParted**.
+
+.. code-block:: bash
+
+  sudo gparted
+
+Choose a installed TurtleBot3 image, and then click ``Resize``.
 
 .. image:: _static/software/resize01.png
-   :width: 400px
+   :width: 600px
+
+Set the size to be used.  
 
 .. image:: _static/software/resize02.png
-   :width: 400px
+   :width: 600px
+
+Click ``Resize``.
 
 .. image:: _static/software/resize03.png
-   :width: 400px
+   :width: 600px
+
+Click ``Apply All Operations``.
 
 .. image:: _static/software/resize04.png
-   :width: 400px
+   :width: 600px
+
+Click ``Apply``.
 
 .. image:: _static/software/resize05.png
-   :width: 400px
+   :width: 600px
+
+Click ``Close``
 
 .. image:: _static/software/resize06.png
-   :width: 400px
+   :width: 600px
 
 
-If the settings are finished, go to the next step.
+When the settings are finished, go to the next step.
 
 Install the Ubuntu in the Intel Joule (TurtleBot3 Premium)
 -----------------------------------------------------------------
@@ -91,7 +113,7 @@ Network Configuration
 Manual setting (Ubuntu and ROS)
 -------------------------------
 
-.. NOTE:: While provided Raspberry Pi 3 image is being used, skip the following step (Manual Installation).
+.. NOTE:: Skip this step when the downloaded image is being used (Manual Installation).
 
 [Manual] Install the Ubuntu MATE for the Raspberry Pi 3 (TurtleBot3 Basic Model)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
