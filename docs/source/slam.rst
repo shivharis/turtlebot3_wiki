@@ -1,6 +1,8 @@
 SLAM
 ====
 
+.. NOTE:: The Turtlebot3 has been tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
+
 The SLAM is abbreviation of 'Simultaneous Localization and Mapping'. It refers to creating a map by estimating the current position in the space while searching the surrounding area while moving in arbitrary space.
 
 We would like to introduce the video related to SLAM which is the basic function of TurtleBot3. Even if it is small size, low cost, we will do our best to SLAM and Navigation which is the basic function of Turtlebot brand.
