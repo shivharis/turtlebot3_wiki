@@ -140,4 +140,12 @@ Add the TurtleBot3 firmware into the OpenCR.
 
 (TODO)
 
+OpenCR Library (Linux platform)
+
+.. code-block:: bash
+
+  /home/(user name)/.arduino15
+
+
+
 .. _ROS: http://wiki.ros.org
