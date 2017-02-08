@@ -50,7 +50,7 @@ Now, insert the microSD card into your Raspberry Pi 3 and turn on the power. The
 
 .. NOTE:: The HDMI cable should be connected to the Raspberry Pi 3 before booting.
 
-The initial user ID is ``turtlebot`` and the password is ``turtlebot``. The user ID and the password is configurable after the login is succeeded.
+Initialized user ID and password are ``turtlebot``. The user ID and the password is configurable after login.
 
 .. image:: _static/software/login.png
    :width: 600px
