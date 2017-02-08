@@ -20,6 +20,14 @@ Make the OpenCR USB port be able to upload the ``Arduino IDE`` program without r
   wget https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR/master/99-opencr-cdc.rules
   sudo cp ./99-opencr-cdc.rules /etc/udev/rules.d/
   sudo udevadm control --reload-rules
+  
+Setting
+~~~~~~~
+
+.. code-block:: bash
+
+  sudo apt-get install libncurses5-dev:i386
+  
 
 Install the Arduino IDE
 ~~~~~~~~~~~~~~~~~~~~~~~
