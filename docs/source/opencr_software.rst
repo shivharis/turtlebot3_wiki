@@ -24,6 +24,8 @@ Make the OpenCR USB port be able to upload the ``Arduino IDE`` program without r
 Setting
 ~~~~~~~
 
+Since the OpenCR libraries is built for 32 bit platform, 64 bit platform needs the 32 bit compiler relevants for the ArduinoIDE. 
+
 .. code-block:: bash
 
   sudo apt-get install libncurses5-dev:i386
