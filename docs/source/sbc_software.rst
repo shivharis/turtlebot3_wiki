@@ -12,44 +12,65 @@ Download the disk image file for Raspberry Pi 3 from the following link. The dis
 
 To image a bootable microSDHC, follow the instructions as shown below. Here recommends to use **GNOME Disks**.
 
-1. Run **GNOME Disks** through the terminal.
+Run **GNOME Disks** through the terminal.
 
 .. code-block:: bash
 
   gnome-disks
 
 .. image:: _static/software/rpi_disk1.png
-   :width: 320px
+   :width: 400px
 
-2. Choose the disk for imaging, then click ``Restore Disk Image…`` option, which supports XZ compressed disk image natively.
+Choose the disk for imaging, then click ``Restore Disk Image…`` option, which supports XZ compressed disk image natively.
 
 .. image:: _static/software/rpi_disk2.png
-   :width: 320px
+   :width: 400px
 
-3. Select the image file which is wanted to be imaged on to the disk, then click ``Start Restoring...``.
+Select the image file which is wanted to be imaged on to the disk, then click ``Start Restoring...``.
 
 .. image:: _static/software/rpi_disk3.png
-   :width: 320px
+   :width: 400px
 
-4. Click ``Restore`` to continue.
+Click ``Restore`` to continue.
 
 .. image:: _static/software/rpi_disk4.png
-   :width: 320px
+   :width: 400px
 
-5. Type the password of the PC, then click ``Authenticate``. (This step may take about 15 min.)
+Type the password of the PC, then click ``Authenticate``. (This step may take about 15 min.)
 
 .. image:: _static/software/rpi_disk5.png
-   :width: 320px
+   :width: 400px
 
-6. Check whether the image is burned to the disk.
+Check whether the image is burned to the disk.
 
 .. image:: _static/software/rpi_disk6.png
-   :width: 320px
+   :width: 400px
 
 Now, insert the microSD card into your Raspberry Pi 3 and turn on the power. Then, connect the Raspberry Pi to the monitor with an HDMI cable and connect a USB or wireless input devices. The initial user ID is ``turtlebot`` and the password is ``turtlebot``. The user ID and the password is configurable after the login is succeeded.
 
 .. image:: _static/software/login.png
    :width: 600px
+
+How to resize
+
+.. image:: _static/software/resize01.png
+   :width: 400px
+
+.. image:: _static/software/resize02.png
+   :width: 400px
+
+.. image:: _static/software/resize03.png
+   :width: 400px
+
+.. image:: _static/software/resize04.png
+   :width: 400px
+
+.. image:: _static/software/resize05.png
+   :width: 400px
+
+.. image:: _static/software/resize06.png
+   :width: 400px
+
 
 If the settings are finished, go to the next step.
 
