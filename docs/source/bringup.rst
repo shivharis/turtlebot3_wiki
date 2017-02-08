@@ -9,10 +9,21 @@ Bringup the TurtleBot3
 TurtleBot3 Basic
 ~~~~~~~~~~~~~~~~
 
+Give the LiDAR connected to ttyUSB0 socket the read/write permissions.
+
 .. code-block:: bash
 
   sudo chmod a+rw /dev/ttyUSB0
+
+Bring up the basic packages to start the TurtleBot3 applications. 
+
+.. code-block:: bash
+
   roslaunch turtlebot3_bringup turtlebot3_bringup_sbc_lds.launch
+  
+
+
+.. code-block:: bash
   stty -F /dev/ttyACM0
 
 TurtleBot3 Premium
@@ -21,7 +32,17 @@ TurtleBot3 Premium
 .. code-block:: bash
 
   sudo chmod a+rw /dev/ttyUSB0
+  
+Bring up the basic packages to start the TurtleBot3 applications. 
+
+.. code-block:: bash
+
   roslaunch turtlebot3_bringup turtlebot3_bringup_sbc_r200.launch
+
+
+
+.. code-block:: bash
+
   stty -F /dev/ttyACM0
 
 Simple testing using keyboard
