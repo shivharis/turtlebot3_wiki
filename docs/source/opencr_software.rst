@@ -5,7 +5,7 @@ OpenCR Software Setup
 
 The OpenCR controls the Dynamixels on the instructions from the SBC. To do this, a specific firmware should be built in the board. See the descriptions and configure the settings. 
 
-OpenCR
+ArduinoIDE settings for the OpenCR
 ------
 
 Follow the instructions to get the OpenCR Arduino development environment on the remote PC.
@@ -21,10 +21,10 @@ Make the OpenCR USB port be able to upload the ``Arduino IDE`` program without r
   sudo cp ./99-opencr-cdc.rules /etc/udev/rules.d/
   sudo udevadm control --reload-rules
   
-Setting
+Compiler Settings
 ~~~~~~~
 
-Since the OpenCR libraries is built for 32 bit platform, 64 bit platform needs the 32 bit compiler relevants for the ArduinoIDE. 
+Since the OpenCR libraries is built for 32 bit platform, 64 bit PC needs the 32 bit compiler relevants for the ArduinoIDE. 
 
 .. code-block:: bash
 
@@ -144,6 +144,9 @@ Download the bootloader.
 Click ``Tools`` → ``Burn Bootloader`` to download the bootloader.
 
 .. image:: _static/preparation/ide9.png
+
+OpenCR Firmware settings for ROS
+------
 
 Add the TurtleBot3 firmware into the OpenCR.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
