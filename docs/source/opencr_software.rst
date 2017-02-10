@@ -10,7 +10,7 @@ ArduinoIDE settings for the OpenCR
 
 Follow the instructions to get the OpenCR Arduino development environment on the remote PC.
 
-USB settings
+USB port settings
 ~~~~~~~~~~~~
 
 Make the OpenCR USB port be able to upload the ``Arduino IDE`` program without root permission.
@@ -64,7 +64,7 @@ To run the ``Arduino IDE`` on Linux platform, type into the terminal as follows.
 
 .. image:: _static/preparation/ide0.png
 
-Porting the OpenCR board with the Arduino IDE
+Porting the OpenCR board to the Arduino IDE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Preferences
@@ -112,7 +112,7 @@ Select ``Tools`` → ``Port`` → ``/dev/ttyACM0``.
 Modemmanager removal
 ~~~~~~~~~~~~~~~~~~~
 
-After programming by using the Arduino IDE and uploading the program to the OpenCR, the OpenCR will be restarted and be reconnected. At the same moment, the modem-related packages of the Linux will send the AT command to manage the device. Thus indicates an connection error on the OpenCR, so this step should be done previously.
+After programming with the Arduino IDE and uploading the program to the OpenCR, the OpenCR will be restarted and be reconnected. At the same moment, the modem-related packages of the Linux will send the AT command to manage the device. Thus indicates an connection error on the OpenCR, so this step should be done previously.
 
 .. code-block:: bash
 
@@ -147,6 +147,15 @@ Click ``Tools`` → ``Burn Bootloader`` to download the bootloader.
 
 OpenCR Firmware settings for ROS
 ------
+
+Add the TurtleBot3 firmware into the OpenCR.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The OpenCR firmware (or the source) for ROS is to control the Dynamixel and the sensors in the ROS. The firmware is located in the OpenCR example, which is downloaded also by the board manager.
+
+Click ``File`` → ``Examples`` → ``turtlebot3`` → ``turtlebot_basic`` →``turtlebot3_core``
+
+
 
 Add the TurtleBot3 firmware into the OpenCR.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
