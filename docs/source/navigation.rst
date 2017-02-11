@@ -3,6 +3,12 @@ Navigation
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
 
+.. WARNING:: Make sure that the step **7.Bringup** was carried on previously to follow the instructions.
+
+.. WARNING:: 
+
+.. WARNING:: Be careful when the test is being carried on the table.
+
 Navigation will use the map created in SLAM. The main purpose is to arrive at the user-defined goal position from the current robot position.
 
 Bringup the TurtleBot3
