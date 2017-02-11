@@ -1,13 +1,13 @@
 Friends
 =======
 
-Let’s see how we can build your own TurtleBots with small parts. You need normally a few kinds of volts and nuts for assemblying, We took the diversity of the frames into account, we made several size or shape of holes on the waffle-Plate. You can reassemble to another type of turtlebot3 like video below.
+In the video, see how the TurtleBot3 can be assembled and reassembled, using some small parts. The waffle plate, a biggest part in the TurtleBot3 components that can make various size and shape of robot, is consisted of several size of holes, and needs few kind of volts and nuts to assembly.
 
 .. raw:: html
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/o9d7NVC0A1Y" frameborder="0" allowfullscreen></iframe>
 
-From this idea, we made examples of different TurtleBots. You can customize the construction more than shown as follows.
+From this idea, a lot of TurtleBot3 friends that have different characters can be built. Customize the construction more than listed as follows.
 
 .. _auto:
 
@@ -100,7 +100,7 @@ TurtleBot3 Friends: Mecanum
 
 - Type: Mecanum wheel
 
-Please see video :ref:`Friends-Omni<omni>` above.
+See in the video :ref:`Friends-Omni<omni>` above.
 
 |
 
@@ -120,7 +120,7 @@ TurtleBot3 Friends: Bike
 
 - Type: 3-DOF Motorcycle
 
-Please see videos :ref:`Friends-Auto<auto>` and :ref:`Friends-Monster<monster>` above.
+See in the videos :ref:`Friends-Auto<auto>` and :ref:`Friends-Monster<monster>` above.
 
 TurtleBot3 Friends: Road Train
 -------------------------
