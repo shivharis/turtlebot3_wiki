@@ -29,7 +29,7 @@ TurtleBot3 allows to get precise spatial data by using 2 Dynamixels in the wheel
 
 OPEN CONTROL BOARD FOR ROS
 -----------------
-The control board which is opened in hardware wise and in software wise for ROS communication, or also called OpenCR, has the bandwidth to support not only for controlling the Dynamixel but also the ROBOTIS sensors which are frequently being used for basic recognition tasks in a cheaper way, such as Touch sensor, Infrared sensor, Color sensor and so on. It has a IMU sensor inside the board so that it can strengthen many precise controls. The board has a 3.3V, 5V, 12V power supplies to reinforce the available computer device lineups.  
+The control board which is open-sourced in hardware wise and in software wise for ROS communication, or also called OpenCR, has the bandwidth to support not only for controlling the Dynamixel but also the ROBOTIS sensors which are frequently being used for basic recognition tasks in a cheaper way, such as Touch sensor, Infrared sensor, Color sensor and so on. It has a IMU sensor inside the board so that it can strengthen many precise controls. The board has a 3.3V, 5V, 12V power supplies to reinforce the available computer device lineups.  
 
 
 STRONG SENSOR LINEUPS
