@@ -67,7 +67,13 @@ Do the following to set the IP address on each platform for the ROS communicatio
 
   gedit ~/.bashrc
 
-Change the `localhost` into the IP address shown as follows. 
+Change the `localhost` into the IP address shown as follows.
+
+Then, source the bashrc
+
+.. code-block:: bash
+
+  source ~/.bashrc 
 
 
 
