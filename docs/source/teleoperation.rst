@@ -68,7 +68,7 @@ PS3 Joystick
 
   sudo apt-get install ros-kinetic-joy ros-kinetic-joystick-drivers ros-kinetic-teleop-twist-joy
 
-[Remoete PC] Run the teleoperation package for the PS3 joystick.
+[Remote PC] Run the teleoperation package for the PS3 joystick.
 
 .. code-block:: bash
 
@@ -86,7 +86,7 @@ XBOX 360 Joystick
   sudo apt-get install xboxdrv ros-kinetic-joy ros-kinetic-joystick-drivers ros-kinetic-teleop-twist-joy
 
 
-[Remoete PC] Run the teleoperation package for the XBOX 360 joystick.
+[Remote PC] Run the teleoperation package for the XBOX 360 joystick.
 
 .. code-block:: bash
 
