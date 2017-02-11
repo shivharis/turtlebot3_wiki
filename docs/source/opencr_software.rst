@@ -161,11 +161,11 @@ Click ``Upload`` to get the firmware into the OpenCR.
 
 .. NOTE :: 
 
-  Check again if the port is set properly by seeing ``Tools`` → ``Port : ``.
+  Check again if the port is set properly by seeing ``Tools`` → ``Port ``.
 
 When it completes the upload, the text `Download completed` will be shown. 
 
-Add the TurtleBot3 firmware into the OpenCR.
+[Manual] Update the TurtleBot3 software to the ArduinoIDE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 (TODO)
