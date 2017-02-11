@@ -109,6 +109,8 @@ Select ``Tools`` → ``Port`` → ``/dev/ttyACM0``.
 
 .. image:: _static/preparation/ide6.png
 
+(TODO : the programmer in the picture should be changed into not the AVRISP mkll)
+
 Modemmanager removal
 ~~~~~~~~~~~~~~~~~~~
 
@@ -153,9 +155,15 @@ Add the TurtleBot3 firmware into the OpenCR.
 
 The OpenCR firmware (or the source) for ROS is to control the Dynamixel and the sensors in the ROS. The firmware is located in the OpenCR example, which is downloaded also by the board manager.
 
-Click ``File`` → ``Examples`` → ``turtlebot3`` → ``turtlebot_basic`` →``turtlebot3_core``
+Click ``File`` → ``Examples`` → ``turtlebot3`` → ``turtlebot_basic`` → ``turtlebot3_core``.
 
+Click ``Upload`` to get the firmware into the OpenCR. 
 
+.. NOTE :: 
+
+  Check again if the port is set properly by seeing ``Tools`` → ``Port : ``.
+
+When it completes the upload, the text `Download completed` will be shown. 
 
 Add the TurtleBot3 firmware into the OpenCR.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
