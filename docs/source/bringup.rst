@@ -1,7 +1,7 @@
 Bringup
 =======
 
-.. NOTE:: The Turtlebot3 has been tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
+.. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
 
 .. WARNING:: Follow the instructions by focusing on which platform should carry out the commands. (for example, `TurtleBot3 SBC` or ` Remote PC`.
 
