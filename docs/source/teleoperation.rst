@@ -16,14 +16,42 @@ TurtleBot3 can be teleoperated by various devices. it is tested by using several
 Keyboard
 --------
 
+[Remote PC] Get the teleoperation package which uses the keyboard.
+
 .. code-block:: bash
 
   sudo apt-get install ros-kinetic-teleop-twist-keyboard
 
+.. NOTE:: Here recommends to follow the steps in the remote PC.
+
+[Remote PC] Launch the file for simple teleoperation test.
+
 .. code-block:: bash
 
-  rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+  roslaunch turtlebot3_bringup turtlebot3_teleop_key.launch
 
+[Remote PC] If the file succeeds to be launched, the following will be appeared to the terminal.
+
+.. code-block:: bash
+
+  Control Your Turtlebot!
+  ---------------------------
+  Moving around:
+     u    i    o
+     j    k    l
+     m    ,    .
+
+  q/z : increase/decrease max speeds by 10%
+  w/x : increase/decrease only linear speed by 10%
+  e/c : increase/decrease only angular speed by 10%
+  space key, k : force stop
+  anything else : stop smoothly
+
+  CTRL-C to quit
+
+  currently:	speed 0.2	turn 1
+
+.. WARNING:: Be careful when the test is being carried on a table.
 RC100
 -----
 
