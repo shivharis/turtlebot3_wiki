@@ -51,7 +51,7 @@ Network Configuration
 
 .. image:: _static/software/network_configuration.png
 
-ROS needs IP addresses to communicate between the master and the remote. 
+ROS needs IP addresses to communicate between the turtlebot and the remote PC. 
 
 Type the next to find out each IP addresses being used.
 
