@@ -1,7 +1,7 @@
 SBC Software Setup
 ==================
 
-.. NOTE:: The Turtlebot3 has been tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
+.. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
 
 Install the Ubuntu MATE in the Raspberry Pi 3 (TurtleBot3 Basic)
 -----------------------------------------------------------------------
