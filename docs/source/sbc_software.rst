@@ -6,6 +6,11 @@ SBC Software Setup
 Install the Ubuntu MATE in the Raspberry Pi 3 (TurtleBot3 Basic)
 -----------------------------------------------------------------------
 
+.. WARNING:: Following steps need a SDcard reader to install the TurtleBot3 Basic image.
+
+.. WARNING:: The SDcard should have its capacity more than **8 GB** for the installation of the TurtleBot3 Basic image.
+
+
 Download the disk image file for Raspberry Pi 3 from the following link. The disk image file contains ``Ubuntu MATE 16.04.1`` and ``ROS kinetic kame``, and all ROS packages which are needed for TurtleBot3 Basic.
 
 - https://goo.gl/rdum6W
@@ -56,8 +61,6 @@ Initialized user ID and password are ``turtlebot``. The user ID and the password
    :width: 600px
 
 The Ubuntu Mate image get from previous steps was shrinked of its own size to mimimum so that the image can be adapted to a small-capacity SD card. 
-
-.. WARNING:: This image needs at least **8 GB** free space on the SD card.
 
 To use the full space that the SD card has, on the other hand, the image on the SD card should be resized again. Here recommends **GParted** to resize the SD card. The following instructions describes how to resize **16 GB** SD card after imaging.
 
