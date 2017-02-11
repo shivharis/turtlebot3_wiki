@@ -3,11 +3,11 @@ Teleoperation
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
 
-.. WARNING:: Make sure that **7.Bringup** was carried on previously to do as follows.
+.. WARNING:: Make sure that the step **7.Bringup** was carried on previously to do as follows.
 
 .. WARNING:: Be careful when the test is being carried on the table.
 
-.. TIP:: The following instructions are useless when it is operated on the TurtleBot3's SBC. Do this at your Remote PC.
+.. TIP:: The following instructions are useless when it is operated on the TurtleBot3's SBC. **Do this at your Remote PC**.
 
 TurtleBot3 can be teleoperated by various devices. it is tested by using several wireless devices e.g. PS3, XBOX 360, ROBOTIS RC100, etc. These examples, except the LEAP Motion example, can be operated by ROS on Ubuntu mate 16.04 with Raspberry Pi 3 and OpenCR which controls the Dynamixel XM-430.
 
