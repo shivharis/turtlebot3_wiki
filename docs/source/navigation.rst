@@ -1,7 +1,7 @@
 Navigation
 ==========
 
-.. NOTE:: The Turtlebot3 has been tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
+.. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
 
 Navigation will use the map created in SLAM. The main purpose is to arrive at the user-defined goal position from the current robot position.
 
