@@ -3,15 +3,18 @@ SLAM
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
 
-The SLAM is abbreviation of 'Simultaneous Localization and Mapping'. It refers to creating a map by estimating the current position in the space while searching the surrounding area while moving in arbitrary space.
+.. WARNING:: Make sure that the step **7.Bringup** was carried on previously to follow the instructions.
 
-We would like to introduce the video related to SLAM which is the basic function of TurtleBot3. Even if it is small size, low cost, we will do our best to SLAM and Navigation which is the basic function of Turtlebot brand.
+.. TIP:: Instead of using the keyboard, We recommend using a joystick that is better in operability.
+
+The Simultaneous Localization and Mapping, or SLAM, is a technique to draw a map by estimating the current position in virtual space while searching the areas in the arbitrary space.
+
+The SLAM technique is a typical function of the TurtleBot3, and is a class of the Turtlebot brand. A video here shows how much accurately the TurtleBot3 can draw the map, even if it is a small, cheap robot platform.
 
 .. raw:: html
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/lkW4-dG2BCY" frameborder="0" allowfullscreen></iframe>
 
-|
 
 :Date: 2016.11.29
 :Robot: TurtleBot3 basic model
@@ -21,40 +24,29 @@ We would like to introduce the video related to SLAM which is the basic function
 :Duration: 55 minutes
 :Distance: Total 351 meters
 
-Bringup the TurtleBot3
-----------------------
-
-Now, we try to bring up the TurtleBot. Enter the following line in a terminal on the TurtleBot's SBC:
-
-.. code-block:: bash
-
-  sudo chmod a+rw /dev/ttyUSB0
-  roslaunch turtlebot3_bringup turtlebot3_bringup_sbc_lds.launch
-  stty -F /dev/ttyACM0
-
-Create a map via teleoperation
+Create a map through the teleoperation
 ------------------------------
 
-On the remote PC, open a terminal window and run:
+[Remote PC] Open a terminal, then run the SLAM launch file.
 
 .. code-block:: bash
 
   export TURTLEBOT3_MODEL=basic
   roslaunch turtlebot3_slam turtlebot3_slam.launch
 
+[Remote PC] Visualize the model by the Rviz. 
+
 .. code-block:: bash
 
   rosrun rviz rviz -d `rospack find turtlebot3_slam`/rviz/turtlebot3_slam.rviz
 
-.. NOTE:: Instead of using the keyboard, We recommend using a joystick that is better in operability.
-
 Save the map to file
 --------------------
 
-On TurtleBot, open a terminal window and run:
+[Remote PC] Open a terminal, then run map saver node.
 
 .. code-block:: bash
 
   rosrun map_server map_saver -f ~/map
 
-You will now see two files in the `~/` directory ``map.pgm`` and ``map.yaml``
+The files named as **map.pgm** and **map.yaml** will be built in the `~/` directory.
