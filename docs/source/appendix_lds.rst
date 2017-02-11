@@ -6,7 +6,7 @@ Appendix #LDS
 Overview
 --------
 
-The TurtleBot3 uses HLS-LFCD LDS for all types. The LDS(Laser Distance Sensor) is a sensor sending the data to Host for the simultaneous localization and mapping (SLAM). Simultaneously the detecting obstacle data can also be sent to Host. `HLDS(Hitachi-LG Data Storage)`_ is developing the technology for the moving platform sensor such as Robot Vacuum Cleaners, Home Robot, Robotics Lawn Mower Sensor, etc.
+HLS-LFCD LDS is used for both models of the TurtleBot3. The LDS(Laser Distance Sensor) is a sensor which sends the data, gathered by the obstacle detection, to the host for the Simultaneous Localization and Mapping (SLAM) technique. `HLDS(Hitachi-LG Data Storage)`_ is developing the technology for the mobile robot platform, such as, Robot Vacuum Cleaners, Home Robot, Robotics Lawn Mower Sensor, etc.
 
 Specification
 -------------
@@ -64,15 +64,15 @@ Measurement performance specification
 Detail specification document
 -----------------------------
 
-The following attachments include the contents like basic performance, measurement performance, mechanism layout, optical path, data information, pin description, command.
+The following includes the contents, like a basic performance, measurement performance, mechanism layout, optical path, data information, pin description, commands.
 
-here is detail specification document :download:`pdf <_static/doc/20170203_LDS_Basic_Specification.pdf>`
+here is the detail specification document :download:`pdf <_static/doc/20170203_LDS_Basic_Specification.pdf>`
 
 
-LDS for TurtleBot
+LDS for the TurtleBot3
 -----------------
 
-The HLS-LFCD LDS is used for the TurtleBot3 basic and premium model.
+The HLS-LFCD LDS is used for the TurtleBot3 Basic and TurtleBot3 Premium.
 
 .. image:: _static/hardware/turtlebot3_models.png
 
@@ -100,14 +100,14 @@ User's guide
 
 We are offering the `ROS package for LSD`_. The hls_lfcd_lds_driver package is a driver for "HLS(Hitachi-LG Sensor) LFCD LDS(Laser Distance Sensor)".
 
-Install
+Installation
 ~~~~~~~
 
 .. code-block:: bash
 
   sudo apt-get install ros-kinetic-hls-lfcd-lds-driver
 
-Setting the permissions of HLS-LFCD LDS
+Setting the permission for the HLS-LFCD LDS
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: bash
