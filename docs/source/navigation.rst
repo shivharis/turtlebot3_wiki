@@ -5,60 +5,43 @@ Navigation
 
 .. WARNING:: Make sure that the step **7.Bringup** was carried on previously to follow the instructions.
 
-.. WARNING:: 
+.. WARNING:: The navigation uses the map data created in the step **9.SLAM**. Check if the previous step is not done yet.
 
 .. WARNING:: Be careful when the test is being carried on the table.
 
-Navigation will use the map created in SLAM. The main purpose is to arrive at the user-defined goal position from the current robot position.
+The main use of the navigation technique is to bring the robot into the expected position.
 
-Bringup the TurtleBot3
-----------------------
 
-Now, we try to bring up the TurtleBot. Enter the following line in a terminal on the TurtleBot's SBC:
-
-.. code-block:: bash
-
-  sudo chmod a+rw /dev/ttyUSB0
-  roslaunch turtlebot3_bringup turtlebot3_bringup_sbc_lds.launch
-  stty -F /dev/ttyACM0
-
-On the PC, run the navigation launch file
+Do the navigation
 -----------------------------------------
+
+[Remote PC] Launch the navigation file.
 
 .. code-block:: bash
 
   export TURTLEBOT3_MODEL=basic
   roslaunch turtlebot3_navigation turtlebot3_navigation.launch
 
-On the PC, launch rviz with the following command
--------------------------------------------------
+[Remote PC] Launch the Rviz.
 
 .. code-block:: bash
 
   rosrun rviz rviz -d `rospack find turtlebot3_navigation`/rviz/turtlebot3_nav.rviz
 
-Localize the TurtleBot
-----------------------
+[Remote PC] Before starting the navigation, the TurtleBot3 should know its location and pose. To give the initial data, follow the description.
 
-When starting up, the TurtleBot does not know where it is. To provide him its approximate location on the map:
+- Click the ``2D Pose Estimate`` button.
+- Set the approximate location on the map by clicking and drag the direction accros the map.
 
-- Click the ``2D Pose Estimate`` button
-- Click on the map where the TurtleBot approximately is and drag in the direction the TurtleBot is pointing.
+Each points of arrow mean the expected poses of the TurtleBot3. The laser scanner will draw the lines at approximate positions like the wall on the map. If the drawing doesn't show the lines well, repeat above procedures.
 
-You will see a collection of arrows which are hypotheses of the position of the TurtleBot. The laser scan should line up approximately with the walls in the map. If things don't line up well you can repeat the procedure.
+[Remote PC] When the TurtleBot3 is localized, it will automatically plan the path. To send a goal location, 
 
-Send a navigation goal
-----------------------
-
-With the TurtleBot localized, it can then autonomously plan through the environment.
-
-To send a goal:
-
-- Click the ``2D Nav Goal`` button
+- Click the ``2D Nav Goal`` button.
 - Click on the map where you want the TurtleBot to drive and drag in the direction the TurtleBot should be pointing at the end.
 
-This can fail if the path or goal is blocked.
-If you want to stop the robot before it reaches it's goal, send it a goal at it's current location.
+This can be failed if the path for the goal location is blocked.
+To stop the robot before it reaches to the goal location, send the current location of the TurtleBot3.
 
 .. raw:: html
 
