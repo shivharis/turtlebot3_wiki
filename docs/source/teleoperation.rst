@@ -3,7 +3,7 @@ Teleoperation
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
 
-.. WARNING:: Make sure that the step **7.Bringup** was carried on previously to do as follows.
+.. WARNING:: Make sure that the step **7.Bringup** was carried on previously to follow the instructions.
 
 .. WARNING:: Be careful when the test is being carried on the table.
 
