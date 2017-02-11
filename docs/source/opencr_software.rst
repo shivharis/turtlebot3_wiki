@@ -161,7 +161,7 @@ Click ``Upload`` to get the firmware into the OpenCR.
 
 .. NOTE :: 
 
-  Check again if the port is set properly by seeing ``Tools`` → ``Port ``.
+  Check again if the port is set properly by seeing ``Tools`` → ``Port``.
 
 When it completes the upload, the text `Download completed` will be shown. 
 
