@@ -42,7 +42,7 @@ Then, extract the downloaded file to the desired folder and execute the installa
 
 .. code-block:: bash
 
-  cd ~/tools/arduino-1.6.12
+  cd ~/tools/arduino-1.16.0
   ./install.sh
 
 Set the file path of installed ``Arduino IDE`` as an absolute path named ``PATH`` in the ``bashrc`` file. Here recommends to use **gedit editor**. (Use another editor, if necessary.) Finally, `source` it to apply the changes.
@@ -50,7 +50,7 @@ Set the file path of installed ``Arduino IDE`` as an absolute path named ``PATH`
 .. code-block:: bash
 
   gedit ~/.bashrc
-  export PATH=$PATH:$HOME/tools/arduino-1.6.12
+  export PATH=$PATH:$HOME/tools/arduino-1.16.0
   source ~/.bashrc
 
 Run the Arduino IDE
