@@ -23,9 +23,13 @@ Bring up the basic packages to start the TurtleBot3 applications.
 
   roslaunch turtlebot3_bringup turtlebot3_bringup_sbc_lds.launch
   
-
+.. NOTE:: 
+  If the terminal shows `lost sync with device` error message, the sensor device of the TurtleBot3 must be incompletely connected. 
+  
+(Temporary)
 
 .. code-block:: bash
+
   stty -F /dev/ttyACM0
 
 TurtleBot3 Premium
@@ -41,7 +45,10 @@ Bring up the basic packages to start the TurtleBot3 applications.
 
   roslaunch turtlebot3_bringup turtlebot3_bringup_sbc_r200.launch
 
-
+.. NOTE:: 
+  If the terminal shows `lost sync with device` error message, the sensor device of the TurtleBot3 must be incompletely connected. 
+  
+(Temporary)
 
 .. code-block:: bash
 
