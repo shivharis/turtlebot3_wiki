@@ -6,13 +6,15 @@ Appendix #OpenCR
 Overview
 --------
 
-We are using ``OpenCR`` as the main controller for TurtleBot3. OpenCR means Open-source Control module for ROS. It targets the ROS embedded system, with full open-source hardware and software. It uses the STM32F7 series as main chip. It has very powerful ARM Cortex-M7 with floating point unit. It supports Arduino IDE and Scratch for young students and traditional firmware develop environment. So you can choose the way to programming up to your develop environment. Also, we will provide everything of this board including Schematics, PCB Gerber, BOM, firmware for turtlebot3 with open-source licenses for you and ROS community.
+``OpenCR`` is a main controller board of the TurtleBot3. The OpenCR, or the Open-source Control module for ROS, is developed for the ROS embedded system, providing with full open-source hardware and software. Everything of the board, including Schematics, PCB Gerber, BOM, and the firmware source for the TurtleBot3 can be freely distributed under open-source licenses for the users and the ROS community.
 
-This board provide sets of digital and analog input/output pins that can interface to other circuits and built-in IMU sensor. The board has a feature in communication interfaces, including USB, for loading programs from personal computers and UART, SPI, I2C, CAN for other embedded device.
+The STM32F7 series, which is a main chip inside the OpenCR board, has a very powerful ARM Cortex-M7 with floating point unit. The develop environment for the OpenCR is supported in the range from the Arduino IDE and Scratch for young students to the traditional firmware develop environment for the experts.
 
-If you want to use a SBC, OpenCR board is best solution for you. It support Powerful external output source: 12V, 5V, 3.3V for SBCs and sensors. Also, it has hotswap feature on two external input source Battery and SMPS. Many ideas are giving from Morgan, Thanks Morgan!
+The board provides a set of digital and analog input/output pins that can interface from pne circuit to another or the built-in IMU sensor. The board is featured by the communication interfaces, including USB, which communicates with the PC, and UART, SPI, I2C, CAN for other embedded device.
 
-If the embedded control is required along with a SBC to make a robot, we strongly recommend this board.
+To use a SBC, OpenCR board can give a best solution. It supports some power outputs: 12V, 5V, 3.3V for the SBCs and the sensors. It has also a hotswap feature in two external power inputs: the Battery and the SMPS.
+
+Use this board to fill the imagined embedded control.
 
 Specification
 -------------
@@ -80,7 +82,7 @@ Specification
 User's guide
 ------------
 
-Turn on the serial_node package
+Run serial_node package
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: bash
