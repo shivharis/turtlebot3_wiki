@@ -5,7 +5,7 @@ SLAM
 
 .. WARNING:: Make sure that the step **7.Bringup** was carried on previously to follow the instructions.
 
-.. TIP:: Instead of using the keyboard, We recommend using a joystick that is better in operability.
+.. TIP:: Here recommends to use the joystick pad instead of the keyboard, because of its operability.
 
 The Simultaneous Localization and Mapping, or SLAM, is a technique to draw a map by estimating the current position in virtual space while searching the areas in the arbitrary space.
 
