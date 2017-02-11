@@ -3,7 +3,7 @@ Bringup
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
 
-.. WARNING:: Follow the instructions by focusing on which platform should carry out the commands, for example, `TurtleBot3 SBC` or ` Remote PC`.
+.. WARNING:: Follow the instructions and do at the TurtleBot3 SBC.
 
 .. WARNING:: Check if the IP addresses on each devices are set correctly.
 
