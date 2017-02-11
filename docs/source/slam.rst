@@ -1,7 +1,7 @@
 SLAM
 ====
 
-.. NOTE:: The Turtlebot3 has been tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
+.. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
 
 The SLAM is abbreviation of 'Simultaneous Localization and Mapping'. It refers to creating a map by estimating the current position in the space while searching the surrounding area while moving in arbitrary space.
 
