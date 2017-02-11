@@ -39,6 +39,7 @@ The next step is to install the dependent packages for the TurtleBot3 control.
 
 .. code-block:: bash
 
+  cd ~/catkin_ws/src/
   git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
   cd ~/catkin_ws && catkin_make
 
@@ -49,5 +50,25 @@ Network Configuration
 ---------------------
 
 .. image:: _static/software/network_configuration.png
+
+ROS needs IP addresses to communicate between the master and the remote. 
+
+Type the next to find out each IP addresses being used.
+
+.. code-block:: bash
+
+  ifconfig
+  
+The rectangled text is the IP address of being used platform.
+
+Do the following to set the IP address on each platform for the ROS communication.
+
+.. code-block:: bash
+
+  gedit ~/.bashrc
+
+Change the `localhost` into the IP address shown as follows. 
+
+
 
 .. _ROS: http://wiki.ros.org
