@@ -5,13 +5,14 @@ Teleoperation
 
 .. WARNING:: Make sure that **7.Bringup** was carried on previously to do as follows.
 
+.. TIP:: The following instructions are useless when it is operated on the TurtleBot3's SBC.
+
 TurtleBot3 can be teleoperated by various devices. it is tested by using several wireless devices e.g. PS3, XBOX 360, ROBOTIS RC100, etc. These examples, except the LEAP Motion example, can be operated by ROS on Ubuntu mate 16.04 with Raspberry Pi 3 and OpenCR which controls the Dynamixel XM-430.
 
 .. raw:: html
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/Z4s18hlazb4" frameborder="0" allowfullscreen></iframe>
 
-.. TIP:: The following instructions are useless when it is operated on the TurtleBot3's SBC.
 
 Keyboard
 --------
