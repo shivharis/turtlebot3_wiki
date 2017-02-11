@@ -6,6 +6,8 @@ Bringup
 Bringup the TurtleBot3
 ----------------------
 
+.. NOTE:: Follow the **Bringup the TurtleBot3** steps in the TurtleBot3's SBC.
+
 TurtleBot3 Basic
 ~~~~~~~~~~~~~~~~
 
@@ -47,6 +49,8 @@ Bring up the basic packages to start the TurtleBot3 applications.
 
 Control test with keyboard
 -----------------------------
+
+.. NOTE:: Here recommends to follow the steps in the remote PC.
 
 .. code-block:: bash
 
