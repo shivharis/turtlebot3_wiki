@@ -68,7 +68,7 @@ Resources
 - http://www.turtlebot.com
 - http://turtlebot3.rtfd.io
 - http://wiki.ros.org/Robots/TurtleBot
-- https://github.com/ROBOTIS-GIT/ROBOTIS-MANIPULATOR-X
+- https://github.com/ROBOTIS-GIT/open_manipulator
 - https://github.com/ROBOTIS-GIT/DynamixelSDK
 - https://github.com/ROBOTIS-GIT/dynamixel-workbench
 
