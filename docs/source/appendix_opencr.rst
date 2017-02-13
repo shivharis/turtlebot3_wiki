@@ -128,4 +128,4 @@ https://github.com/ROBOTIS-GIT/OpenCR
 Detail wiki site
 ----------------
 
-(TODO)
+https://github.com/ROBOTIS-GIT/OpenCR/wiki

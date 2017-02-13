@@ -3,15 +3,15 @@ OpenCR Software Setup
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
 
-The OpenCR controls the Dynamixels on the instructions from the SBC. To do this, a specific firmware should be built in the board. See the descriptions and configure the settings. 
+The OpenCR controls the Dynamixels on the instructions from the SBC. To do this, a specific firmware should be built in the board. See the descriptions and configure the settings.
 
 ArduinoIDE settings for the OpenCR
-------
+----------------------------------
 
 Follow the instructions to get the OpenCR Arduino development environment on the remote PC.
 
 USB port settings
-~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 
 Make the OpenCR USB port be able to upload the ``Arduino IDE`` program without root permission.
 
@@ -20,16 +20,16 @@ Make the OpenCR USB port be able to upload the ``Arduino IDE`` program without r
   wget https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR/master/99-opencr-cdc.rules
   sudo cp ./99-opencr-cdc.rules /etc/udev/rules.d/
   sudo udevadm control --reload-rules
-  
-Compiler Settings
-~~~~~~~
 
-Since the OpenCR libraries is built for 32 bit platform, 64 bit PC needs the 32 bit compiler relevants for the ArduinoIDE. 
+Compiler Settings
+~~~~~~~~~~~~~~~~~
+
+Since the OpenCR libraries is built for 32 bit platform, 64 bit PC needs the 32 bit compiler relevants for the ArduinoIDE.
 
 .. code-block:: bash
 
   sudo apt-get install libncurses5-dev:i386
-  
+
 
 Install the Arduino IDE
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -65,7 +65,7 @@ To run the ``Arduino IDE`` on Linux platform, type into the terminal as follows.
 .. image:: _static/preparation/ide0.png
 
 Porting the OpenCR board to the Arduino IDE
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Preferences
 ...........
@@ -86,7 +86,7 @@ Click ``Tools`` → ``Board`` → ``Boards Manager``.
 
 .. image:: _static/preparation/ide2.png
 
-Type `OpenCR` into the textbox to find the ``OpenCR by ROBOTIS`` package. After it finds out, click ``Install``. 
+Type `OpenCR` into the textbox to find the ``OpenCR by ROBOTIS`` package. After it finds out, click ``Install``.
 
 .. image:: _static/preparation/ide3.png
 
@@ -157,13 +157,13 @@ The OpenCR firmware (or the source) for ROS is to control the Dynamixel and the 
 
 Click ``File`` → ``Examples`` → ``turtlebot3`` → ``turtlebot_basic`` → ``turtlebot3_core``.
 
-Click ``Upload`` to get the firmware into the OpenCR. 
+Click ``Upload`` to get the firmware into the OpenCR.
 
-.. NOTE :: 
+.. NOTE ::
 
   Check again if the port is set properly by seeing ``Tools`` → ``Port``.
 
-When it completes the upload, the text `Download completed` will be shown. 
+When it completes the upload, the text `Download completed` will be shown.
 
 [Manual] Update the TurtleBot3 software to the ArduinoIDE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
