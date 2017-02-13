@@ -68,28 +68,27 @@ TurtleBot3
 Components
 ----------
 
-The TurtleBot3 has two different models: the Basic and the Premium. The following list shows their components. The big differences between two models are the Motor, the SBC(Single Board Computer) and the Sensors.
+SBC
+~~~~
 
-+--------------------------+--------+---------+
-| Items                    | Basic  | Premium |
-+==========================+========+=========+
-| Waffle-plates            | 8      | 24      |
-+--------------------------+--------+---------+
-| Plate-supports           | 16     | 22      |
-+--------------------------+--------+---------+
-| Board-brackets           | 12     | 12      |
-+--------------------------+--------+---------+
-| sprocket-wheels          | 2      | 2       |
-+--------------------------+--------+---------+
-| Rubber tires             | 2      | 2       |
-+--------------------------+--------+---------+
-| Ball casters             | 1      | 2       |
-+--------------------------+--------+---------+
-| Bolts and nuts set       | 1      | 1       |
-+--------------------------+--------+---------+
-| Dream plate 5x5 K        | 1      | 1       |
-+--------------------------+--------+---------+
-| Dream L-bracket 2P K     | 1      | 1       |
-+--------------------------+--------+---------+
-| Rivet sets               | 1      | 1       |
-+--------------------------+--------+---------+
+Joule : http://ark.intel.com/products/96414/Intel-Joule-570x-Developer-Kit
+
+Raspberry Pi 3 Model B : https://www.raspberrypi.org/products/raspberry-pi-3-model-b/
+
+Sensor
+~~~~~~~
+
+Laser Distance Sensor : 
+
+Intel Realsense R200 : find specifications in the **Intel Realsense R200 datasheet** at https://software.intel.com/en-us/RealSense/R200Camera
+
+Control board
+~~~~~~~~~~~~~
+
+OpenCR : http://turtlebot3.readthedocs.io/en/latest/appendix_opencr.html
+
+Motor
+~~~~~
+
+Dynamixel X series : http://en.robotis.com/index/product.php?cate_code=101211
+
