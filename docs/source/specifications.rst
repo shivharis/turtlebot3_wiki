@@ -4,7 +4,7 @@ Specifications
 .. image:: _static/hardware/turtlebot3_models.png
 
 TurtleBot3
---------------
+----------
 
 +------------------------------------+---------------------------+---------------------------+
 | Items                              | Basic                     | Premium                   |
@@ -69,14 +69,14 @@ Components
 ----------
 
 SBC
-~~~~
+~~~
 
-Joule : http://ark.intel.com/products/96414/Intel-Joule-570x-Developer-Kit
+Intel® Joule™ : http://ark.intel.com/products/96414/Intel-Joule-570x-Developer-Kit
 
 Raspberry Pi 3 Model B : https://www.raspberrypi.org/products/raspberry-pi-3-model-b/
 
 Sensor
-~~~~~~~
+~~~~~~
 
 Laser Distance Sensor : http://turtlebot3.readthedocs.io/en/latest/appendix_lds.html
 
@@ -87,7 +87,7 @@ Control board
 
 OpenCR : http://turtlebot3.readthedocs.io/en/latest/appendix_opencr.html
 
-Motor
-~~~~~
+Actuator
+~~~~~~~~
 
-Dynamixel X series : http://en.robotis.com/index/product.php?cate_code=101211
+Dynamixel X series : http://en.robotis.com/index/product.php?cate_code=10121110
