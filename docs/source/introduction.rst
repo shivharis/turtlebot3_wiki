@@ -29,7 +29,7 @@ The CAD data is released to the Onshape, which is a full-cloud 3D CAD editor. Ge
 Software
 --------
 
-We will provide full open-source software. The main license is `Apache 2.0 license`_. The full source release we are expecting would be at first quarter of 2017.
+The software is provided in full open-source. The main license is `Apache 2.0 license`_. Expected full source release is 1st quarter of 2017.
 
 - https://github.com/ROBOTIS-GIT/turtlebot3
 - https://github.com/ROBOTIS-GIT/OpenCR
