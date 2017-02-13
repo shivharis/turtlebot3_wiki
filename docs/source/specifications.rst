@@ -1,4 +1,4 @@
-Hardware Setup
+Specifications
 ==============
 
 .. image:: _static/hardware/turtlebot3_models.png
