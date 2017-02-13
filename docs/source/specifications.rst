@@ -78,7 +78,7 @@ Raspberry Pi 3 Model B : https://www.raspberrypi.org/products/raspberry-pi-3-mod
 Sensor
 ~~~~~~~
 
-Laser Distance Sensor : 
+Laser Distance Sensor : http://turtlebot3.readthedocs.io/en/latest/appendix_lds.html
 
 Intel Realsense R200 : https://software.intel.com/en-us/RealSense/R200Camera
 
