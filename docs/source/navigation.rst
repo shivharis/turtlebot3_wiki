@@ -3,7 +3,7 @@ Navigation
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
 
-.. WARNING:: Make sure that the step **7.Bringup** was carried on previously to follow the instructions.
+.. WARNING:: Make sure that the step **8.Bringup** was carried on previously to follow the instructions.
 
 .. WARNING:: The navigation uses the map data created in the step **9.SLAM**. Check if the previous step is not done yet.
 
@@ -35,7 +35,7 @@ Do the navigation
 
 Each points of arrow mean the expected poses of the TurtleBot3. The laser scanner will draw the lines at approximate positions like the wall on the map. If the drawing doesn't show the lines well, repeat above procedures.
 
-[Remote PC] When the TurtleBot3 is localized, it will automatically plan the path. To send a goal location, 
+[Remote PC] When the TurtleBot3 is localized, it will automatically plan the path. To send a goal location,
 
 - Click the ``2D Nav Goal`` button.
 - Click on the map where you want the TurtleBot to drive and drag in the direction the TurtleBot should be pointing at the end.

@@ -3,7 +3,7 @@ SLAM
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
 
-.. WARNING:: Make sure that the step **7.Bringup** was carried on previously to follow the instructions.
+.. WARNING:: Make sure that the step **8.Bringup** was carried on previously to follow the instructions.
 
 .. TIP:: Here recommends to use the joystick pad instead of the keyboard, because of its operability.
 
