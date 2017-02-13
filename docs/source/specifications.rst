@@ -64,6 +64,20 @@ TurtleBot3
 |                                    | Output : 12V DC, 5A                                   |
 +------------------------------------+---------------------------+---------------------------+
 
+Dimension
+---------
+
+Dimension data (Basic)
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: _static/hardware/turtlebot3_dimension1.png
+   :width: 300px
+
+Dimension data (Premium)
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: _static/hardware/turtlebot3_dimension2.png
+   :width: 400px
 
 Components
 ----------
