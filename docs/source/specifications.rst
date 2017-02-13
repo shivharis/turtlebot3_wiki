@@ -80,7 +80,7 @@ Sensor
 
 Laser Distance Sensor : http://turtlebot3.readthedocs.io/en/latest/appendix_lds.html
 
-Intel Realsense R200 : https://software.intel.com/en-us/RealSense/R200Camera
+Intel® Realsense™ R200 : https://software.intel.com/en-us/RealSense/R200Camera
 
 Control board
 ~~~~~~~~~~~~~
@@ -91,4 +91,3 @@ Motor
 ~~~~~
 
 Dynamixel X series : http://en.robotis.com/index/product.php?cate_code=101211
-

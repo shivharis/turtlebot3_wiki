@@ -4,7 +4,7 @@ SBC Software Setup
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
 
 Install the Ubuntu MATE in the Raspberry Pi 3 (TurtleBot3 Basic)
------------------------------------------------------------------------
+----------------------------------------------------------------
 
 .. WARNING:: Following steps need a SDcard reader to install the TurtleBot3 Basic image.
 
@@ -51,7 +51,7 @@ Check whether the image is burned to the disk.
 .. image:: _static/software/rpi_disk6.png
    :width: 400px
 
-Now, insert the microSD card into your Raspberry Pi 3 and turn on the power. Then, connect the Raspberry Pi to the monitor with an HDMI cable and connect a USB or wireless input devices. 
+Now, insert the microSD card into your Raspberry Pi 3 and turn on the power. Then, connect the Raspberry Pi to the monitor with an HDMI cable and connect a USB or wireless input devices.
 
 .. NOTE:: The HDMI cable should be connected to the Raspberry Pi 3 before booting.
 
@@ -60,7 +60,7 @@ Initialized user ID and password are ``turtlebot``. The user ID and the password
 .. image:: _static/software/login.png
    :width: 600px
 
-The Ubuntu Mate image get from previous steps was shrinked of its own size to mimimum so that the image can be adapted to a small-capacity SD card. 
+The Ubuntu Mate image get from previous steps was shrinked of its own size to mimimum so that the image can be adapted to a small-capacity SD card.
 
 To use the full space that the SD card has, on the other hand, the image on the SD card should be resized again. Here recommends **GParted** to resize the SD card. The following instructions describes how to resize **16 GB** SD card after imaging.
 
@@ -75,7 +75,7 @@ Choose a installed TurtleBot3 image, and then click ``Resize``.
 .. image:: _static/software/resize01.png
    :width: 600px
 
-Set the size to be used.  
+Set the size to be used.
 
 .. image:: _static/software/resize02.png
    :width: 600px
@@ -103,10 +103,10 @@ Click ``Close``
 
 When the settings are finished, go to the next step.
 
-Install the Ubuntu in the Intel Joule (TurtleBot3 Premium)
------------------------------------------------------------------
+Install the Ubuntu in the Intel® Joule™ (TurtleBot3 Premium)
+------------------------------------------------------------
 
-(TODO)
+Please refer to the manual installation below.
 
 Network Configuration
 ---------------------
@@ -131,10 +131,10 @@ To install Ubuntu MATE by using the image file, please refer to the link shown b
 
 - https://ubuntu-mate.org/raspberry-pi/
 
-[Manual] Install the Ubuntu for the Intel Joule (TurtleBot3 Premium Model)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[Manual] Install the Ubuntu for the Intel® Joule™ (TurtleBot3 Premium Model)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Download the image ``Ubuntu 16.04`` version in the Intel Joule from the link.
+Download the image ``Ubuntu 16.04`` version in the Intel® Joule™ from the link.
 
 - https://developer.ubuntu.com/core/get-started/intel-joule#alternative-install:-ubuntu-desktop-16.04-lts
 

@@ -69,11 +69,11 @@ The TurtleBot3 has two different models: the Basic and the Premium. The followin
 +---------------+-----------------------------+--------+---------+
 |               | RaspberryPi 3 model B       | 1      |         |
 + SBC           +-----------------------------+--------+---------+
-|               | Intel Joule                 |        | 1       |
+|               | Intel® Joule™ 570x developer kit with expantion board |        | 1       |
 +---------------+-----------------------------+--------+---------+
 |               | Laser Distance Sensor       | 1      | 1       |
 + Sensor        +-----------------------------+--------+---------+
-|               | Intel Realsense R200        |        | 1       |
+|               | Intel® Realsense™ R200      |        | 1       |
 +---------------+-----------------------------+--------+---------+
 | Memory        | MicroSD card 8G             | 1      |         |
 +---------------+-----------------------------+--------+---------+
