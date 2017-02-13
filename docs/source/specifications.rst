@@ -80,7 +80,7 @@ Sensor
 
 Laser Distance Sensor : 
 
-Intel Realsense R200 : find specifications in the **Intel Realsense R200 datasheet** at https://software.intel.com/en-us/RealSense/R200Camera
+Intel Realsense R200 : https://software.intel.com/en-us/RealSense/R200Camera
 
 Control board
 ~~~~~~~~~~~~~
