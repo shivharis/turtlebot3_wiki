@@ -36,24 +36,6 @@ Components
 
 The TurtleBot3 has two different models: the Basic and the Premium. The following list shows their components. The big differences between two models are the Motor, the SBC(Single Board Computer) and the Sensors.
 
-+---------------+--------------------------+--------+---------+
-| The number of the parts of each model    | Basic  | Premium |
-+===============+==========================+========+=========+
-|               | Waffle-plates            | 8      | 24      |
-+               +--------------------------+--------+---------+
-|               | Plate-supports           | 16     | 22      |
-+               +--------------------------+--------+---------+
-|               | Board-brackets           | 12     | 12      |
-+               +--------------------------+--------+---------+
-|               | sprocket-wheels          | 2      | 2       |
-+               +--------------------------+--------+---------+
-|               | Rubber tires             | 2      | 2       |
-+ Chassis       +--------------------------+--------+---------+
-|               | Ball casters             | 1      | 2       |
-+               +--------------------------+--------+---------+
-|               | Bolts and nuts set       | 1      | 1       |
-+               +--------------------------+--------+---------+
-|               | Dream plate 5x5 K        | 1      | 1       |
 +--------------------------+--------+---------+
 | Items                    | Basic  | Premium |
 +==========================+========+=========+
