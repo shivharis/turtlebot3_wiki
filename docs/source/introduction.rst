@@ -23,8 +23,8 @@ The components of Turtlebot3 as a default are the following: the Chassis, the Mo
 
 The CAD data is released to the Onshape, which is a full-cloud 3D CAD editor. Get access through a web browser by using the computer or even by the portable devices. Here allows the works of drawing, assemblying with the co-workers.
 
-- TurtleBot3 basic model: https://goo.gl/hdikti
-- TurtleBot3 premium model: https://goo.gl/GcUI05
+- TurtleBot3 basic model: https://goo.gl/n3bGNr
+- TurtleBot3 premium model: https://goo.gl/wCDvVI
 
 Software
 --------
