@@ -157,7 +157,13 @@ The OpenCR firmware (or the source) for ROS is to control the Dynamixel and the 
 
 Click ``File`` → ``Examples`` → ``turtlebot3`` → ``turtlebot_basic`` → ``turtlebot3_core``.
 
+.. image:: _static/opencr/o1.jpg
+
 Click ``Upload`` to get the firmware into the OpenCR.
+
+.. image:: _static/opencr/o2.png
+
+.. image:: _static/opencr/o3.png
 
 .. NOTE ::
 
