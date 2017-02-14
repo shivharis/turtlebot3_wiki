@@ -71,13 +71,13 @@ Dimension data (Basic)
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: _static/hardware/turtlebot3_dimension1.png
-   :width: 700px
+   :width: 500px
 
 Dimension data (Premium)
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: _static/hardware/turtlebot3_dimension2.png
-   :width: 700px
+   :width: 500px
 
 Components
 ----------
