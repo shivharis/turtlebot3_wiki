@@ -131,6 +131,15 @@ To install Ubuntu MATE by using the image file, please refer to the link shown b
 
 - https://ubuntu-mate.org/raspberry-pi/
 
+[Manual] Install TurtleBot3 dependent ROS packages for the Raspberry Pi 3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Download the packages by typing as follows.
+
+.. code-block:: bash
+
+  sudo apt-get install ros-kinetic-amcl ros-kinetic-rosserial ros-kinetic-map-server ros-kinetic-move-base 
+
 [Manual] Install the Ubuntu for the Intel® Joule™ (TurtleBot3 Premium Model)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
