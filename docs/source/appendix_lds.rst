@@ -66,7 +66,7 @@ Detail specification document
 
 The following includes the contents, like a basic performance, measurement performance, mechanism layout, optical path, data information, pin description, commands.
 
-here is the detail specification document :download:`pdf <_static/doc/20170203_LDS_Basic_Specification.pdf>`
+here is the detail specification document :download:`pdf <_static/doc/LDS_Basic_Specification.pdf>`
 
 
 LDS for the TurtleBot3
