@@ -26,15 +26,15 @@ TurtleBot3 Basic
 
   sudo chmod a+rw /dev/ttyUSB0
 
-[TurtleBot3 SBC] Bring up the basic packages to start the TurtleBot3 applications. 
+[TurtleBot3 SBC] Bring up the basic packages to start the TurtleBot3 applications.
 
 .. code-block:: bash
 
-  roslaunch turtlebot3_bringup turtlebot3_bringup_sbc_lds.launch
-  
-.. NOTE:: 
-  If the terminal shows `lost sync with device` error message, the sensor device of the TurtleBot3 must be incompletely connected. 
-  
+  roslaunch turtlebot3_bringup turtlebot3_robot.launch
+
+.. NOTE::
+  If the terminal shows `lost sync with device` error message, the sensor device of the TurtleBot3 must be incompletely connected.
+
 [TurtleBot3 SBC] (Temporary)
 
 .. code-block:: bash
@@ -49,16 +49,16 @@ TurtleBot3 Premium
 .. code-block:: bash
 
   sudo chmod a+rw /dev/ttyUSB0
-  
-[TurtleBot3 SBC] Bring up the basic packages to start the TurtleBot3 applications. 
+
+[TurtleBot3 SBC] Bring up the basic packages to start the TurtleBot3 applications.
 
 .. code-block:: bash
 
-  roslaunch turtlebot3_bringup turtlebot3_bringup_sbc_r200.launch
+  roslaunch turtlebot3_bringup turtlebot3_robot.launch
 
-.. NOTE:: 
-  If the terminal shows `lost sync with device` error message, the sensor device of the TurtleBot3 must be incompletely connected. 
-  
+.. NOTE::
+  If the terminal shows `lost sync with device` error message, the sensor device of the TurtleBot3 must be incompletely connected.
+
 [TurtleBot3 SBC] (Temporary)
 
 .. code-block:: bash
