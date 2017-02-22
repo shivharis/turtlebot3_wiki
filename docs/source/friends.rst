@@ -21,7 +21,7 @@ TurtleBot3 Friends List (2017.02.03)
 - TurtleBot3 Friends: Mecanum
 - TurtleBot3 Friends: Segway
 - TurtleBot3 Friends: Bike
-- TurtleBot3 Friends: Blue (Real TurtleBot)
+- TurtleBot3 Friends: Real TurtleBot
 - TurtleBot3 Friends: Road Train
 - TurtleBot3 Friends: Monster
 
@@ -42,6 +42,8 @@ TurtleBot3 Friends: OpenManipulator Chain
 - Type: Manipulator 4 DOF + 1 Gripper
 
 .. raw:: html
+
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/Qhvk5cnX2hM" frameborder="0" allowfullscreen></iframe>
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/qbht0ssv8M0" frameborder="0" allowfullscreen></iframe>
 
@@ -133,7 +135,7 @@ TurtleBot3 Friends: Road Train
 
 |
 
-TurtleBot3 Friends: Blue
+TurtleBot3 Friends: Real TurtleBot
 ----------------------------------
 
 - Type: 8-DOF legged robot (a.k.a. Real TurtleBot)
