@@ -13,7 +13,7 @@ Install the Ubuntu MATE in the Raspberry Pi 3 (TurtleBot3 Basic)
 
 Download the disk image file for Raspberry Pi 3 from the following link. The disk image file contains ``Ubuntu MATE 16.04.1`` and ``ROS kinetic kame``, and all ROS packages which are needed for TurtleBot3 Basic.
 
-- https://goo.gl/rdum6W
+- https://goo.gl/uOvWLh
 
 To image a bootable microSDHC, follow the instructions as shown below. Here recommends to use **GNOME Disks**.
 
