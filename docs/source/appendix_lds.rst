@@ -6,7 +6,7 @@ Appendix #LDS
 Overview
 --------
 
-HLS-LFCD LDS is used for both models of the TurtleBot3. The LDS(Laser Distance Sensor) is a sensor which sends the data, gathered by the obstacle detection, to the host for the Simultaneous Localization and Mapping (SLAM) technique. `HLDS(Hitachi-LG Data Storage)`_ is developing the technology for the mobile robot platform, such as, Robot Vacuum Cleaners, Home Robot, Robotics Lawn Mower Sensor, etc.
+HLS-LFCD LDS is used for both models of the TurtleBot3. The LDS(Laser Distance Sensor) is a sensor which sends the data, gathered by the obstacle detection, to the host for the Simultaneous Localization and Mapping (SLAM) technique.
 
 Specification
 -------------
@@ -128,5 +128,4 @@ Run hlds_laser_publisher node with RViz
 
   roslaunch hls_lfcd_lds_driver view_hlds_laser.launch
 
-.. _HLDS(Hitachi-LG Data Storage): http://hlds.co.kr/v2/
 .. _ROS package for LSD: http://wiki.ros.org/hls_lfcd_lds_driver
