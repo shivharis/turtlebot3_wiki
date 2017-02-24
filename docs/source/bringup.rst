@@ -35,11 +35,6 @@ TurtleBot3 Basic
 .. NOTE::
   If the terminal shows `lost sync with device` error message, the sensor device of the TurtleBot3 must be incompletely connected.
 
-[TurtleBot3 SBC] (Temporary)
-
-.. code-block:: bash
-
-  stty -F /dev/ttyACM0
 
 TurtleBot3 Premium
 ~~~~~~~~~~~~~~~~~~
@@ -58,11 +53,5 @@ TurtleBot3 Premium
 
 .. NOTE::
   If the terminal shows `lost sync with device` error message, the sensor device of the TurtleBot3 must be incompletely connected.
-
-[TurtleBot3 SBC] (Temporary)
-
-.. code-block:: bash
-
-  stty -F /dev/ttyACM0
 
 Now, test the TurtleBot3 with various teleoperation methods.
