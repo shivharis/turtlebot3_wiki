@@ -69,12 +69,15 @@ Do the following to set the IP address on each platform for the ROS communicatio
 
 Change the `localhost` into the IP address shown as follows.
 
+.. image:: _static/software/network_configuration1.png
+
 Then, source the bashrc
 
 .. code-block:: bash
 
   source ~/.bashrc 
 
+.. image:: _static/software/network_configuration2.png
 
 
 .. _ROS: http://wiki.ros.org
