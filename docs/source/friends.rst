@@ -11,19 +11,19 @@ From this idea, a lot of TurtleBot3 friends that have different characters can b
 
 .. _auto:
 
-TurtleBot3 Friends List (2017.02.03)
+TurtleBot3 Friends List (2017.03.03)
 
-- TurtleBot3 Friends: Conveyor
-- TurtleBot3 Friends: OpenManipulator Chain
 - TurtleBot3 Friends: Auto
+- TurtleBot3 Friends: OpenManipulator Chain
+- TurtleBot3 Friends: Segway
+- TurtleBot3 Friends: Conveyor
+- TurtleBot3 Friends: Monster
 - TurtleBot3 Friends: Tank
 - TurtleBot3 Friends: Omni
 - TurtleBot3 Friends: Mecanum
-- TurtleBot3 Friends: Segway
 - TurtleBot3 Friends: Bike
-- TurtleBot3 Friends: Real TurtleBot
 - TurtleBot3 Friends: Road Train
-- TurtleBot3 Friends: Monster
+- TurtleBot3 Friends: Real TurtleBot
 
 TurtleBot3 Friends: Auto
 ------------------------
@@ -33,6 +33,12 @@ TurtleBot3 Friends: Auto
 .. raw:: html
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/IkPexspUgKk" frameborder="0" allowfullscreen></iframe>
+
+|
+
+.. raw:: html
+
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/1V33iEu4ylw" frameborder="0" allowfullscreen></iframe>
 
 |
 
@@ -47,7 +53,20 @@ TurtleBot3 Friends: OpenManipulator Chain
 
 |
 
+.. raw:: html
+
   <iframe width="640" height="360" src="https://www.youtube.com/embed/qbht0ssv8M0" frameborder="0" allowfullscreen></iframe>
+
+|
+
+TurtleBot3 Friends: Segway
+--------------------------
+
+- Type: Segway robot
+
+.. raw:: html
+
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/VAY-0xBOE2g" frameborder="0" allowfullscreen></iframe>
 
 |
 
@@ -105,17 +124,6 @@ TurtleBot3 Friends: Mecanum
 - Type: Mecanum wheel
 
 See in the video :ref:`Friends-Omni<omni>` above.
-
-|
-
-TurtleBot3 Friends: Segway
---------------------------
-
-- Type: Segway robot
-
-.. raw:: html
-
-  <iframe width="640" height="360" src="https://www.youtube.com/embed/VAY-0xBOE2g" frameborder="0" allowfullscreen></iframe>
 
 |
 
