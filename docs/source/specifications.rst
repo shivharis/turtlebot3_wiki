@@ -7,7 +7,7 @@ TurtleBot3
 ----------
 
 +------------------------------------+---------------------------+---------------------------+
-| Items                              | Basic                     | Premium                   |
+| Items                              | BURGER                    | WAFFLE                    |
 +====================================+===========================+===========================+
 | Maximum translational velocity     | 0.22 m/s                  | 0.26 m/s                  |
 +------------------------------------+---------------------------+---------------------------+
@@ -67,14 +67,14 @@ TurtleBot3
 Dimension
 ---------
 
-Dimension data (Basic)
-~~~~~~~~~~~~~~~~~~~~~~
+Dimension data (BURGER)
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: _static/hardware/turtlebot3_dimension1.png
    :width: 500px
 
-Dimension data (Premium)
-~~~~~~~~~~~~~~~~~~~~~~
+Dimension data (WAFFLE)
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: _static/hardware/turtlebot3_dimension2.png
    :width: 500px

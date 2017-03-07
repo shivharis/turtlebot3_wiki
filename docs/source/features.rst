@@ -13,7 +13,7 @@ TurtleBot was built for the cost-conscious needs from the educations and the pro
 
 SMALL SIZE
 ----------
-The size of the TurtleBot3 Basic is 140mm x 140mm x 150mm (L x W x H). Its size is about 1/4 of the size of the TurtleBot 1, 2. Try to imagine that the TurtleBot can be carried into the backpack.
+The size of the TurtleBot3 BURGER is 176mm x 138mm x 188mm (L x W x H). Its size is about 1/4 of the size of the TurtleBot 1, 2. Try to imagine that the TurtleBot can be carried into the backpack.
 
 ROS STANDARD
 ------------
@@ -21,7 +21,7 @@ The TurtleBot brand is managed by `Open Source Robotics Foundation, Inc. (OSRF)`
 
 STRUCTURAL EXTENSIBILITY
 ------------------------
-TurtleBot3 encourages users to customize its mechanical structure themselves using some alternative options: the open-source embedded board (as a control board), the computer, and the sensor. The Turtlebot3 Basic is a two-wheeled differential drive type platform, but is able to be structurally and mechanically customized in many ways: the Cars, the Bikes, the Trailers and so on. Extend the ideas beyond the imagination.
+TurtleBot3 encourages users to customize its mechanical structure themselves using some alternative options: the open-source embedded board (as a control board), the computer, and the sensor. The Turtlebot3 BURGER is a two-wheeled differential drive type platform, but is able to be structurally and mechanically customized in many ways: the Cars, the Bikes, the Trailers and so on. Extend the ideas beyond the imagination.
 
 MODULAR ACTUATOR FOR MOBILE ROBOT
 ---------------------------------
@@ -34,7 +34,7 @@ The control board which is open-sourced in hardware wise and in software wise fo
 
 STRONG SENSOR LINEUPS
 ---------------------
-TurtleBot3 Basic uses a 360° LiDAR. The TurtleBot3 premium model is equipped with the 360° Lidar as well, but additionally proposes a powerful Intel® RealSense™ with the recognition SDK. This will be the best solution for making a mobile robot.
+TurtleBot3 BURGER uses a 360° LiDAR. The TurtleBot3 WAFFLE model is equipped with the 360° Lidar as well, but additionally proposes a powerful Intel® RealSense™ with the recognition SDK. This will be the best solution for making a mobile robot.
 
 OPEN SOURCE
 -----------

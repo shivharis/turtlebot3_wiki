@@ -155,11 +155,11 @@ Add the TurtleBot3 firmware into the OpenCR.
 
 The OpenCR firmware (or the source) for ROS is to control the Dynamixel and the sensors in the ROS. The firmware is located in the OpenCR example, which is downloaded also by the board manager.
 
-Click ``File`` → ``Examples`` → ``turtlebot3`` → ``turtlebot_basic`` → ``turtlebot3_core``.
+Click ``File`` → ``Examples`` → ``turtlebot3`` → ``turtlebot_burger`` → ``turtlebot3_core``.
 
-If your robot is TurtleBot3 Premium,
+If your robot is TurtleBot3 WAFFLE,
 
-Click ``File`` → ``Examples`` → ``turtlebot3`` → ``turtlebot_premium`` → ``turtlebot3_core``.
+Click ``File`` → ``Examples`` → ``turtlebot3`` → ``turtlebot_waffle`` → ``turtlebot3_core``.
 
 .. image:: _static/opencr/o1.jpg
 

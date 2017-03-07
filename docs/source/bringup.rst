@@ -10,15 +10,15 @@ Bringup
 Bringup the TurtleBot3
 ----------------------
 
-[Remote PC] Run ROScore.
+[Remote PC] Run roscore.
 
 .. code-block:: bash
 
   roscore
 
 
-TurtleBot3 Basic
-~~~~~~~~~~~~~~~~
+TurtleBot3 BURGER
+~~~~~~~~~~~~~~~~~
 
 [TurtleBot3 SBC] Give the LiDAR connected to ttyUSB0 socket the read/write permissions.
 
@@ -36,8 +36,8 @@ TurtleBot3 Basic
   If the terminal shows `lost sync with device` error message, the sensor device of the TurtleBot3 must be incompletely connected.
 
 
-TurtleBot3 Premium
-~~~~~~~~~~~~~~~~~~
+TurtleBot3 WAFFLE
+~~~~~~~~~~~~~~~~~
 
 [TurtleBot3 SBC] Give the LiDAR connected to ttyUSB0 socket the read/write permissions.
 

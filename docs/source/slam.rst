@@ -17,7 +17,7 @@ The SLAM technique is a typical function of the TurtleBot3, and is a class of th
 
 
 :Date: 2016.11.29
-:Robot: TurtleBot3 basic model
+:Robot: TurtleBot3 BURGER model
 :Sensor: Laser Distance Sensor
 :Packages: Gmapping / Cartographer
 :Place: ROBOTIS Labs & HQ, 15th-floor corridor
@@ -31,10 +31,10 @@ Create a map through the teleoperation
 
 .. code-block:: bash
 
-  export TURTLEBOT3_MODEL=basic
+  export TURTLEBOT3_MODEL=BURGER
   roslaunch turtlebot3_slam turtlebot3_slam.launch
 
-[Remote PC] Visualize the model by the Rviz. 
+[Remote PC] Visualize the model by the Rviz.
 
 .. code-block:: bash
 

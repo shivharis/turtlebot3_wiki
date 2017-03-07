@@ -72,7 +72,7 @@ here is the detail specification document :download:`pdf <_static/doc/LDS_Basic_
 LDS for the TurtleBot3
 -----------------
 
-The HLS-LFCD LDS is used for the TurtleBot3 Basic and TurtleBot3 Premium.
+The HLS-LFCD LDS is used for the TurtleBot3 BURGER and TurtleBot3 WAFFLE.
 
 .. image:: _static/hardware/turtlebot3_models.png
 

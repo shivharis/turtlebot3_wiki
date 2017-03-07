@@ -3,15 +3,15 @@ SBC Software Setup
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
 
-Install the Ubuntu MATE in the Raspberry Pi 3 (TurtleBot3 Basic)
+Install the Ubuntu MATE in the Raspberry Pi 3 (TurtleBot3 BURGER)
 ----------------------------------------------------------------
 
-.. WARNING:: Following steps need a SDcard reader to install the TurtleBot3 Basic image.
+.. WARNING:: Following steps need a SDcard reader to install the TurtleBot3 BURGER image.
 
-.. WARNING:: The SDcard should have its capacity more than **8 GB** for the installation of the TurtleBot3 Basic image.
+.. WARNING:: The SDcard should have its capacity more than **8 GB** for the installation of the TurtleBot3 BURGER image.
 
 
-Download the disk image file for Raspberry Pi 3 from the following link. The disk image file contains ``Ubuntu MATE 16.04.1`` and ``ROS kinetic kame``, and all ROS packages which are needed for TurtleBot3 Basic.
+Download the disk image file for Raspberry Pi 3 from the following link. The disk image file contains ``Ubuntu MATE 16.04.1`` and ``ROS kinetic kame``, and all ROS packages which are needed for TurtleBot3 BURGER.
 
 - https://goo.gl/uOvWLh
 
@@ -103,7 +103,7 @@ Click ``Close``
 
 When the settings are finished, go to the next step.
 
-Install the Ubuntu in the Intel® Joule™ (TurtleBot3 Premium)
+Install the Ubuntu in the Intel® Joule™ (TurtleBot3 WAFFLE)
 ------------------------------------------------------------
 
 Please refer to the manual installation below.
@@ -118,8 +118,8 @@ Manual setting (Ubuntu and ROS)
 
 .. NOTE:: Skip this step when the downloaded image is being used (Manual Installation).
 
-[Manual] Install the Ubuntu MATE for the Raspberry Pi 3 (TurtleBot3 Basic Model)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[Manual] Install the Ubuntu MATE for the Raspberry Pi 3 (TurtleBot3 BURGER Model)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Download the ``Ubuntu MATE 16.04.1`` version on the Raspberry Pi 3 from the link.
 
@@ -140,8 +140,8 @@ Download the packages by typing as follows.
 
   sudo apt-get install ros-kinetic-amcl ros-kinetic-rosserial ros-kinetic-map-server ros-kinetic-move-base
 
-[Manual] Install the Ubuntu for the Intel® Joule™ (TurtleBot3 Premium Model)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[Manual] Install the Ubuntu for the Intel® Joule™ (TurtleBot3 WAFFLE Model)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Download the image ``Ubuntu 16.04`` version in the Intel® Joule™ from the link.
 
