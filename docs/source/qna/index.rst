@@ -1,7 +1,7 @@
 .. _qna:
 
-TurtleBot FAQ
-=============
+Q&A
+===
 
 What is Open Source Hardware?
 -----------------------------

@@ -1,5 +1,5 @@
-TurtleBot3 Official Wiki
-========================
+Wiki
+====
 
 .. image:: _static/hardware/turtlebot3_models.png
 
