@@ -6,13 +6,19 @@ Q&A
 Questions and answers
 ---------------------
 
-- Send all questions to `ROS Answers`_ with tag "turtlebot".
+-
+- Send all questions to `ROS Answers`_ with tag ``turtlebot``.
+- `ROS Answers`_ is a large knowledge base there of `TurtleBot Questions(taged turtlebot)`_ on the site.
 - Send issues and bugs related source code to `TurtleBot3 GitHub`_.
 - Please use the `TurtleBot discourse forum`_ to discuss of interest to large portions of the TurtleBot users community.
 
 .. _ROS Answers: http://answers.ros.org/questions/
+.. _TurtleBot Questions(taged turtlebot): http://answers.ros.org/questions/scope:all/sort:activity-desc/tags:turtlebot/page:1/
 .. _TurtleBot3 GitHub: https://github.com/ROBOTIS-GIT/turtlebot3/issues
 .. _TurtleBot discourse forum: https://discourse.ros.org/c/turtlebot
+
+
+.. NOTE:: Please read before posting an questions: http://wiki.ros.org/Support
 
 FAQ
 ---
