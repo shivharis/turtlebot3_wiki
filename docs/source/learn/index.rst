@@ -1,28 +1,19 @@
-.. _learn:
+.. _partners:
 
-Learn
-=====
+Partners
+========
 
-Learn TurtleBot and ROS
------------------------
-
-http://learn.turtlebot.com/
-
-The Construct
--------------
-
-A platform to learn, program and simulate robots
-
-http://www.theconstructsim.com/
-
-
-other curriculum
+Current Partners
 ----------------
 
-(TODO)
+Register as Reseller
+--------------------
+
+Supplier or Education Channel
+-----------------------------
 
 .. toctree::
    :numbered:
    :maxdepth: 1
 
-   learn
+   partners
