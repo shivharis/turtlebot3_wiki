@@ -6,7 +6,6 @@ Q&A
 Questions and answers
 ---------------------
 
--
 - Send all questions to `ROS Answers`_ with tag ``turtlebot``.
 - `ROS Answers`_ is a large knowledge base there of `TurtleBot Questions(taged turtlebot)`_ on the site.
 - Send issues and bugs related source code to `TurtleBot3 GitHub`_.
@@ -29,7 +28,10 @@ What is Open Source Hardware?
 Open source hardware is an emerging concept. We’re following the recently established Open Source Hardware Statement of Principles and Definition v1.0. From that document:
 
 "Open source hardware is hardware whose design is made publicly available so that anyone can study, modify, distribute, make, and sell the design or hardware based on that design. The hardware's source, the design from which it is made, is available in the preferred format for making modifications to it....Open source hardware gives people the freedom to control their technology while sharing knowledge and encouraging commerce through the open exchange of designs."
+
 What does Open Source mean for TurtleBot?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 We’re publishing all the information that you need to build your own TurtleBot, including links to all the parts that you need. You’re free (and encouraged) to modify our initial design to create your own variations on TurtleBot.
 
 What is turtlebot.com?
@@ -55,7 +57,7 @@ Just as for ROS software, we prefer permissive licenses that facilitate commerci
 Can I apply the TurtleBot name to my modification of your design, or my own similar robot design?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Open Source Robotics Foundation holds the TurtleBot trademark with the United States Patent and Trademark Office. If you want to use the TurtleBot name or mark, please send an email to "turtlebot@osrfoundation.org".
+The Open Source Robotics Foundation holds the TurtleBot trademark with the United States Patent and Trademark Office. If you want to use the TurtleBot name or mark, please send an email to ``turtlebot@osrfoundation.org``.
 
 .. toctree::
    :numbered:
