@@ -52,7 +52,7 @@ Besides, all details of the OpenCR board that are necessary for the users who wa
    :caption: Contents:
 
    about/index
-   wiki/index
+   turtlebot3/index
    qna/index
    course/index
    opensource/index
