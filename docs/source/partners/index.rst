@@ -46,7 +46,7 @@ Europe
 `Robot Sepeti`_
 
 
-.. image:: images/turtlebot2_manufacturers/innorobotek.png
+.. image:: images/turtlebot2_distributors/innorobotek.png
    :height: 50px
 
 `Innorobotek`_
@@ -55,7 +55,7 @@ Europe
 Asia
 ....
 
-.. image:: images/turtlebot2_distributors/lattel.jpg
+.. image:: images/turtlebot2_distributors/lattel.png
    :height: 50px
 
 `Lattel`_
@@ -65,7 +65,7 @@ Asia
 
 `GaiTech`_
 
-.. image:: images/turtlebot2_distributors/sensorobot.jpg
+.. image:: images/turtlebot2_distributors/sensorobots.jpg
    :height: 50px
 
 `Sensorobot`_
@@ -104,7 +104,7 @@ TurtleBot2 Manufacturers
 
 `Robotnik`_
 
-.. image:: images/turtlebot2_manufacturers/sensorobot.jpg
+.. image:: images/turtlebot2_manufacturers/sensorobots.jpg
 
 `Sensorobot`_
 
