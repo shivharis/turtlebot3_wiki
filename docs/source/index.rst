@@ -54,7 +54,7 @@ Besides, all details of the OpenCR board that are necessary for the users who wa
    about/index
    wiki/index
    qna/index
-   learn/index
+   course/index
    opensource/index
    partners/index
    wheretobuy/index
