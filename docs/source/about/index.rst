@@ -43,12 +43,18 @@ TurtleBot1 consists of an iRobot Create base, a 3,000mAh battery pack, a TurtleB
 TurtleBot2
 ~~~~~~~~~~
 
-TurtleBot2 consists of an Yujin Kobuki base, a 2,200mAh battery pack, a Kinect sensor, an Asus 1215N laptop with a dual core processor, fast charger, charging dock, and a hardware mounting kit attaching everything together and adding future sensors.
+TurtleBot2 consists of an Yujin Kobuki base, a 2,200mAh battery pack, a Kinect sensor, an Asus 1215N laptop with a dual core processor, fast charger, charging dock, and a hardware mounting kit attaching everything together and adding future sensors. `Turtlebot2 was released on Oct 2012`_.
+
+.. _Turtlebot2 was released on Oct 2012: http://spectrum.ieee.org/automaton/robotics/diy/turtlebot-2-now-available-for-preorder-from-clearpath-robotics
 
 TurtleBot3
 ~~~~~~~~~~
 
-TurtleBot3 is made up of modular plates that users can customize the shape. Available in two sizes: small size BURGER and medium size WAFFLE. TurtleBot3 consists of a base, a 1,800mAh battery pack, a 360 degree LIDAR(+ RealSense camera for WAFFLE kit), an SBC(single board computer: Raspberry PI 3 and Intel Joule 570x) and a hardware mounting kit attaching everything together and adding future sensors.
+TurtleBot3 is made up of modular plates that users can customize the shape. Available in two sizes: small size BURGER and medium size WAFFLE. TurtleBot3 consists of a base, a 1,800mAh battery pack, a 360 degree LIDAR(+ RealSense camera for WAFFLE kit), an SBC(single board computer: Raspberry PI 3 and Intel Joule 570x) and a hardware mounting kit attaching everything together and adding future sensors. Turtlebot 3 will be released in May 2017.
+
+- `Robotis and OSRF Announce TurtleBot 3 Smaller, Cheaper, and Modular`_ (IEEE Spectrum)
+
+.. _Robotis and OSRF Announce TurtleBot 3 Smaller, Cheaper, and Modular: http://spectrum.ieee.org/automaton/robotics/diy/robotis-and-osrf-announce-turtlebot-3-smaller-cheaper-and-modular
 
 TurtleBot From Wikipedia
 ~~~~~~~~~~~~~~~~~~~~~~~~
