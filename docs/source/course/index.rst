@@ -24,5 +24,3 @@ other curriculum
 .. toctree::
    :numbered:
    :maxdepth: 1
-
-   learn

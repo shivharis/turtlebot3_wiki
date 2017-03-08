@@ -3,6 +3,17 @@
 Q&A
 ===
 
+- Send all questions to `ROS Answers`_ with tag "turtlebot"
+- Send issues and bugs related source code to `TurtleBot3 GitHub`_
+- Please use the `TurtleBot discourse forum`_ to discuss of interest to large portions of the TurtleBot users community.
+
+.. _ROS Answers: http://answers.ros.org/questions/
+.. _TurtleBot3 GitHub: https://github.com/ROBOTIS-GIT/turtlebot3/issues
+.. _TurtleBot discourse forum: https://discourse.ros.org/c/turtlebot
+
+FAQ
+===
+
 What is Open Source Hardware?
 -----------------------------
 
@@ -37,13 +48,6 @@ Can I apply the TurtleBot name to my modification of your design, or my own simi
 
 The Open Source Robotics Foundation holds the TurtleBot trademark with the United States Patent and Trademark Office. If you want to use the TurtleBot name or mark, please send an email to [turtlebot@osrfoundation.org](mailto:turtlebot@osrfoundation.org).
 
-Q&A
----
-
-http://answers.ros.org/questions/
-
 .. toctree::
    :numbered:
    :maxdepth: 1
-
-   qna

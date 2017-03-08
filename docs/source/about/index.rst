@@ -61,8 +61,6 @@ TurtleBot From Wikipedia
 
 https://en.wikipedia.org/wiki/Turtlebot
 
-
-
 .. toctree::
    :numbered:
    :maxdepth: 1

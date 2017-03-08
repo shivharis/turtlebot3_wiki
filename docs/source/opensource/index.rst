@@ -25,5 +25,3 @@ The CAD data is released to the Onshape, which is a full-cloud 3D CAD editor. Ge
 .. toctree::
    :numbered:
    :maxdepth: 1
-
-   opensource
