@@ -3,6 +3,8 @@
 About
 =====
 
+.. image:: images/turtlebot_logo_tm.png
+
 What is a TurtleBot?
 --------------------
 
