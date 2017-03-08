@@ -13,65 +13,68 @@ North America
 .............
 
 .. image:: images/turtlebot2_distributors/clearpath_robotics.png
+   :height: 50px
 
 `Clearpath Robotics`_
-.. _Clearpath Robotics: http://www.clearpathrobotics.com/turtlebot_2
 
 .. image:: images/turtlebot2_distributors/dabit.png
+   :height: 50px
 
 `Dabit Indutries`_
-.. _Dabit Indutries: http://dabit.industries/
 
 Europe
 ......
 
 .. image:: images/turtlebot2_distributors/active.jpg
+   :height: 50px
 
 `Active`_
-.. _Active: http://www.active-robots.com/brands/turtlebot
 
 .. image:: images/turtlebot2_distributors/dronyx.png
+   :height: 50px
 
 `Dronyx`_
-.. _Dronyx: http://www.dronyx.com/
 
 .. image:: images/turtlebot2_distributors/robotnik.png
+   :height: 50px
 
 `Robotnik`_
-.. _Robotnik: http://robotnik.es/en
 
 .. image:: images/turtlebot2_distributors/robot_sepeti.png
+   :height: 50px
 
 `Robot Sepeti`_
-.. _Robot Sepeti: http://www.robotsepeti.com/arama/turtlebot
+
 
 .. image:: images/turtlebot2_manufacturers/innorobotek.png
+   :height: 50px
 
 `Innorobotek`_
-.. _Innorobotek: http://inrobotek.com.tr/Entry.aspx?MenuID=1
+
 
 Asia
 ....
 
 .. image:: images/turtlebot2_distributors/lattel.jpg
+   :height: 50px
 
 `Lattel`_
-.. _Lattel: http://www.lattel.my/
 
 .. image:: images/turtlebot2_distributors/gaitech.png
+   :height: 50px
 
 `GaiTech`_
-.. _GaiTech: http://www.gaitech.hk/
 
 .. image:: images/turtlebot2_distributors/sensorobot.jpg
+   :height: 50px
 
 `Sensorobot`_
-.. _Sensorobot: http://www.sensorobots.net/
 
 .. image:: images/turtlebot2_distributors/yujin.png
+   :height: 50px
 
 `Yujin Robot`_
-.. _Yujin Robot: http://kobuki.yujinrobot.com/
+
 
 TurtleBot2 Manufacturers
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -79,41 +82,47 @@ TurtleBot2 Manufacturers
 .. image:: images/turtlebot2_manufacturers/clearpath_robotics.png
 
 `Clearpath Robotics`_
-.. _Clearpath Robotics: http://www.clearpathrobotics.com/turtlebot_2
 
 .. image:: images/turtlebot2_manufacturers/dronyx.png
 
 `Dronyx`_
-.. _Dronyx: http://www.dronyx.com/
 
 .. image:: images/turtlebot2_manufacturers/gaitech.png
 
 `GaiTech`_
-.. _GaiTech: http://www.gaitech.hk/
 
 .. image:: images/turtlebot2_manufacturers/gilbo.png
 
 `Gilbo`_
-.. _Gilbo: http://www.gilbo.com.tr/
+
 
 .. image:: images/turtlebot2_manufacturers/innorobotek.png
 
 `Innorobotek`_
-.. _Innorobotek: http://inrobotek.com.tr/Entry.aspx?MenuID=1
 
 .. image:: images/turtlebot2_manufacturers/robotnik.png
 
 `Robotnik`_
-.. _Robotnik: http://robotnik.es/en
 
 .. image:: images/turtlebot2_manufacturers/sensorobot.jpg
 
 `Sensorobot`_
-.. _Sensorobot: http://www.sensorobots.net/
 
 .. image:: images/turtlebot2_manufacturers/yujin.png
 
 `Yujin Robot`_
+
+.. _Active: http://www.active-robots.com/brands/turtlebot
+.. _Clearpath Robotics: http://www.clearpathrobotics.com/turtlebot_2
+.. _Dabit Indutries: http://dabit.industries/
+.. _Dronyx: http://www.dronyx.com/
+.. _GaiTech: http://www.gaitech.hk/
+.. _Gilbo: http://www.gilbo.com.tr/
+.. _Innorobotek: http://inrobotek.com.tr/Entry.aspx?MenuID=1
+.. _Lattel: http://www.lattel.my/
+.. _Robotnik: http://robotnik.es/en
+.. _Robot Sepeti: http://www.robotsepeti.com/arama/turtlebot
+.. _Sensorobot: http://www.sensorobots.net/
 .. _Yujin Robot: http://kobuki.yujinrobot.com/
 
 Register as Reseller
