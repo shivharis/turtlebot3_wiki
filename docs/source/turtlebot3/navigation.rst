@@ -20,7 +20,7 @@ Do the navigation
 .. code-block:: bash
 
   export TURTLEBOT3_MODEL=BURGER
-  roslaunch turtlebot3_navigation turtlebot3_navigation.launch
+  roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=/tmp/map.yaml
 
 [Remote PC] Launch the Rviz.
 
