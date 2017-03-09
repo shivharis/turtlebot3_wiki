@@ -31,7 +31,7 @@ Create a map through the teleoperation
 
 .. code-block:: bash
 
-  export TURTLEBOT3_MODEL=BURGER
+  export TURTLEBOT3_MODEL=burger
   roslaunch turtlebot3_slam turtlebot3_slam.launch
 
 [Remote PC] Visualize the model by the Rviz.
