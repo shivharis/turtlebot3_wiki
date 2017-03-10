@@ -147,7 +147,9 @@ Click ``Tools`` → ``Burn Bootloader`` to download the bootloader.
 
 .. image:: images/preparation/ide9.png
 
-Press ``Reset`` button again, and now the preparation is completed
+Press ``Reset`` button again, and now the preparation is completed. You can check whether the burning was completed successfully by typing *lsusb* and find ``STMicroelectronics STM Device in DFU Mode``.
+
+.. image:: images/preparation/ide10.png
 
 OpenCR Firmware settings for ROS
 ------
