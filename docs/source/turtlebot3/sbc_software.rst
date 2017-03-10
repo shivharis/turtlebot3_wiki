@@ -131,7 +131,7 @@ Do the following.
 
 Change the `localhost` into the IP address shown as follows.
 
-.. image:: _static/software/network_configuration2.png
+.. image:: _static/software/network_configuration4.png
 
 Then, source the bashrc
 
@@ -139,7 +139,7 @@ Then, source the bashrc
 
   source ~/.bashrc
 
-.. image:: _static/software/network_configuration3.png
+.. image:: _static/software/network_configuration5.png
 
 Manual setting (Ubuntu and ROS)
 -------------------------------
