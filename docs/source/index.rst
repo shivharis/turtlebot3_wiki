@@ -1,7 +1,7 @@
 TurtleBot3 Official Wiki
 ========================
 
-.. image:: _static/logo_cooperation.png
+.. image:: images/logo_cooperation.png
 
 WORLD’S MOST POPULAR ROS PLATFORM
 ---------------------------------
