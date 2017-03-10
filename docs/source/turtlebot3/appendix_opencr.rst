@@ -1,7 +1,7 @@
 Appendix #OpenCR
 ================
 
-.. image:: _static/appendix/opencr/opencr.jpg
+.. image:: images/appendix/opencr/opencr.jpg
 
 Overview
 --------

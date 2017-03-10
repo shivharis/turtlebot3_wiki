@@ -49,7 +49,7 @@ Main software is released under the `Apache 2.0 license`_. However, some of the 
 Documents License
 ~~~~~~~~~~~~~~~~~
 
-Documents are released under the `CC BY 4.0`_.
+Documents are released under the `CC BY-NC 4.0`_.
 
 Licensed Distributor and Manufacturer
 -------------------------------------

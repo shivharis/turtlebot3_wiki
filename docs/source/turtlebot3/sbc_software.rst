@@ -23,32 +23,32 @@ Run **GNOME Disks** through the terminal.
 
   gnome-disks
 
-.. image:: _static/software/rpi_disk1.png
+.. image:: images/software/rpi_disk1.png
    :width: 400px
 
 Choose the disk for imaging, then click ``Restore Disk Image…`` option, which supports XZ compressed disk image natively.
 
-.. image:: _static/software/rpi_disk2.png
+.. image:: images/software/rpi_disk2.png
    :width: 400px
 
 Select the image file which is wanted to be imaged on to the disk, then click ``Start Restoring...``.
 
-.. image:: _static/software/rpi_disk3.png
+.. image:: images/software/rpi_disk3.png
    :width: 400px
 
 Click ``Restore`` to continue.
 
-.. image:: _static/software/rpi_disk4.png
+.. image:: images/software/rpi_disk4.png
    :width: 400px
 
 Type the password of the PC, then click ``Authenticate``. (This step may take about 15 min.)
 
-.. image:: _static/software/rpi_disk5.png
+.. image:: images/software/rpi_disk5.png
    :width: 400px
 
 Check whether the image is burned to the disk.
 
-.. image:: _static/software/rpi_disk6.png
+.. image:: images/software/rpi_disk6.png
    :width: 400px
 
 Now, insert the microSD card into your Raspberry Pi 3 and turn on the power. Then, connect the Raspberry Pi to the monitor with an HDMI cable and connect a USB or wireless input devices.
@@ -57,7 +57,7 @@ Now, insert the microSD card into your Raspberry Pi 3 and turn on the power. The
 
 Initialized user ID and password are ``turtlebot``. The user ID and the password is configurable after login.
 
-.. image:: _static/software/login.png
+.. image:: images/software/login.png
    :width: 600px
 
 The Ubuntu Mate image get from previous steps was shrinked of its own size to mimimum so that the image can be adapted to a small-capacity SD card.
@@ -72,32 +72,32 @@ Run **GParted**.
 
 Choose a installed TurtleBot3 image, and then click ``Resize``.
 
-.. image:: _static/software/resize01.png
+.. image:: images/software/resize01.png
    :width: 600px
 
 Set the size to be used.
 
-.. image:: _static/software/resize02.png
+.. image:: images/software/resize02.png
    :width: 600px
 
 Click ``Resize``.
 
-.. image:: _static/software/resize03.png
+.. image:: images/software/resize03.png
    :width: 600px
 
 Click ``Apply All Operations``.
 
-.. image:: _static/software/resize04.png
+.. image:: images/software/resize04.png
    :width: 600px
 
 Click ``Apply``.
 
-.. image:: _static/software/resize05.png
+.. image:: images/software/resize05.png
    :width: 600px
 
 Click ``Close``
 
-.. image:: _static/software/resize06.png
+.. image:: images/software/resize06.png
    :width: 600px
 
 
@@ -111,7 +111,7 @@ Please refer to the manual installation below.
 Network Configuration
 ---------------------
 
-.. image:: _static/software/network_configuration.png
+.. image:: images/software/network_configuration.png
 
 ROS needs IP addresses to communicate between the turtlebot and the remote PC.
 
@@ -131,7 +131,7 @@ Do the following.
 
 Change the `localhost` into the IP address shown as follows.
 
-.. image:: _static/software/network_configuration4.png
+.. image:: images/software/network_configuration4.png
 
 Then, source the bashrc
 
@@ -139,7 +139,7 @@ Then, source the bashrc
 
   source ~/.bashrc
 
-.. image:: _static/software/network_configuration5.png
+.. image:: images/software/network_configuration5.png
 
 Manual setting (Ubuntu and ROS)
 -------------------------------
@@ -153,7 +153,7 @@ Download the ``Ubuntu MATE 16.04.1`` version on the Raspberry Pi 3 from the link
 
 - https://ubuntu-mate.org/download/
 
-.. image:: _static/preparation/download_ubuntu_mate_image.png
+.. image:: images/preparation/download_ubuntu_mate_image.png
 
 To install Ubuntu MATE by using the image file, please refer to the link shown below.
 
@@ -186,7 +186,7 @@ If necessary, see the other information in the link.
 [Manual] Install the ROS and packages
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: _static/logo_ros.png
+.. image:: images/logo_ros.png
     :align: center
     :target: http://wiki.ros.org
 

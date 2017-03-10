@@ -1,7 +1,7 @@
 Appendix #LDS
 ==============
 
-.. image:: _static/appendix/lds/lds.png
+.. image:: images/appendix/lds/lds.png
 
 Overview
 --------
@@ -66,7 +66,7 @@ Detail specification document
 
 The following includes the contents, like a basic performance, measurement performance, mechanism layout, optical path, data information, pin description, commands.
 
-here is the detail specification document :download:`pdf <_static/doc/LDS_Basic_Specification.pdf>`
+here is the detail specification document :download:`pdf <docs/LDS_Basic_Specification.pdf>`
 
 
 LDS for the TurtleBot3
@@ -74,7 +74,7 @@ LDS for the TurtleBot3
 
 The HLS-LFCD LDS is used for the TurtleBot3 BURGER and TurtleBot3 WAFFLE.
 
-.. image:: _static/hardware/turtlebot3_models.png
+.. image:: images/hardware/turtlebot3_models.png
 
 Introduction Video
 ------------------

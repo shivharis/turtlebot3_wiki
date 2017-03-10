@@ -4,7 +4,7 @@ Contact US
 ABOUT OSRF
 ----------
 
-.. image:: _static/logo_osrf.png
+.. image:: images/logo_osrf.png
    :width: 500px
 
 `Open Source Robotics Foundation, Inc. (OSRF)`_ is an independent non-profit organization founded by members of the global robotics community. The mission of OSRF is to support the development, distribution, and adoption of open source software for use in robotics research, education, and product development.
@@ -15,7 +15,7 @@ ABOUT OSRF
 ABOUT ROBOTIS
 -------------
 
-.. image:: _static/logo_robotis.png
+.. image:: images/logo_robotis.png
    :width: 300px
 
 `ROBOTIS`_ was derived from a simple response to the question, "What is a Robot?".
@@ -57,7 +57,7 @@ There are many answers to this question, but we strive to develop and apply prod
 ABOUT OST (Open Source Team)
 ----------------------------
 
-.. image:: _static/contact/open_source_team.jpg
+.. image:: images/contact/open_source_team.jpg
    :width: 600px
 
 :Members: Ashe Kim, Darby Lim, Leon Jung, MyungWoo Yoo, Hancheol Cho, Yoonseok Pyo

@@ -1,7 +1,7 @@
 TurtleBot3
 ==========
 
-.. image:: _static/hardware/turtlebot3_models.png
+.. image:: images/hardware/turtlebot3_models.png
 
 .. toctree::
    :numbered:
