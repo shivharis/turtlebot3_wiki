@@ -98,26 +98,6 @@ See if ``OpenCR Board`` is now on the list of ``Tools`` → ``Board``. Click thi
 
 .. image:: images/preparation/ide5.png
 
-Bootloader burning
-............
-
-Follow the instruction only if theres new updates of OpenCR bootloader. (Every OpenCR products have the bootloader aldready.) Once it is burned, the board doesn't need bootloader burning anymore until next OpenCR bootloader updates.    
-
-Find ``DFU_UTIL`` out on the list of ``Tools`` → ``Programmer``, then click.
-
-.. image:: images/preparation/boot1.png
-
-Click ``Tools`` → ``Burn Bootloader``.
-
-.. image:: images/preparation/boot2.png
-
-.. image:: images/preparation/boot3.png
-
-Check if the bootloader was burned successfully. Run *lsusb*, and see if `STMicroelectronics STM Device in DFU Mode` comes out.
-
-
-.. image:: images/preparation/boot4.png
-
 Port setting
 ............
 
@@ -166,6 +146,8 @@ Download the bootloader.
 Click ``Tools`` → ``Burn Bootloader`` to download the bootloader.
 
 .. image:: images/preparation/ide9.png
+
+Press ``Reset`` button again, and now the preparation is completed
 
 OpenCR Firmware settings for ROS
 ------
