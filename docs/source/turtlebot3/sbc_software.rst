@@ -113,6 +113,34 @@ Network Configuration
 
 .. image:: _static/software/network_configuration.png
 
+ROS needs IP addresses to communicate between the turtlebot and the remote PC.
+
+Type the next to find out the IP addresses.
+
+.. code-block:: bash
+
+  ifconfig
+
+Rectangled text is the IP address of the TurtleBot.
+
+Do the following.
+
+.. code-block:: bash
+
+  gedit ~/.bashrc
+
+Change the `localhost` into the IP address shown as follows.
+
+.. image:: _static/software/network_configuration2.png
+
+Then, source the bashrc
+
+.. code-block:: bash
+
+  source ~/.bashrc
+
+.. image:: _static/software/network_configuration3.png
+
 Manual setting (Ubuntu and ROS)
 -------------------------------
 
