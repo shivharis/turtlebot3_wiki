@@ -2,8 +2,8 @@
 
 .. image:: images/turtlebot_logo_tm.png
 
-About
-=====
+What is a TurtleBot?
+====================
 
 What is a TurtleBot?
 --------------------
