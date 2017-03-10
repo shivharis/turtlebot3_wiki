@@ -53,15 +53,15 @@ Network Configuration
 
 ROS needs IP addresses to communicate between the turtlebot and the remote PC.
 
-Type the next to find out each IP addresses being used.
+Type the next to find out each used IP addresses.
 
 .. code-block:: bash
 
   ifconfig
 
-The rectangled text is the IP address of being used platform.
+Rectangled text is the IP address of the remote PC.
 
-Do the following to set the IP address on each platform for the ROS communication.
+Do the following.
 
 .. code-block:: bash
 
