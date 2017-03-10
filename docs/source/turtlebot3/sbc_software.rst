@@ -115,7 +115,7 @@ Network Configuration
 
 ROS needs IP addresses to communicate between the turtlebot and the remote PC.
 
-Type the next to find out the IP addresses.
+Type the next to find out the IP address.
 
 .. code-block:: bash
 
