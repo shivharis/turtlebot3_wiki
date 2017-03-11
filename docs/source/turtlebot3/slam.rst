@@ -47,6 +47,6 @@ Save the map to file
 
 .. code-block:: bash
 
-  rosrun map_server map_saver -f /tmp/map
+  rosrun map_server map_saver -f ~/map
 
 The files named as **map.pgm** and **map.yaml** will be built in the `~/` directory.
