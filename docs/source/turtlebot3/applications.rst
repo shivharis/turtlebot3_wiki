@@ -30,7 +30,8 @@ TurtleBot Panorama Demo Using Raspberry Pi Camera Module
 .. code-block:: bash
   rosservice call turtlebot3_panorama/take_pano 0 360.0 30.0 0.3
   
-  Parameters that can be sent to the rosservice to take a pano are:
+  
+Parameters that can be sent to the rosservice to take a pano are:
 
 mode for taking the pictures. Can be:
     0 for snap&rotate (i.e. rotate, stop, snapshot, rotate, stop, snapshot, ...)
@@ -40,7 +41,7 @@ total angle of panorama picture, in degrees
 angle interval (in degrees) when creating the panorama picture in snap&rotate mode, time interval (in seconds) otherwise
 rotating velocity (in radians/s) 
 
- [Remote PC]To view the results:
+   [Remote PC]To view the results:
   
 .. code-block:: bash
   rqt_image_view image:=/turtlebot3_panorama/panorama
