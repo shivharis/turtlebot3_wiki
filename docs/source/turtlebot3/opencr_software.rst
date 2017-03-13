@@ -34,7 +34,7 @@ Since the OpenCR libraries is built for 32 bit platform, 64 bit PC needs the 32 
 Install the Arduino IDE
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Download the latest version of ``Arduino IDE`` from the official arduino homepage, and install it. Currently, the OpenCR will be on service in the version ``1.16.0`` or later.
+Download the latest version of ``Arduino IDE`` from the official arduino homepage, and install it. Currently, the OpenCR will be on service in the version ``1.6.12`` or later.
 
 https://www.arduino.cc/en/Main/Software
 
@@ -42,7 +42,7 @@ Then, extract the downloaded file to the desired folder and execute the installa
 
 .. code-block:: bash
 
-  cd ~/tools/arduino-1.16.0
+  cd ~/tools/arduino-1.8.1
   ./install.sh
 
 Set the file path of installed ``Arduino IDE`` as an absolute path named ``PATH`` in the ``bashrc`` file. Here recommends to use **gedit editor**. (Use another editor, if necessary.) Finally, `source` it to apply the changes.
@@ -50,7 +50,7 @@ Set the file path of installed ``Arduino IDE`` as an absolute path named ``PATH`
 .. code-block:: bash
 
   gedit ~/.bashrc
-  export PATH=$PATH:$HOME/tools/arduino-1.16.0
+  export PATH=$PATH:$HOME/tools/arduino-1.8.1
   source ~/.bashrc
 
 Run the Arduino IDE
