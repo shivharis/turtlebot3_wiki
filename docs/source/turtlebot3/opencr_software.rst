@@ -34,7 +34,7 @@ Since the OpenCR libraries is built for 32 bit platform, 64 bit PC needs the 32 
 Install the Arduino IDE
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Download the latest version of ``Arduino IDE`` from the official arduino homepage, and install it. Currently, the OpenCR will be on service in the version ``1.6.12`` or later.
+Download the latest version of ``Arduino IDE`` from the official arduino homepage, and install it. Currently, the OpenCR will be on service in the version ``1.6.12`` or later (It has also been tested in version ``1.8.1``.).
 
 https://www.arduino.cc/en/Main/Software
 
