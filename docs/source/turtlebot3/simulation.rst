@@ -6,6 +6,12 @@ Simulation
 Fake TurtleBot3 node implementation
 -----------------------------------
 
+.. code-block:: bash
+
+  export TURTLEBOT3_MODEL=burger
+  roslaunch turtlebot3_fake turtlebot3_fake.launch
+
+
 (TODO)
 
 Stage (2D)
