@@ -16,6 +16,14 @@ To use a SBC, OpenCR board can give a best solution. It supports some power outp
 
 Use this board to fill the imagined embedded control.
 
+
+.. raw:: html
+
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/-_kBfIS6wJs" frameborder="0" allowfullscreen></iframe>
+
+|
+
+
 Specification
 -------------
 
@@ -32,9 +40,9 @@ Specification
 +                          +--------------------------------------------------------------------+
 |                          | Serial                                                             |
 +--------------------------+--------------------------------------------------------------------+
-| Extension pins           | 32 pins (L 14, R 18) *Arduino Uno Revision 3 connectivity          |
+| Extension pins           | 32 pins (L 14, R 18) *Arduino connectivity                         |
 +                          +--------------------------------------------------------------------+
-|                          | Sensor x 4 pins                                                    |
+|                          | Sensor module x 4 pins                                             |
 +                          +--------------------------------------------------------------------+
 |                          | Extension connector x 18 pins                                      |
 +--------------------------+--------------------------------------------------------------------+
@@ -65,6 +73,8 @@ Specification
 |                          | External output source                                             |
 +                          +--------------------------------------------------------------------+
 |                          | 12V@1A, 5V@4A, 3.3V@800mA                                          |
++                          +--------------------------------------------------------------------+
+|                          | External battery connect for RTC (Real Time Clock)                 |
 +                          +--------------------------------------------------------------------+
 |                          | Power LED: LD1 (red, 3.3 V power on)                               |
 +                          +--------------------------------------------------------------------+
