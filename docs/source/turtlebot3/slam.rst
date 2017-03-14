@@ -49,4 +49,4 @@ Save the map to file
 
   rosrun map_server map_saver -f ~/map
 
-The files named as **map.pgm** and **map.yaml** will be built in the `~/` directory ($HOME directory, /home/<username>).
+The files named as **map.pgm** and **map.yaml** will be built in the ``~/`` directory ($HOME directory, /home/<username>).
