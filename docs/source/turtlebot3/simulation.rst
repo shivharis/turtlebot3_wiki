@@ -6,7 +6,7 @@ Simulation
 TurtleBot3 fake node implementation
 -----------------------------------
 
-``TurtleBot3 fake node`` is a very simple simulation node that can be run without a real robot. You can move a robot through a teleop node on a virtual TurtleBot3 on RViz
+``TurtleBot3 fake node`` is a very simple simulation node that can be run without a real robot. You can move a robot through a teleop node on a virtual TurtleBot3 on RViz.
 
 .. code-block:: bash
 
