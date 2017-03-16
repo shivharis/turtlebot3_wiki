@@ -6,16 +6,12 @@ SBC Software Setup
 Install the Ubuntu MATE in the Raspberry Pi 3 (TurtleBot3 BURGER)
 ----------------------------------------------------------------
 
-.. WARNING:: Following steps need a SDcard reader to install the TurtleBot3 BURGER image.
+.. WARNING:: Following steps need a SDcard reader to install the Linux and ROS.
 
-.. WARNING:: The SDcard should have its capacity more than **8 GB** for the installation of the TurtleBot3 BURGER image.
+.. WARNING:: The SDcard should have its capacity more than **8 GB** for the installation of the TurtleBot3.
 
 
 Download the disk image file for Raspberry Pi 3 from the following link. 
-
-.. The disk image file contains ``Ubuntu MATE 16.04.1`` and ``ROS kinetic kame``, and all ROS packages which are needed for TurtleBot3 BURGER.
-
-.. - https://goo.gl/uOvWLh
 
 - https://ubuntu-mate.org/raspberry-pi/
 
