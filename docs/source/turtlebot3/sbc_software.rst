@@ -11,9 +11,13 @@ Install the Ubuntu MATE in the Raspberry Pi 3 (TurtleBot3 BURGER)
 .. WARNING:: The SDcard should have its capacity more than **8 GB** for the installation of the TurtleBot3 BURGER image.
 
 
-Download the disk image file for Raspberry Pi 3 from the following link. The disk image file contains ``Ubuntu MATE 16.04.1`` and ``ROS kinetic kame``, and all ROS packages which are needed for TurtleBot3 BURGER.
+Download the disk image file for Raspberry Pi 3 from the following link. 
 
-- https://goo.gl/uOvWLh
+.. The disk image file contains ``Ubuntu MATE 16.04.1`` and ``ROS kinetic kame``, and all ROS packages which are needed for TurtleBot3 BURGER.
+
+.. - https://goo.gl/uOvWLh
+
+- https://ubuntu-mate.org/raspberry-pi/
 
 To image a bootable microSDHC, follow the instructions as shown below. Here recommends to use **GNOME Disks**.
 
