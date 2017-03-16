@@ -6,8 +6,6 @@ SBC Software Setup
 Install the Ubuntu MATE in the Raspberry Pi 3 (TurtleBot3 BURGER)
 ----------------------------------------------------------------
 
-.. WARNING:: Following steps need a SDcard reader to install the Linux and ROS.
-
 .. WARNING:: The SDcard should have its capacity more than **8 GB** for the installation of the TurtleBot3.
 
 
@@ -15,93 +13,7 @@ Download the disk image file for Raspberry Pi 3 from the following link.
 
 - https://ubuntu-mate.org/raspberry-pi/
 
-To image a bootable microSDHC, follow the instructions as shown below. Here recommends to use **GNOME Disks**.
-
-Run **GNOME Disks** through the terminal.
-
-.. code-block:: bash
-
-  gnome-disks
-
-.. image:: images/software/rpi_disk1.png
-   :width: 400px
-
-Choose the disk for imaging, then click ``Restore Disk Image…`` option, which supports XZ compressed disk image natively.
-
-.. image:: images/software/rpi_disk2.png
-   :width: 400px
-
-Select the image file which is wanted to be imaged on to the disk, then click ``Start Restoring...``.
-
-.. image:: images/software/rpi_disk3.png
-   :width: 400px
-
-Click ``Restore`` to continue.
-
-.. image:: images/software/rpi_disk4.png
-   :width: 400px
-
-Type the password of the PC, then click ``Authenticate``. (This step may take about 15 min.)
-
-.. image:: images/software/rpi_disk5.png
-   :width: 400px
-
-Check whether the image is burned to the disk.
-
-.. image:: images/software/rpi_disk6.png
-   :width: 400px
-
-Now, insert the microSD card into your Raspberry Pi 3 and turn on the power. Then, connect the Raspberry Pi to the monitor with an HDMI cable and connect a USB or wireless input devices.
-
-.. NOTE:: The HDMI cable should be connected to the Raspberry Pi 3 before booting.
-
-Initialized user ID and password are ``turtlebot``. The user ID and the password is configurable after login.
-
-.. image:: images/software/login.png
-   :width: 600px
-
-The Ubuntu Mate image get from previous steps was shrinked of its own size to mimimum so that the image can be adapted to a small-capacity SD card.
-
-To use the full space that the SD card has, on the other hand, the image on the SD card should be resized again. Here recommends **GParted** to resize the SD card. The following instructions describes how to resize **16 GB** SD card after imaging.
-
-Run **GParted**.
-
-.. code-block:: bash
-
-  sudo gparted
-
-Choose a installed TurtleBot3 image, and then click ``Resize``.
-
-.. image:: images/software/resize01.png
-   :width: 600px
-
-Set the size to be used.
-
-.. image:: images/software/resize02.png
-   :width: 600px
-
-Click ``Resize``.
-
-.. image:: images/software/resize03.png
-   :width: 600px
-
-Click ``Apply All Operations``.
-
-.. image:: images/software/resize04.png
-   :width: 600px
-
-Click ``Apply``.
-
-.. image:: images/software/resize05.png
-   :width: 600px
-
-Click ``Close``
-
-.. image:: images/software/resize06.png
-   :width: 600px
-
-
-When the settings are finished, go to the next step.
+When the imaging is finished, go to the next step.
 
 Install the Ubuntu in the Intel® Joule™ (TurtleBot3 WAFFLE)
 ------------------------------------------------------------
