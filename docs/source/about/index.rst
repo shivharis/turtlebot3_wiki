@@ -2,10 +2,10 @@
 
 .. image:: images/turtlebot_logo_tm.png
 
-What is a TurtleBot?
+What is TurtleBot?
 ====================
 
-What is a TurtleBot?
+What is TurtleBot?
 --------------------
 
 .. image:: images/turtlebot_rider.jpeg
