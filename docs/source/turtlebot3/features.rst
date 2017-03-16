@@ -1,7 +1,7 @@
 Features
 ========
 
-.. image:: images/logo_cooperation.png
+.. .. image:: images/logo_cooperation.png
 
 WORLD’S MOST POPULAR ROS PLATFORM
 ---------------------------------
