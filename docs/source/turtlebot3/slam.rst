@@ -39,6 +39,12 @@ Create a map through the teleoperation
 .. code-block:: bash
 
   rosrun rviz rviz -d `rospack find turtlebot3_slam`/rviz/turtlebot3_slam.rviz
+  
+[Remote PC] Teleoperation with Keyboard
+
+.. code-block:: bash
+
+  roslaunch turtlebot3_bringup turtlebot3_teleop_key.launch
 
 Save the map to file
 --------------------
