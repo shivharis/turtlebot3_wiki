@@ -47,8 +47,4 @@ Gazebo (3D)
 
   roslaunch turtlebot3_bringup turtlebot3_teleop_key.launch
 
-.. raw:: html
-
-  <iframe width="640" height="360" src="https://www.youtube.com/embed/iHXZSLBJHMg" frameborder="0" allowfullscreen></iframe>
-
 |
