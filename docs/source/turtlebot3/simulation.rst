@@ -37,7 +37,7 @@ Gazebo (3D)
   
 .. code-block:: bash
 
-  turtlebot3_gazebo turtlebot3_gazebo.launch
+  roslaunch turtlebot3_gazebo turtlebot3_gazebo.launch
 
 .. code-block:: bash
 
