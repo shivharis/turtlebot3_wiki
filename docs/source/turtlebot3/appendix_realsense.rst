@@ -63,17 +63,17 @@ Minimum System Requirements
 
 Here is the detail specification document: `Intel® RealSense™ Datasheet`_
 
-Intel® RealSense™ R200 for the TurtleBot3
+Intel® RealSense™ R200 for the TURTLEBOT3
 -----------------
 
-The Intel® RealSense™ R200 is used for the TurtleBot3 TurtleBot3 WAFFLE.
+The Intel® RealSense™ R200 is used for the TURTLEBOT3 Waffle.
 
 .. image:: images/hardware/turtlebot3_models.png
 
 Introduction Video
 ------------------
 
-The TurtleBot3 Waffle uses Intel® RealSense™ Camera R200 as a default vision sensor. Now, here is a movie that shows how TURTLEBOT3 Waffle can be powerful with the camera.
+The TURTLEBOT3 Waffle uses Intel® RealSense™ Camera R200 as a default vision sensor. Now, here is a movie that shows how TURTLEBOT3 Waffle can be powerful with the camera.
 
 .. raw:: html
 
