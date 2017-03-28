@@ -25,6 +25,7 @@ TurtleBot3
    friends
    appendix_opencr
    appendix_lds
+   appendix_realsense
    faq
    contact
 
