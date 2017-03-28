@@ -122,4 +122,4 @@ References
 .. _Intel® RealSense™ packages: http://wiki.ros.org/RealSense
 .. _librealsense: http://wiki.ros.org/librealsense
 .. _realsense_camera: http://wiki.ros.org/realsense_camera
-.. _ Intel® RealSense™ Datasheet: https://software.intel.com/sites/default/files/managed/d7/a9/realsense-camera-r200-product-datasheet.pdf
+.. _Intel® RealSense™ Datasheet: https://software.intel.com/sites/default/files/managed/d7/a9/realsense-camera-r200-product-datasheet.pdf
