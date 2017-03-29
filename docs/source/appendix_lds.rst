@@ -1,7 +1,7 @@
 Appendix #LDS
 ==============
 
-.. image:: images/appendix/lds/lds.png
+.. image:: _static/appendix/lds/lds.png
 
 Overview
 --------
@@ -74,7 +74,7 @@ LDS for the TurtleBot3
 
 The HLS-LFCD LDS is used for the TurtleBot3 BURGER and TurtleBot3 WAFFLE.
 
-.. image:: images/hardware/turtlebot3_models.png
+.. image:: _static/hardware/turtlebot3_models.png
 
 Introduction Video
 ------------------

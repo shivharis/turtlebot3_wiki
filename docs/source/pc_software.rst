@@ -17,7 +17,7 @@ If it needs some help to install Ubuntu, check out the step-by-step guide.
 Install the ROS and dependent packages
 ----------------------------
 
-.. image:: images/logo_ros.png
+.. image:: _static/logo_ros.png
     :align: center
     :target: http://wiki.ros.org
 
@@ -49,7 +49,7 @@ If catkin_make is completed without any errors, the preparation for using Turtle
 Network Configuration
 ---------------------
 
-.. image:: images/software/network_configuration.png
+.. image:: _static/software/network_configuration.png
 
 ROS needs IP addresses to communicate between the turtlebot and the remote PC.
 
@@ -69,7 +69,7 @@ Do the following.
 
 Change the `localhost` into the IP address shown as follows.
 
-.. image:: images/software/network_configuration2.png
+.. image:: _static/software/network_configuration2.png
 
 Then, source the bashrc
 
@@ -77,7 +77,7 @@ Then, source the bashrc
 
   source ~/.bashrc
 
-.. image:: images/software/network_configuration3.png
+.. image:: _static/software/network_configuration3.png
 
 
 .. _ROS: http://wiki.ros.org

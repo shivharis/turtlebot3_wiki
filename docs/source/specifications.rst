@@ -1,7 +1,7 @@
 Specifications
 ==============
 
-.. image:: images/hardware/turtlebot3_models.png
+.. image:: _static/hardware/turtlebot3_models.png
 
 TurtleBot3
 ----------
@@ -76,13 +76,13 @@ Dimension
 Dimension data (BURGER)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/hardware/turtlebot3_dimension1.png
+.. image:: _static/hardware/turtlebot3_dimension1.png
    :width: 500px
 
 Dimension data (WAFFLE)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/hardware/turtlebot3_dimension2.png
+.. image:: _static/hardware/turtlebot3_dimension2.png
    :width: 500px
 
 Components

@@ -23,7 +23,7 @@ Please refer to the manual installation below.
 Network Configuration
 ---------------------
 
-.. image:: images/software/network_configuration.png
+.. image:: _static/software/network_configuration.png
 
 ROS needs IP addresses to communicate between the turtlebot and the remote PC.
 
@@ -43,7 +43,7 @@ Do the following.
 
 Change the `localhost` into the IP address shown as follows.
 
-.. image:: images/software/network_configuration4.png
+.. image:: _static/software/network_configuration4.png
 
 Then, source the bashrc
 
@@ -51,7 +51,7 @@ Then, source the bashrc
 
   source ~/.bashrc
 
-.. image:: images/software/network_configuration5.png
+.. image:: _static/software/network_configuration5.png
 
 Manual setting (Ubuntu and ROS)
 -------------------------------
@@ -65,7 +65,7 @@ Download the ``Ubuntu MATE 16.04.1`` version on the Raspberry Pi 3 from the link
 
 - https://ubuntu-mate.org/download/
 
-.. image:: images/preparation/download_ubuntu_mate_image.png
+.. image:: _static/preparation/download_ubuntu_mate_image.png
 
 To install Ubuntu MATE by using the image file, please refer to the link shown below.
 
@@ -98,7 +98,7 @@ If necessary, see the other information in the link.
 [Manual] Install the ROS and packages
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: images/logo_ros.png
+.. image:: _static/logo_ros.png
     :align: center
     :target: http://wiki.ros.org
 

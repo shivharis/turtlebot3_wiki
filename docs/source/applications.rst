@@ -83,7 +83,7 @@ Parameters that can be sent to the rosservice to take a pano are:
   rqt_image_view image:=/turtlebot3_panorama/panorama
 
 
-.. image:: images/application/panorama_view.png
+.. image:: _static/application/panorama_view.png
 
 Automatic Docking
 -----------------

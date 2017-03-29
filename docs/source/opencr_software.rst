@@ -62,7 +62,7 @@ To run the ``Arduino IDE`` on Linux platform, type into the terminal as follows.
 
   arduino
 
-.. image:: images/preparation/ide0.png
+.. image:: _static/preparation/ide0.png
 
 Porting the OpenCR board to the Arduino IDE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -77,26 +77,26 @@ After ``Arduino IDE`` is run, click ``File`` → ``Preferences`` in the top menu
   https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR/master/arduino/opencr_release/package_opencr_index.json
 
 
-.. image:: images/preparation/ide1.png
+.. image:: _static/preparation/ide1.png
 
 Install the OpenCR package via Boards Manager
 .............................................
 
 Click ``Tools`` → ``Board`` → ``Boards Manager``.
 
-.. image:: images/preparation/ide2.png
+.. image:: _static/preparation/ide2.png
 
 Type `OpenCR` into the textbox to find the ``OpenCR by ROBOTIS`` package. After it finds out, click ``Install``.
 
-.. image:: images/preparation/ide3.png
+.. image:: _static/preparation/ide3.png
 
 After the installation, "INSTALLED" will be appeared.
 
-.. image:: images/preparation/ide4.png
+.. image:: _static/preparation/ide4.png
 
 See if ``OpenCR Board`` is now on the list of ``Tools`` → ``Board``. Click this to import the OpenCR Board source.
 
-.. image:: images/preparation/ide5.png
+.. image:: _static/preparation/ide5.png
 
 Port setting
 ............
@@ -107,7 +107,7 @@ Select ``Tools`` → ``Port`` → ``/dev/ttyACM0``.
 
 .. WARNING:: The value of ``/dev/ttyACM0`` may be different depending on the environment connected to the PC.
 
-.. image:: images/preparation/ide6.png
+.. image:: _static/preparation/ide6.png
 
 (TODO : the programmer in the picture should be changed into not the AVRISP mkll)
 
@@ -133,27 +133,27 @@ Programmer Setting
 
 Select ``Tools`` → ``DFU-UTIL``
 
-.. image:: images/preparation/ide7.png
+.. image:: _static/preparation/ide7.png
 
 Run DFU mode.
 ............
 
 Press the ``Reset`` button while the ``Boot`` button is being pushed. This activates the DFU mode.
 
-.. image:: images/preparation/ide8.png
+.. image:: _static/preparation/ide8.png
 
 Download the bootloader.
 ......................
 
 Click ``Tools`` → ``Burn Bootloader`` to download the bootloader.
 
-.. image:: images/preparation/ide9.png
+.. image:: _static/preparation/ide9.png
 
 Press ``Reset`` button again, and now the preparation is completed.
 
 You can check whether the burning was completed successfully by typing *lsusb* and find ``STMicroelectronics STM Device in DFU Mode``.
 
-.. image:: images/preparation/ide10.png
+.. image:: _static/preparation/ide10.png
 
 OpenCR Firmware settings for ROS
 ------
@@ -169,13 +169,13 @@ If your robot is TurtleBot3 WAFFLE,
 
 Click ``File`` → ``Examples`` → ``turtlebot3`` → ``turtlebot_waffle`` → ``turtlebot3_core``.
 
-.. image:: images/opencr/o1.png
+.. image:: _static/opencr/o1.png
 
 Click ``Upload`` to get the firmware into the OpenCR.
 
-.. image:: images/opencr/o2.png
+.. image:: _static/opencr/o2.png
 
-.. image:: images/opencr/o3.png
+.. image:: _static/opencr/o3.png
 
 .. NOTE ::
 

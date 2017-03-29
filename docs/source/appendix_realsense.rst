@@ -1,7 +1,7 @@
 Appendix #RealSense™
 ==============
 
-.. image:: images/appendix/realsense/realsense_r200.png
+.. image:: _static/appendix/realsense/realsense_r200.png
 
 Overview
 --------
@@ -68,7 +68,7 @@ Intel® RealSense™ R200 for the TURTLEBOT3
 
 The Intel® RealSense™ R200 is used for the TURTLEBOT3 Waffle.
 
-.. image:: images/hardware/turtlebot3_models.png
+.. image:: _static/hardware/turtlebot3_models.png
 
 Introduction Video
 ------------------
