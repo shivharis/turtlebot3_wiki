@@ -1,15 +1,47 @@
 Applications
 ============
 
+This section shows some demos using Turtlebot3.
+For implementing you have to install the turtlebot3_applications package.
+
+[Remote PC] Go to  ROS source directory (/home/<user_name>/catkin_ws/src) and clone the turtlebot3_applications repository.
+ 
+.. code-block:: bash
+
+  cd ~/catkin_ws/src
+  git clone https://github.com/ROBOTIS-GIT/turtlebot3_applications.git
+
+[Remote PC] catkin_make to install the new package
+ 
+.. code-block:: bash
+
+  cm
+
 .. NOTE:: The Turtlebot3 has been tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
+.. NOTE:: Turtlebot Follower Demo requires scikit-learn, NumPy and ScyPy packages. Instructions for installing are found in http://scikit-learn.org/stable/install.html 
 .. NOTE:: The turtlebot3_panorama demo uses pano_ros for taking snapshots and stitching them together to create panorama pictures.
 .. NOTE:: Panorama Demo requires to have Raspicam package installed. Instructions for installing this package can be found in https://github.com/UbiquityRobotics/raspicam_node
+.. NOTE:: Panorama Demo requires to have OpenCV and cvbridge package. Instructions for installing OpenCV are found in http://docs.opencv.org/2.4/doc/tutorials/introduction/linux_install/linux_install.html
+
 
 
 TurtleBot Follower Demo
 -----------------------
 
-(TODO)
+The robot follower demo was implemented using only HLS-LFCD LDS, a classification algorithm is used based on previous fitting with samples of person and obstacles positions to take actions. It follows someone in front of the robot inside the 1 meter range and 120 degrees.
+
+
+[Remote PC] Move to turtlebot3_follower source directory 
+
+.. code-block:: bash
+
+  roscd turtlebot3_follower/src/
+
+[Remote PC] Run Turtlebot3 Follower demo
+
+.. code-block:: bash
+  
+  rosrun turtlebot3_follower follower.py 
 
 TurtleBot Panorama Demo Using Raspberry Pi Camera Module
 -----------------------
