@@ -31,20 +31,44 @@ Stage (2D)
 Gazebo (3D)
 -----------
 
+Before launch gazebo simulation with TurtleBot3, ``TurtleBot3 model files`` are moved to ``gazebo model folder``.
+
+.. code-block:: bash
+
+  cp -r  ~/catkin_ws/src/turtlebot3/turtlebot3_gazebo/worlds/turtlebot3 ~/.gazebo/models/
+
+Set Turtlebot3 model. (burger or waffle)
+
 .. code-block:: bash
 
   export TURTLEBOT3_MODEL=burger
   
+``TurtleBot3 empty world`` is a basic gazebo enviroment except any objects.
+  
 .. code-block:: bash
 
-  roslaunch turtlebot3_gazebo turtlebot3_gazebo.launch
-
-.. code-block:: bash
-
-  roslaunch turtlebot3_bringup turtlebot3_model.launch
-
-.. code-block:: bash
+  roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+  
+The TurtleBot3 drives by teleoperation with a keyboard.
+  
+  .. code-block:: bash
 
   roslaunch turtlebot3_bringup turtlebot3_teleop_key.launch
 
-|
+``TurtleBot3 world`` is a simple map has the shape of a TurtleBot3 symbol.
+  
+.. code-block:: bash
+
+  roslaunch turtlebot3_gazebo turtlebot3_world.launch
+
+The TurtleBot3 can freely moves in a turtlebot3 world.
+
+.. code-block:: bash
+
+  roslaunch turtlebot3_gazebo turtlebot3_simulation.launch
+
+Rviz shows published topics when simulation is launched.
+
+.. code-block:: bash
+
+  roslaunch turtlebot3_gazebo turtlebot3_gazebo_rviz.launch 
