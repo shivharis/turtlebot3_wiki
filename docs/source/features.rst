@@ -7,8 +7,8 @@ WORLD’S MOST POPULAR ROS PLATFORM
 ---------------------------------
 TurtleBot is the world’s most popular open source robot for education and research. The new generation 'TurtleBot3' is a small, low cost, fully programmable, ROS based mobile robot. It is intended to be used for the purpose of education, research, product prototyping, and hobby application.
 
-LOW COST
---------
+AFFORDABLE COST
+---------------
 TurtleBot was built for the cost-conscious needs from the educations and the proto-type research & developments. TurtleBot3 is the most affordable robot among the SLAM-able mobile robots equipped with a general 360-degree LiDAR.
 
 SMALL SIZE
