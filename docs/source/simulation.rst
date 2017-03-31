@@ -51,7 +51,7 @@ Set Turtlebot3 model. (burger or waffle)
   
 The TurtleBot3 drives by teleoperation with a keyboard.
   
-  .. code-block:: bash
+.. code-block:: bash
 
   roslaunch turtlebot3_bringup turtlebot3_teleop_key.launch
 
