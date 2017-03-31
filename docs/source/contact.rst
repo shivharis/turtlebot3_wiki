@@ -60,9 +60,10 @@ ABOUT OST (Open Source Team)
 .. image:: _static/contact/open_source_team.jpg
    :width: 600px
 
-:Members: Ashe Kim, Darby Lim, Leon Jung, MyungWoo Yoo, Hancheol Cho, Yoonseok Pyo
+:Members: Ashe Kim, Christopher Tatsch, Daniel Seon, Darby Lim, Hancheol Cho, Jason Jin, Leon Jung, M. Y, Will Son, Yoonseok Pyo
 :Alumni: Yoshihiro Shibata
-:Supporter: Jinwook Kim, Woosik Yang, JangHo Kim, OROCA Members
+:Supporter: JangHo Kim, Jinwook Kim, OROCA, Woosik Yang
+:Collaboration Team: OSRF, Intel, OROCA, Onshape, OSU
 
 We are an **Open Source Team** of ROBOTIS. With the open source hardware / software, our robot friends are hoping to enrich our lives. We mainly develop / support the Dynamixel SDK, OpenManipulator, OpenCM, OpenCR and OpenAutonomousCar.
 Our favorite platform is ROS! :) We are delighted to be in charge of developing TurtleBot3, the official reference platform for ROS, and in the future we will be the team that can support you to create your robot dreams through TurtleBot3.
