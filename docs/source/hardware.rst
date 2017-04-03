@@ -1,7 +1,7 @@
 Hardware Setup
 ==============
 
-.. image:: _static/hardware/turtlebot3_models_rendering.png
+.. image:: _static/hardware/turtlebot3_models_rd2.png
 
 Components
 ----------
