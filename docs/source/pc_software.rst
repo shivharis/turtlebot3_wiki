@@ -14,8 +14,8 @@ If it needs some help to install Ubuntu, check out the step-by-step guide.
 
 - https://www.ubuntu.com/download/desktop/install-ubuntu-desktop
 
-Install the ROS and dependent packages
-----------------------------
+Install the ROS
+---------------
 
 .. image:: _static/logo_ros.png
     :align: center
@@ -30,6 +30,9 @@ Install the `ROS`_ by using a simple installation script file
 or follow the typical instruction in the link.
 
 - http://wiki.ros.org/kinetic/Installation/Ubuntu
+
+Install the dependent packages
+------------------------------
 
 The next step is to install the dependent packages for the TurtleBot3 control.
 
