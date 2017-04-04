@@ -13,7 +13,7 @@ TurtleBot was built for the cost-conscious needs from the educations and the pro
 
 SMALL SIZE
 ----------
-The size of the TurtleBot3 BURGER is 176mm x 138mm x 188mm (L x W x H). Its size is about 1/4 of the size of the TurtleBot 1, 2. Try to imagine that the TurtleBot can be carried into the backpack.
+The size of the TurtleBot3 BURGER is 138mm x 178mm x 192mm (L x W x H). Its size is about 1/4 of the size of the TurtleBot 1, 2. Try to imagine that the TurtleBot can be carried into the backpack.
 
 ROS STANDARD
 ------------
