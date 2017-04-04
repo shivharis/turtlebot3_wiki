@@ -77,13 +77,13 @@ Dimension data (BURGER)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: _static/hardware/turtlebot3_dimension1.png
-   :width: 500px
+   :width: 600px
 
 Dimension data (WAFFLE)
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: _static/hardware/turtlebot3_dimension2.png
-   :width: 500px
+   :width: 600px
 
 Components
 ----------
