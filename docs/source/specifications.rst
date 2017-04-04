@@ -3,8 +3,8 @@ Specifications
 
 .. image:: _static/hardware/turtlebot3_models.png
 
-TurtleBot3
-----------
+Hardware Specifications
+-----------------------
 
 +------------------------------------+---------------------------+---------------------------+
 | Items                              | BURGER                    | WAFFLE                    |
@@ -70,17 +70,17 @@ TurtleBot3
 |                                    | Output : 12V DC, 5A                                   |
 +------------------------------------+---------------------------+---------------------------+
 
-Dimension
----------
+Dimension and mass
+------------------
 
-Dimension data (BURGER)
-~~~~~~~~~~~~~~~~~~~~~~~
+Data of TurtleBot3 Burger
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: _static/hardware/turtlebot3_dimension1.png
    :width: 600px
 
-Dimension data (WAFFLE)
-~~~~~~~~~~~~~~~~~~~~~~~
+Data of TurtleBot3 Waffle
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: _static/hardware/turtlebot3_dimension2.png
    :width: 600px
@@ -91,9 +91,9 @@ Components
 SBC
 ~~~
 
-Intel® Joule™ : http://ark.intel.com/products/96414/Intel-Joule-570x-Developer-Kit
-
 Raspberry Pi 3 Model B : https://www.raspberrypi.org/products/raspberry-pi-3-model-b/
+
+Intel® Joule™ : http://ark.intel.com/products/96414/Intel-Joule-570x-Developer-Kit
 
 Sensor
 ~~~~~~
