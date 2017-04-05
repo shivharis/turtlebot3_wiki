@@ -6,6 +6,10 @@ Hardware Setup
 Main components
 ---------------
 
+.. image:: _static/hardware/turtlebot3_main_components_burger.png
+
+.. image:: _static/hardware/turtlebot3_main_components_waffle.png
+
 Components
 ----------
 
