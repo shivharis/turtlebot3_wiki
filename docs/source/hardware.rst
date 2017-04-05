@@ -3,15 +3,15 @@ Hardware Setup
 
 .. image:: _static/hardware/turtlebot3_models_rd2.png
 
-Main components
+Main Components
 ---------------
 
 .. image:: _static/hardware/turtlebot3_main_components_burger.png
 
 .. image:: _static/hardware/turtlebot3_main_components_waffle.png
 
-Components
-----------
+Part List
+---------
 
 The TurtleBot3 has two different models: the ``BURGER`` and the ``WAFFLE``. The following list shows their components. The big differences between two models are the Motor, the SBC(Single Board Computer) and the Sensors.
 
@@ -105,28 +105,28 @@ The TurtleBot3 has two different models: the ``BURGER`` and the ``WAFFLE``. The 
 |               | L-bracket                      | 0      | 2       |
 +---------------+--------------------------------+--------+---------+
 
-Assembly manual
+Assembly Manual
 ---------------
 
 Every TurtleBots come unassembled in boxes. Follow the instructions to assemble the TurtleBot3.
 
-BURGER model
+BURGER Model
 ~~~~~~~~~~~~
 
 :download: `Assembly manual for TurtleBot3 Burger`_
 
-WAFFLE model
+WAFFLE Model
 ~~~~~~~~~~~~
 
 :download: `Assembly manual for TurtleBot3 Waffle`_
 
-Assembly video
+Assembly Video
 --------------
 
 If it is difficult to assemble only the assembly manual, please refer to the following video.
 
 
-BURGER model
+BURGER Model
 ~~~~~~~~~~~~
 
 .. raw:: html
@@ -135,7 +135,7 @@ BURGER model
 
 |
 
-WAFFLE model
+WAFFLE Model
 ~~~~~~~~~~~~
 
 .. raw:: html
