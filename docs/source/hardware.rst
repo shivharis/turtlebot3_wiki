@@ -109,12 +109,12 @@ Every TurtleBots come unassembled in boxes. Follow the instructions to assemble 
 BURGER model
 ~~~~~~~~~~~~
 
-:download:`Assembly manual for TurtleBot3 Burger`_
+:download: `Assembly manual for TurtleBot3 Burger`_
 
 WAFFLE model
 ~~~~~~~~~~~~
 
-:download:`Assembly manual for TurtleBot3 Waffle`_
+:download: `Assembly manual for TurtleBot3 Waffle`_
 
 Assembly video
 --------------
