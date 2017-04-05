@@ -144,5 +144,16 @@ WAFFLE model
 
 |
 
+Open Source Hardware
+--------------------
+
+The components of Turtlebot3 as a default are the following: the Chassis, the Motors, the Wheels, the OpenCR board, the Computer, the Sensor, the Battery. The chassis are the Waffle plates, the Board support, the Ball caster, etc. The big feature of the chassis is in the Waffle plate, which is the biggest in all TurtleBot3 parts, but is smaller than the hand. This plate will be provided as an injection molded, and it achieves the low cost, but the CAD data for 3D printing is also available. The Turtlebot3 BURGER is a Two-wheeled differential drive type platform, but is able to be structurally and mechanically customized in many ways: the Cars, the Bikes, the Trailers and so on.
+
+The CAD data is released to the Onshape, which is a full-cloud 3D CAD editor. Get access through a web browser by using the computer or even by the portable devices. Here allows the works of drawing, assemblying with the co-workers.
+
+TurtleBot3 BURGER Model: https://goo.gl/n3bGNr
+TurtleBot3 WAFFLE Model: https://goo.gl/wCDvVI
+
+
 .. _Assembly manual for TurtleBot3 Burger: https://drive.google.com/file/d/0B5tlMnyFIdLYWDRfRjRLUHduRDA/view?usp=sharing
 .. _Assembly manual for TurtleBot3 Waffle: https://drive.google.com/file/d/0B5tlMnyFIdLYd3VHRDBKM2xsY2M/view?usp=sharing
