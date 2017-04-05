@@ -130,12 +130,21 @@ Testing
   linear_acceleration_covariance: [0.03999999910593033, 0.0, 0.0, 0.0, 0.03999999910593033, 0.0, 0.0, 0.0, 0.03999999910593033]
   ---
 
-GitHub repository
------------------
+Open Source Software
+--------------------
 
-https://github.com/ROBOTIS-GIT/OpenCR
+You can modify the downloaded source code and share it with your friends.
+
+- OpenCR Software: https://github.com/ROBOTIS-GIT/OpenCR
+
+Open Source Hardware
+--------------------
+
+All details of the OpenCR board that are necessary for the users who want to make it by themselves, including the Schematics, the PCB Gerber, the BOM and the Firmware source are fully opened under the open-source licenses for the user and the ROS community.
+ 
+- OpenCR Hardware: https://github.com/ROBOTIS-GIT/OpenCR-Hardware
 
 Detail wiki site
 ----------------
 
-https://github.com/ROBOTIS-GIT/OpenCR/wiki
+- OpenCR Wiki: https://github.com/ROBOTIS-GIT/OpenCR/wiki
