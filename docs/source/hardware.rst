@@ -98,10 +98,26 @@ The TurtleBot3 has two different models: the BURGER and the WAFFLE. The followin
 |               | L-bracket                      | 0      | 2       |
 +---------------+--------------------------------+--------+---------+
 
-Assembling
-----------
+Assembly manual
+---------------
 
 Every TurtleBots come unassembled in boxes. Follow the instructions to assemble the TurtleBot3.
+
+BURGER model
+~~~~~~~~~~~~
+
+Assembly manual for TurtleBot3 Burger :download:`pdf <https://drive.google.com/file/d/0B5tlMnyFIdLYWDRfRjRLUHduRDA/view?usp=sharing>`
+
+WAFFLE model
+~~~~~~~~~~~~
+
+Assembly manual for TurtleBot3 Waffle :download:`pdf <https://drive.google.com/file/d/0B5tlMnyFIdLYd3VHRDBKM2xsY2M/view?usp=sharing>`
+
+Assembly video
+--------------
+
+If it is difficult to assemble only the assembly manual, please refer to the following video.
+
 
 BURGER model
 ~~~~~~~~~~~~
