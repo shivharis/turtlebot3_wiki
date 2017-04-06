@@ -183,17 +183,4 @@ Click ``Upload`` to get the firmware into the OpenCR.
 
 When it completes the upload, the text `Download completed` will be shown.
 
-[Manual] Update the TurtleBot3 software to the ArduinoIDE
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-(TODO)
-
-OpenCR Library (Linux platform)
-
-.. code-block:: bash
-
-  /home/(user name)/.arduino15
-
-
-
 .. _ROS: http://wiki.ros.org
