@@ -1,14 +1,14 @@
 SBC Software Setup
 ==================
 
-.. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
+.. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
 
 Install the Linux for TurtleBot3 Burger (Raspberry Pi 3)
 ---------------------------------------------------------
 
 .. WARNING:: The SDcard should have its capacity more than **8 GB** for the installation of the TurtleBot3.
 
-Download the ``Ubuntu MATE 16.04.1`` version on the Raspberry Pi 3 from the link.
+Download the ``Ubuntu MATE 16.04`` version on the Raspberry Pi 3 from the link.
 
 - https://ubuntu-mate.org/download/
 
