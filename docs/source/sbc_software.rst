@@ -26,7 +26,9 @@ To install Ubuntu MATE by using the image file, we recommend using GNOME Disks a
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/V_6GNyL6Dac?ecver=1" frameborder="0" allowfullscreen></iframe>
 
-.. TIP:: Other methods using ``ddrescue`` on Linux
+|
+
+.. TIP:: We recommend using GNOME Disks, but we can use other methods using ``ddrescue`` on Linux
 
   .. code-block:: bash
 
@@ -34,7 +36,7 @@ To install Ubuntu MATE by using the image file, we recommend using GNOME Disks a
     unxz ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz
     sudo ddrescue -D --force ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img /dev/sdx
 
-.. TIP:: Other methods using ``Win32 Disk Imager`` on Windows
+.. TIP:: We recommend using GNOME Disks, but we can use other methods using ``Win32 Disk Imager`` on Windows
 
   https://sourceforge.net/projects/win32diskimager/
 
