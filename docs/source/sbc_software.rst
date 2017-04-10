@@ -59,6 +59,8 @@ If necessary, see the other information in the link.
 Install the ROS and packages (Burger and Waffle)
 ------------------------------------------------
 
+.. NOTE:: It takes about 2 hours to install the following ROS and TurtleBot3 related packages. This depends on your network environment.
+
 .. image:: _static/logo_ros.png
     :align: center
     :target: http://wiki.ros.org
