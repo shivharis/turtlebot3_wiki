@@ -13,7 +13,7 @@ From this idea, a lot of TurtleBot3 friends that have different characters can b
 
 TurtleBot3 Friends List (2017.03.03)
 
-- TurtleBot3 Friends: Auto
+- TurtleBot3 Friends: Car
 - TurtleBot3 Friends: OpenManipulator Chain
 - TurtleBot3 Friends: Segway
 - TurtleBot3 Friends: Conveyor
@@ -25,10 +25,12 @@ TurtleBot3 Friends List (2017.03.03)
 - TurtleBot3 Friends: Road Train
 - TurtleBot3 Friends: Real TurtleBot
 
-TurtleBot3 Friends: Auto
+TurtleBot3 Friends: Car
 ------------------------
 
-- Type: Autonomous car
+- Features: About 1:2 gear ratio, differential gears want to make the Car be in the Formula E!
+
+- Composition: Two Dynamixel XM-430 Series (One for steering, one for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, OLLO plastic frames.  
 
 .. raw:: html
 
