@@ -10,13 +10,13 @@ Install the Linux for TurtleBot3 Burger (Raspberry Pi 3)
 
 .. WARNING:: The SDcard should have its capacity more than **8 GB** for the installation of the TurtleBot3.
 
-``Remote PC``: Download the ``Ubuntu MATE 16.04.1`` version on the Raspberry Pi 3 from the link.
+[Remote PC] Download the ``Ubuntu MATE 16.04.1`` version on the Raspberry Pi 3 from the link.
 
 - https://ubuntu-mate.org/download/
 
 .. image:: _static/preparation/download_ubuntu_mate_image.png
 
-``Remote PC``: To install Ubuntu MATE by using the image file, we recommend using GNOME Disks and the ``Restore Disk Image…`` option, which natively supports XZ compressed images.
+[Remote PC] To install Ubuntu MATE by using the image file, we recommend using GNOME Disks and the ``Restore Disk Image…`` option, which natively supports XZ compressed images.
 
 .. code-block:: bash
 
@@ -43,11 +43,11 @@ Install the Linux for TurtleBot3 Burger (Raspberry Pi 3)
 Install the Linux for TurtleBot3 Waffle (Intel® Joule™)
 -------------------------------------------------------
 
-``Remote PC``: Download the image ``Ubuntu 16.04`` version in the Intel® Joule™ from the link.
+[Remote PC] Download the image ``Ubuntu 16.04`` version in the Intel® Joule™ from the link.
 
 - https://developer.ubuntu.com/core/get-started/intel-joule#alternative-install:-ubuntu-desktop-16.04-lts
 
-``Remote PC``: Make a bootable USB drive to install Ubuntu.
+[Remote PC] Make a bootable USB drive to install Ubuntu.
 
 - https://software.intel.com/en-us/node/705675#ubuntu
 
@@ -67,7 +67,7 @@ Install the ROS and packages (Burger and Waffle)
     :align: center
     :target: http://wiki.ros.org
 
-``SBC``: Install the `ROS`_ by using a simple installation script file.
+[TurtleBot3 SBC] Install the `ROS`_ by using a simple installation script file.
 
 .. code-block:: bash
 
@@ -77,7 +77,7 @@ or follow the typical instruction in the link.
 
 - http://wiki.ros.org/kinetic/Installation/Ubuntu
 
-``SBC``: The next step is to install the dependent packages for the TurtleBot3 control.
+[TurtleBot3 SBC] The next step is to install the dependent packages for the TurtleBot3 control.
 
 .. code-block:: bash
 
@@ -94,7 +94,7 @@ If catkin_make is completed without any errors, the preparation for using Turtle
 USB settings (Burger and Waffle)
 --------------------------------
 
-``SBC``: The following allows the USB port to be used for the OpenCR board without root privileges.
+[TurtleBot3 SBC] The following allows the USB port to be used for the OpenCR board without root privileges.
 
 .. code-block:: bash
 
@@ -108,27 +108,27 @@ Network Configuration (Burger and Waffle)
 
 .. image:: _static/software/network_configuration.png
 
-``SBC``: ROS needs IP addresses to communicate between the turtlebot and the remote PC.
+[TurtleBot3 SBC] ROS needs IP addresses to communicate between the turtlebot and the remote PC.
 
-``SBC``: Type the next to find out the IP address.
+[TurtleBot3 SBC] Type the next to find out the IP address.
 
 .. code-block:: bash
 
   ifconfig
 
-``SBC``: Rectangled text is the IP address of the ``TurtleBot``.
+[TurtleBot3 SBC] Rectangled text is the IP address of the ``TurtleBot``.
 
-``SBC``: Do the following.
+[TurtleBot3 SBC] Do the following.
 
 .. code-block:: bash
 
   gedit ~/.bashrc
 
-``SBC``: Change the `localhost` into the IP address shown as follows.
+[TurtleBot3 SBC] Change the `localhost` into the IP address shown as follows.
 
 .. image:: _static/software/network_configuration4.png
 
-``SBC``: Then, source the bashrc
+[TurtleBot3 SBC] Then, source the bashrc
 
 .. code-block:: bash
 

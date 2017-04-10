@@ -8,7 +8,7 @@ PC Software Setup
 Install the Ubuntu in the remote PC (Desktop or Laptop PC)
 -----------------------------------------------------------
 
-``Remote PC``: Download the ``Ubuntu 16.04.1`` version on the remote PC from the following link.
+[Remote PC] Download the ``Ubuntu 16.04.1`` version on the remote PC from the following link.
 
 - https://www.ubuntu.com/download/desktop
 
@@ -23,7 +23,7 @@ Install the ROS in the remote PC
     :align: center
     :target: http://wiki.ros.org
 
-``Remote PC``: Install the `ROS`_ by using a simple installation script file
+[Remote PC] Install the `ROS`_ by using a simple installation script file
 
 .. code-block:: bash
 
@@ -36,7 +36,7 @@ or follow the typical instruction in the link.
 Install the dependent packages
 ------------------------------
 
-``Remote PC``: The next step is to install the dependent packages for the TurtleBot3 control.
+[Remote PC] The next step is to install the dependent packages for the TurtleBot3 control.
 
 .. code-block:: bash
 
@@ -56,17 +56,17 @@ Network Configuration
 
 .. image:: _static/software/network_configuration.png
 
-``Remote PC``: ROS needs IP addresses to communicate between the turtlebot and the remote PC.
+[Remote PC] ROS needs IP addresses to communicate between the turtlebot and the remote PC.
 
-``Remote PC``: Type the next to find out IP address.
+[Remote PC] Type the next to find out IP address.
 
 .. code-block:: bash
 
   ifconfig
 
-``Remote PC``: Rectangled text is the IP address of the ``remote PC``.
+[Remote PC] Rectangled text is the IP address of the ``remote PC``.
 
-``Remote PC``: Do the following.
+[Remote PC] Do the following.
 
 .. code-block:: bash
 
@@ -76,7 +76,7 @@ Change the `localhost` into the IP address shown as follows.
 
 .. image:: _static/software/network_configuration2.png
 
-``Remote PC``: Then, source the bashrc
+[Remote PC] Then, source the bashrc
 
 .. code-block:: bash
 
