@@ -75,7 +75,10 @@ TurtleBot3 Friends: Segway
 TurtleBot3 Friends: Conveyor
 ----------------------------
 
-- Type: 4 Joint and 4 wheel Type
+- Features: 4 Joints and 4 wheels will become a futuristic technology on transportation society by overcoming fuel-consuming mechanics. 
+
+- Composition: Eight Dynamixel XM-430 Series (Four for steering, four for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.  
+
 
 .. raw:: html
 
@@ -88,7 +91,9 @@ TurtleBot3 Friends: Conveyor
 TurtleBot3 Friends: Monster
 ---------------------------
 
-- Type: 4 Wheel Monster Truck
+- Features: 4 Big wheels let it be strong in the rough terrain or even a big difference of elevation. 
+
+- Composition: Four Dynamixel XM-430 Series (All for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.  
 
 .. raw:: html
 
@@ -132,6 +137,10 @@ See in the video :ref:`Friends-Omni<omni>` above.
 TurtleBot3 Friends: Bike
 ------------------------------
 
+- Features: Cute 3-wheeled bikey reveals its existence on the "Car" film as a brother of the "Car". 
+
+- Composition: Three Dynamixel XM-430 Series (One for steering, two for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.  
+
 - Type: 3-DOF Motorcycle
 
 See in the videos :ref:`Friends-Auto<auto>` and :ref:`Friends-Monster<monster>` above.
@@ -149,6 +158,11 @@ TurtleBot3 Friends: Road Train
 
 TurtleBot3 Friends: Real TurtleBot
 ----------------------------------
+
+- Features: A real TURTLEBOT will make most of the fanpics in the turtlebot society!. 
+
+- Composition: Ten Dynamixel XM-430 Series (Four for leg joint, another four for shoulder joint, two for head), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.  
+
 
 - Type: 8-DOF legged robot (a.k.a. Real TurtleBot)
 
