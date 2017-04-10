@@ -3,6 +3,8 @@ SBC Software Setup
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
 
+.. NOTE:: A ``Single-Board Computer (SBC)`` is a complete computer built on a single circuit board, with microprocessor(s), memory, input/output (I/O) and other features required of a functional computer. The TurtleBot3 uses Raspberry Pi (TB3 Burger) and Intel® Joule™ (TB3 Waffle) as SBC.
+
 Install the Linux for TurtleBot3 Burger (Raspberry Pi 3)
 ---------------------------------------------------------
 
