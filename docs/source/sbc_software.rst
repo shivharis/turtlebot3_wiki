@@ -16,10 +16,27 @@ Download the ``Ubuntu MATE 16.04`` version on the Raspberry Pi 3 from the link.
 
 .. image:: _static/preparation/download_ubuntu_mate_image.png
 
-To install Ubuntu MATE by using the image file, please refer to the link shown below.
+To install Ubuntu MATE by using the image file, we recommend using GNOME Disks and the ``Restore Disk Image…`` option, which natively supports XZ compressed images.
 
-- https://ubuntu-mate.org/raspberry-pi/
+.. code-block:: bash
 
+  sudo apt-get install gnome-disk-utility
+
+.. raw:: html
+
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/V_6GNyL6Dac?ecver=1" frameborder="0" allowfullscreen></iframe>
+
+.. TIP:: Other methods using ``ddrescue`` on Linux
+
+  .. code-block:: bash
+
+    sudo apt-get install gddrescue xz-utils
+    unxz ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz
+    sudo ddrescue -D --force ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img /dev/sdx
+
+.. TIP:: Other methods using ``Win32 Disk Imager`` on Windows
+
+  https://sourceforge.net/projects/win32diskimager/
 
 Install the Linux for TurtleBot3 Waffle (Intel® Joule™)
 -------------------------------------------------------
