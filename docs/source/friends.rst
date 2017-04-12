@@ -198,12 +198,12 @@ TurtleBot3 Friends: Real TurtleBot
 
 .. image:: _static/friends/friends_real.png
 
-- ``Type``: 8-DOF legged robot (a.k.a. Real TurtleBot)
-- ``Features``: A real TURTLEBOT will make most of the fanpics in the turtlebot society!.
-- ``Composition``: Ten Dynamixel XM-430 Series (Four for leg joint, another four for shoulder joint, two for head), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.
-- ``Hardware``: https://goo.gl/GAIXLI
-- ``Software``: (coming soon)
-- ``Video``:
+:``Type``: 8-DOF legged robot (a.k.a. Real TurtleBot)
+:``Features``: A real TURTLEBOT will make most of the fanpics in the turtlebot society!.
+:``Composition``: Ten Dynamixel XM-430 Series (Four for leg joint, another four for shoulder joint, two for head), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.
+:``Hardware``: https://goo.gl/GAIXLI
+:``Software``: (coming soon)
+:``Video``:
 
 .. raw:: html
 
