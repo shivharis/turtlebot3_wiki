@@ -30,9 +30,7 @@ TurtleBot3 Official Wiki
    faq
    contact
 
-License
--------
 
 .. raw:: html
 
-  This site is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+Except where otherwise noted, these design documents are licensed under  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
