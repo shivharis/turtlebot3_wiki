@@ -35,7 +35,7 @@ TurtleBot3 Friends: Car
 :``Hardware``: (coming soon)
 :``Software``: (coming soon)
 
-.. _auto:
+.. _section_auto:
 
 .. raw:: html
 
@@ -104,7 +104,7 @@ TurtleBot3 Friends: Conveyor
 
 |
 
-.. _monster:
+.. _section_monster:
 
 TurtleBot3 Friends: Monster
 ---------------------------
@@ -137,7 +137,7 @@ TurtleBot3 Friends: Tank
 
 |
 
-.. _omni:
+.. _section_omni:
 
 TurtleBot3 Friends: Omni
 ------------------------
@@ -166,7 +166,7 @@ TurtleBot3 Friends: Mecanum
 :``Video``: See in the video :ref:`Friends-Omni<omni>` above.
 
 TurtleBot3 Friends: Bike
-------------------------------
+------------------------
 
 .. image:: _static/friends/friends_bike.png
 
@@ -175,10 +175,10 @@ TurtleBot3 Friends: Bike
 :``Composition``: Three Dynamixel XM-430 Series (One for steering, two for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.
 :``Hardware``: https://goo.gl/9UuCJn
 :``Software``: (coming soon)
-:``Video``: See in the videos :ref:`Friends-Auto<auto>` and :ref:`Friends-Monster<monster>` above.
+:``Video``: See in the videos :ref:`Friends-Auto<section_auto>` and :ref:`Friends-Monster<section_monster>` above.
 
 TurtleBot3 Friends: Road Train
--------------------------
+------------------------------
 
 .. image:: _static/friends/friends_road_train.png
 
