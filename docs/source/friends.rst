@@ -7,9 +7,9 @@ In the video, see how the TurtleBot3 can be assembled and reassembled, using som
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/o9d7NVC0A1Y" frameborder="0" allowfullscreen></iframe>
 
-From this idea, a lot of TurtleBot3 friends that have different characters can be built. Customize the construction more than listed as follows.
+|
 
-.. _auto:
+From this idea, a lot of TurtleBot3 friends that have different characters can be built. Customize the construction more than listed as follows.
 
 TurtleBot3 Friends List (2017.03.03)
 
@@ -35,6 +35,8 @@ TurtleBot3 Friends: Car
 - ``Hardware``: (coming soon)
 - ``Software``: (coming soon)
 
+.. _auto:
+
 .. raw:: html
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/IkPexspUgKk" frameborder="0" allowfullscreen></iframe>
@@ -53,7 +55,7 @@ TurtleBot3 Friends: OpenManipulator Chain
 .. image:: _static/friends/friends_open_manipulator.png
 
 - ``Type``: Manipulator 4 DOF + 1 Gripper
-- ``Hardware``: https://cad.onshape.com/documents/9442f03bd8ccac084fda9dd3/w/039e8dbd53e0782540ea5b0d/e/9d3986b1e15cd5dce9557032
+- ``Hardware``: https://goo.gl/Wv3KON
 - ``Software``: (coming soon)
 - ``Video``:
 
@@ -75,7 +77,7 @@ TurtleBot3 Friends: Segway
 .. image:: _static/friends/friends_segway.png
 
 - ``Type``: Segway robot
-- ``Hardware``: https://cad.onshape.com/documents/0413dd8abad953241abeedec/w/b4659cb13e2830c6ec7dc476/e/984e67f46d84a16250036f65
+- ``Hardware``: https://goo.gl/DsQXaR
 - ``Software``: (coming soon)
 - ``Video``:
 
@@ -92,7 +94,7 @@ TurtleBot3 Friends: Conveyor
 
 - ``Features``: 4 Joints and 4 wheels will become a futuristic technology on transportation society by overcoming fuel-consuming mechanics.
 - ``Composition``: Eight Dynamixel XM-430 Series (Four for steering, four for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.
-- ``Hardware``: https://cad.onshape.com/documents/a2b0b10cdcdb212bdb95f998/w/10c99d7bb4778a11ae3ba00c/e/dd5142b09b8354547eaa8420
+- ``Hardware``: https://goo.gl/cym7dX
 - ``Software``: (coming soon)
 - ``Video``:
 
@@ -125,7 +127,7 @@ TurtleBot3 Friends: Tank
 .. image:: _static/friends/friends_tank.png
 
 - ``Type``: Caterpillar
-- ``Hardware``: https://cad.onshape.com/documents/afff89fce751e216372a1403/w/cd3f24c256144efee3430073/e/f54913e86b509dc891d022b8
+- ``Hardware``: https://goo.gl/IUPwd9
 - ``Software``: (coming soon)
 - ``Video``:
 
@@ -143,7 +145,7 @@ TurtleBot3 Friends: Omni
 .. image:: _static/friends/friends_omni.png
 
 - ``Type``: Omni wheel
-- ``Hardware``: https://cad.onshape.com/documents/a8fca6734c4e4861e543a01c/w/57a9e2e63f4ce6e5ce6a0e83/e/b486b0aff82bcf8d5ac14b8d
+- ``Hardware``: https://goo.gl/WB8u3r
 - ``Software``: (coming soon)
 - ``Video``:
 
@@ -159,7 +161,7 @@ TurtleBot3 Friends: Mecanum
 .. image:: _static/friends/friends_mecanum.png
 
 - ``Type``: Mecanum wheel
-- ``Hardware``: https://cad.onshape.com/documents/b9aa04f022f425fb6686be54/w/da70a6f4281293ded126f3c7/e/cbe6560a1b1c95c45e2537f7
+- ``Hardware``: https://goo.gl/Nz1VE0
 - ``Software``: (coming soon)
 - ``Video``: See in the video :ref:`Friends-Omni<omni>` above.
 
@@ -171,7 +173,7 @@ TurtleBot3 Friends: Bike
 - ``Type``: 3-DOF Motorcycle
 - ``Features``: Cute 3-wheeled bikey reveals its existence on the "Car" film as a brother of the "Car".
 - ``Composition``: Three Dynamixel XM-430 Series (One for steering, two for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.
-- ``Hardware``: https://cad.onshape.com/documents/b657653b3444fd95ccb1a612/w/d4b9f617bb228e7d4bd0955a/e/055c79586cb289651eb3b35c
+- ``Hardware``: https://goo.gl/9UuCJn
 - ``Software``: (coming soon)
 - ``Video``: See in the videos :ref:`Friends-Auto<auto>` and :ref:`Friends-Monster<monster>` above.
 
@@ -181,7 +183,7 @@ TurtleBot3 Friends: Road Train
 .. image:: _static/friends/friends_road_train.png
 
 - ``Type``: Road train
-- ``Hardware``: https://cad.onshape.com/documents/7454628805d6654583cc9d0d/w/1066dd0e5c728f1cdecd6eda/e/a3a8914f57fa2e1e689bab59
+- ``Hardware``: https://goo.gl/aXX06O
 - ``Software``: (coming soon)
 - ``Video``:
 
@@ -199,7 +201,7 @@ TurtleBot3 Friends: Real TurtleBot
 - ``Type``: 8-DOF legged robot (a.k.a. Real TurtleBot)
 - ``Features``: A real TURTLEBOT will make most of the fanpics in the turtlebot society!.
 - ``Composition``: Ten Dynamixel XM-430 Series (Four for leg joint, another four for shoulder joint, two for head), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.
-- ``Hardware``: https://cad.onshape.com/documents/92732d8b370ae1041471997d/w/250603787412ace45c1a7f0e/e/21590017c5638670d48656a7
+- ``Hardware``: https://goo.gl/GAIXLI
 - ``Software``: (coming soon)
 - ``Video``:
 
