@@ -19,8 +19,9 @@ TurtleBot3 Official Wiki
    teleoperation
    slam
    navigation
-   manipulation
    simulation
+   manipulation
+   autonomous_driving
    applications
    friends
    appendix_opencr
