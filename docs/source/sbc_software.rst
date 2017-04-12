@@ -85,6 +85,7 @@ or follow the typical instruction in the link.
 
 .. code-block:: bash
 
+  cd ~/catkin_ws/src
   git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
   cd ~/catkin_ws && catkin_make
 
