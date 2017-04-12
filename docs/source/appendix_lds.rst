@@ -8,6 +8,12 @@ Overview
 
 HLS-LFCD LDS is used for both models of the TurtleBot3. The LDS(Laser Distance Sensor) is a sensor which sends the data, gathered by the obstacle detection, to the host for the Simultaneous Localization and Mapping (SLAM) technique.
 
+.. raw:: html
+
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/9oic8aT3wIc" frameborder="0" allowfullscreen></iframe>
+
+|
+
 Specification
 -------------
 
