@@ -7,7 +7,7 @@ Navigation
 
 .. WARNING:: Make sure that the step :ref:`[Bringup]<chapter_bringup>` was carried on previously to follow the instructions.
 
-.. WARNING:: The navigation uses the map data created in the step :ref:`[Bringup]<chapter_slam>`. Check if the previous step is not done yet.
+.. WARNING:: The navigation uses the map data created in the step :ref:`[SLAM]<chapter_slam>`. Check if the previous step is not done yet.
 
 .. WARNING:: Be careful when the test is being carried on the table.
 
