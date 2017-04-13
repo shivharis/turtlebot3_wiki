@@ -1,9 +1,11 @@
+.. _chapter_teleoperation:
+
 Teleoperation
 =============
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
 
-.. WARNING:: Make sure that the step :ref:`Bringup<chapter_bringup>` was carried on previously to follow the instructions.
+.. WARNING:: Make sure that the step :ref:`[Bringup]<chapter_bringup>` was carried on previously to follow the instructions.
 
 .. WARNING:: Be careful when the test is being carried on the table.
 

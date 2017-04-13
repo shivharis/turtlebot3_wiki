@@ -1,11 +1,13 @@
+.. _chapter_navigation:
+
 Navigation
 ==========
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
 
-.. WARNING:: Make sure that the step **8.Bringup** was carried on previously to follow the instructions.
+.. WARNING:: Make sure that the step :ref:`[Bringup]<chapter_bringup>` was carried on previously to follow the instructions.
 
-.. WARNING:: The navigation uses the map data created in the step **9.SLAM**. Check if the previous step is not done yet.
+.. WARNING:: The navigation uses the map data created in the step :ref:`[Bringup]<chapter_slam>`. Check if the previous step is not done yet.
 
 .. WARNING:: Be careful when the test is being carried on the table.
 

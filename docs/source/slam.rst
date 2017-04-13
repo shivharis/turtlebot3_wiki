@@ -1,9 +1,11 @@
+.. _chapter_slam:
+
 SLAM
 ====
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
 
-.. WARNING:: Make sure that the step **8.Bringup** was carried on previously to follow the instructions.
+.. WARNING:: Make sure that the step :ref:`[Bringup]<chapter_bringup>` was carried on previously to follow the instructions.
 
 .. TIP:: Here recommends to use the joystick pad instead of the keyboard, because of its operability.
 
@@ -39,7 +41,7 @@ Create a map through the teleoperation
 .. code-block:: bash
 
   rosrun rviz rviz -d `rospack find turtlebot3_slam`/rviz/turtlebot3_slam.rviz
-  
+
 [Remote PC] Teleoperation with Keyboard
 
 .. code-block:: bash
