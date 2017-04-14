@@ -109,11 +109,14 @@ TurtleBot3 Friends: Conveyor
 TurtleBot3 Friends: Monster
 ---------------------------
 
+.. image:: _static/friends/friends_monster.png
+
 :``Type``: 4WD Car
 :``Features``: 4 Big wheels let it be strong in the rough terrain or even a big difference of elevation.
 :``Composition``: Four Dynamixel XM-430 Series (All for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.
-:``Hardware``: (coming soon)
+:``Hardware``: https://goo.gl/YnUrEo
 :``Software``: (coming soon)
+:``Video``:
 
 .. raw:: html
 
