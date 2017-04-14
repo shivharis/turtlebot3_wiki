@@ -55,7 +55,8 @@ TurtleBot3 Friends: OpenManipulator Chain
 .. image:: _static/friends/friends_open_manipulator_waffle.png
 
 :``Type``: Manipulator 4 DOF + 1 Gripper
-:``Hardware``: https://goo.gl/Wv3KON
+:``Hardware``: https://goo.gl/xgxh2G (TB3 Waffle + OpenManipulator Chain)
+:``Hardware``: https://goo.gl/Wv3KON (OpenManipulator Chain)
 :``Software``: (coming soon)
 :``Video``:
 
