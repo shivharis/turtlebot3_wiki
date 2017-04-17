@@ -14,6 +14,7 @@ Part List
 ---------
 
 The TurtleBot3 has two different models: the ``BURGER`` and the ``WAFFLE``. The following list shows their components. The big differences between two models are the Motor, the SBC(Single Board Computer) and the Sensors.
+
 +---------------+--------------------------------+--------+---------+
 | The number of the parts of each model          | Burger | Waffle  |
 +===============+================================+========+=========+
