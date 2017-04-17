@@ -32,7 +32,7 @@ TurtleBot3 Friends: Car
 
 :``Type``: RC Car
 :``Features``: About 1:2 gear ratio, differential gears want to make Car be in the Formula E!
-:``Components``: Two Dynamixel XM-430 Series (One for steering, one for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, OLLO plastic frames.
+:``Components``: Two Dynamixel X 430 Series (One for steering, one for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, OLLO plastic frames.
 :``Hardware``: (coming soon)
 :``Software``: ``Examples`` → ``turtlebot3`` → ``turtlebot3_friends`` → ``turtlebot3_car``
 :``Video``: 
@@ -57,11 +57,11 @@ TurtleBot3 Friends: OpenManipulator Chain
 .. image:: _static/friends/friends_open_manipulator_waffle.png
 
 :``Type``: Manipulator 4 DOF + 1 Gripper
-:``Features``: 
-:``Components``: 
+:``Features``: Compatible with TURTLEBOT3 Waffle and it has linear gripper for pick and place.
+:``Components``: Four Dynamixel X 430 Series (Four for joints, one for gripper), an OpenCR Board, 3D printed chassis.
 :``Hardware``: https://goo.gl/xgxh2G (TB3 Waffle + OpenManipulator Chain)
 :``Hardware``: https://goo.gl/Wv3KON (OpenManipulator Chain)
-:``Software``: (coming soon)
+:``Software``: https://github.com/ROBOTIS-GIT/open_manipulator (We are preparing for OpenCR Example)
 :``Video``:
 
 .. raw:: html
@@ -82,8 +82,8 @@ TurtleBot3 Friends: Segway
 .. image:: _static/friends/friends_segway.png
 
 :``Type``: Segway robot
-:``Features``: 
-:``Components``: 
+:``Features``: Balancing with only two DYNAMIXEL by applying PID controller.
+:``Components``: Two Dynamixel X 430 Series (All for balancing), an OpenCR Board, TURTLEBOT3 Chassis and Battery, 3D printed chassis.
 :``Hardware``: https://goo.gl/DsQXaR
 :``Software``: ``Examples`` → ``turtlebot3`` → ``turtlebot3_friends`` → ``turtlebot3_segway``
 :``Video``:
@@ -101,7 +101,7 @@ TurtleBot3 Friends: Conveyor
 
 :``Type``: 4 Wheel parallel translation vehicle
 :``Features``: 4 Joints and 4 wheels will become a futuristic technology on transportation society by overcoming fuel-consuming mechanics.
-:``Components``: Eight Dynamixel XM-430 Series (Four for steering, four for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.
+:``Components``: Eight Dynamixel X 430 Series (Four for steering, four for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.
 :``Hardware``: https://goo.gl/cym7dX
 :``Software``: ``Examples`` → ``turtlebot3`` → ``turtlebot3_friends`` → ``turtlebot3_conveyor``
 :``Video``:
@@ -121,7 +121,7 @@ TurtleBot3 Friends: Monster
 
 :``Type``: 4WD Car
 :``Features``: 4 Big wheels let it be strong in the rough terrain or even a big difference of elevation.
-:``Components``: Four Dynamixel XM-430 Series (All for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.
+:``Components``: Four Dynamixel X 430 Series (All for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.
 :``Hardware``: https://goo.gl/YnUrEo
 :``Software``: ``Examples`` → ``turtlebot3`` → ``turtlebot3_friends`` → ``turtlebot3_monster``
 :``Video``:
@@ -138,8 +138,8 @@ TurtleBot3 Friends: Tank
 .. image:: _static/friends/friends_tank.png
 
 :``Type``: Caterpillar
-:``Features``: 
-:``Components``: 
+:``Features``: Caterpillar units which are connected and assembled on sprocket wheels make it be strong in the rough terrain.
+:``Components``: Two Dynamixel X 430 Series (All for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, Caterpillar Unit, 3D printed chassis.
 :``Hardware``: https://goo.gl/IUPwd9
 :``Software``: ``Examples`` → ``turtlebot3`` → ``turtlebot3_friends`` → ``turtlebot3_tank``
 :``Video``:
@@ -158,8 +158,8 @@ TurtleBot3 Friends: Omni
 .. image:: _static/friends/friends_omni.png
 
 :``Type``: Omni wheel
-:``Features``: 
-:``Components``: 
+:``Features``: Omni wheels have additional discs around the circumference make it be drive laterally.
+:``Components``: Three Dynamixel X 430 Series (All for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.
 :``Hardware``: https://goo.gl/WB8u3r
 :``Software``: ``Examples`` → ``turtlebot3`` → ``turtlebot3_friends`` → ``turtlebot3_omni``
 :``Video``:
@@ -176,8 +176,8 @@ TurtleBot3 Friends: Mecanum
 .. image:: _static/friends/friends_mecanum.png
 
 :``Type``: Mecanum wheel
-:``Features``: 
-:``Components``: 
+:``Features``: Mecanum wheels have additional discs around the circumference let it be drive laterally.
+:``Components``: Four Dynamixel X 430 Series (All for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.
 :``Hardware``: https://goo.gl/Nz1VE0
 :``Software``: ``Examples`` → ``turtlebot3`` → ``turtlebot3_friends`` → ``turtlebot3_mechanum``
 :``Video``: See in the video :ref:`Friends-Omni<omni>` above.
@@ -189,7 +189,7 @@ TurtleBot3 Friends: Bike
 
 :``Type``: 3-DOF Motorcycle
 :``Features``: Cute 3-wheeled bikey reveals its existence on the "Car" film as a brother of the "Car".
-:``Components``: Three Dynamixel XM-430 Series (One for steering, two for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.
+:``Components``: Three Dynamixel X 430 Series (One for steering, two for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.
 :``Hardware``: https://goo.gl/9UuCJn
 :``Software``: ``Examples`` → ``turtlebot3`` → ``turtlebot3_friends`` → ``turtlebot3_bike``
 :``Video``: See in the videos :ref:`Friends-Auto<section_auto>` and :ref:`Friends-Monster<section_monster>` above.
@@ -219,7 +219,7 @@ TurtleBot3 Friends: Real TurtleBot
 
 :``Type``: 8-DOF legged robot (a.k.a. Real TurtleBot)
 :``Features``: A real TURTLEBOT will make most of the fanpics in the turtlebot society!.
-:``Components``: Ten Dynamixel XM-430 Series (Four for leg joint, another four for shoulder joint, two for head), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.
+:``Components``: Ten Dynamixel X 430 Series (Four for leg joint, another four for shoulder joint, two for head), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.
 :``Hardware``: https://goo.gl/GAIXLI
 :``Software``: ``Examples`` → ``turtlebot3`` → ``turtlebot3_friends`` → ``turtlebot3_realturtlebot``
 :``Video``:
