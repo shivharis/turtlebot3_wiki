@@ -202,8 +202,8 @@ TurtleBot3 Friends: Road Train
 .. image:: _static/friends/friends_road_train.png
 
 :``Type``: Road train
-:``Features``: 
-:``Components``: 
+:``Features``: Road train can connect vehicles and it can serve various things! 
+:``Components``: Two Dynamixel XM-430 Series (two for driving), an OpenCR Board, a RC100 Remote Controller with BT410 master-slave Bluetooth modules, TURTLEBOT3 Chassis and Battery, 3D printed chassis.
 :``Hardware``: https://goo.gl/aXX06O
 :``Software``: ``Examples`` → ``turtlebot3`` → ``turtlebot3_friends`` → ``turtlebot3_road_train``
 :``Video``:
