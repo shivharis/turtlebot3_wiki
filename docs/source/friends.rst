@@ -25,7 +25,9 @@ TurtleBot3 Friends List (2017.03.03)
 - TurtleBot3 Friends: Road Train
 - TurtleBot3 Friends: Real TurtleBot
 
-.. NOTE:: Any suggestions, any ideas, any applicants for this TurtleBot3 Friends Project is welcomed. We want to welcome our new TurtleBot3 Friends. If you have TurtleBot3 Friends who realized your new idea, please let us know. We will be introducing your robot to this wiki page. :) [email] ost@robotis.com
+.. NOTE:: Any suggestions, any ideas, any applicants for this TurtleBot3 Friends Project is welcomed. We want to welcome our new TurtleBot3 Friends. If you have TurtleBot3 Friends who realized your new idea, please let us know. We will be introducing your robot to this wiki page. :) 
+
+:E-Mail: ost@robotis.com
 
 TurtleBot3 Friends: Car
 ------------------------
