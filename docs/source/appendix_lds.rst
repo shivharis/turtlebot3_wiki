@@ -76,7 +76,7 @@ here is the detail specification document :download:`pdf <_static/docs/LDS_Basic
 
 
 LDS for the TurtleBot3
------------------
+----------------------
 
 The HLS-LFCD LDS is used for the TurtleBot3 BURGER and TurtleBot3 WAFFLE.
 
@@ -107,14 +107,14 @@ User's guide
 We are offering the `ROS package for LSD`_. The hls_lfcd_lds_driver package is a driver for "HLS(Hitachi-LG Sensor) LFCD LDS(Laser Distance Sensor)".
 
 Installation
-~~~~~~~
+~~~~~~~~~~~~
 
 .. code-block:: bash
 
   sudo apt-get install ros-kinetic-hls-lfcd-lds-driver
 
 Setting the permission for the HLS-LFCD LDS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code-block:: bash
 
