@@ -123,7 +123,7 @@ Network Configuration (Burger and Waffle)
 
 .. code-block:: bash
 
-  gedit ~/.bashrc
+  pluma ~/.bashrc
 
 [TurtleBot3 SBC] Change the `localhost` into the IP address shown as follows.
 
