@@ -17,6 +17,7 @@ The SLAM technique is a typical function of the TurtleBot3, and is a class of th
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/lkW4-dG2BCY" frameborder="0" allowfullscreen></iframe>
 
+|
 
 :Date: 2016.11.29
 :Robot: TurtleBot3 BURGER model
@@ -29,6 +30,8 @@ The SLAM technique is a typical function of the TurtleBot3, and is a class of th
 .. raw:: html
 
  <iframe width="640" height="360" src="https://youtu.be/7mEKrT_cKWI" frameborder="0" allowfullscreen></iframe>
+ 
+ |
 
 Create a map through the teleoperation
 ------------------------------
