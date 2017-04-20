@@ -29,7 +29,7 @@ The SLAM technique is a typical function of the TurtleBot3, and is a class of th
 
 .. raw:: html
 
- <iframe width="640" height="360" src="https://youtu.be/7mEKrT_cKWI" frameborder="0" allowfullscreen></iframe>
+ <iframe width="640" height="360" src="https://www.youtube.com/embed/7mEKrT_cKWI" frameborder="0" allowfullscreen></iframe>
  
  |
 
