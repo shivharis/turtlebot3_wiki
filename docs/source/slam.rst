@@ -26,6 +26,10 @@ The SLAM technique is a typical function of the TurtleBot3, and is a class of th
 :Duration: 55 minutes
 :Distance: Total 351 meters
 
+.. raw:: html
+
+ <iframe width="640" height="360" src="https://youtu.be/7mEKrT_cKWI" frameborder="0" allowfullscreen></iframe>
+
 Create a map through the teleoperation
 ------------------------------
 
