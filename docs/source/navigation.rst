@@ -49,4 +49,9 @@ To stop the robot before it reaches to the goal location, send the current locat
 
   <iframe width="640" height="360" src="https://www.youtube.com/embed/o4yjNPKj3ps" frameborder="0" allowfullscreen></iframe>
 
+
+.. raw:: html
+
+  <iframe width="640" height="360" src="https://youtu.be/VYlMywwYALU" frameborder="0" allowfullscreen></iframe>
+
 Reference doc: http://wiki.ros.org/turtlebot_navigation/Tutorials/Autonomously%20navigate%20in%20a%20known%20map
