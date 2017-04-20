@@ -32,6 +32,14 @@ The SLAM technique is a typical function of the TurtleBot3, and is a class of th
  <iframe width="640" height="360" src="https://www.youtube.com/embed/7mEKrT_cKWI" frameborder="0" allowfullscreen></iframe>
  
  |
+ 
+:Date: 2017.04.20
+:Robot: TurtleBot3 BURGER model and WAFFLE model
+:Sensor: Laser Distance Sensor
+:Packages: Gmapping
+:Place: ROBOTIS HQ Education Room
+:Duration: About 4 minutes
+:Distance: Total 15 meters
 
 Create a map through the teleoperation
 ------------------------------
