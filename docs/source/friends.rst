@@ -30,7 +30,7 @@ TurtleBot3 Friends List (2017.03.03)
 
 Get sources and make friends! To do this, see ``Examples`` → ``turtlebot3`` → ``turtlebot3_friends``
 
-.. image:: _static/friends/ide.jpg
+.. image:: _static/friends/ide.png
 
 .. NOTE:: Any suggestions, any ideas, any applicants for this TurtleBot3 Friends Project is welcomed. We want to welcome our new TurtleBot3 Friends. If you have TurtleBot3 Friends who realized your new idea, please let us know. We will be introducing your robot to this wiki page. :) 
 
