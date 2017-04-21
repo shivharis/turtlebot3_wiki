@@ -3,6 +3,9 @@
 Bringup
 =======
 
+.. image:: _static/software/remote_pc_and_turtlebot.png
+    :align: center
+
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
 
 .. WARNING:: Follow the instructions and do at the TurtleBot3 SBC.
