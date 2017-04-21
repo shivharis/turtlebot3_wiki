@@ -13,7 +13,7 @@ Main Components
 Part List
 ---------
 
-The TurtleBot3 has two different models: the ``BURGER`` and the ``WAFFLE``. The following list shows their components. The big differences between two models are the Motor, the SBC(Single Board Computer) and the Sensors.
+The TurtleBot3 has two different models: the ``Burger`` and the ``Waffle``. The following list shows their components. The big differences between two models are the Motor, the SBC(Single Board Computer) and the Sensors.
 
 +---------------+--------------------------------+--------+---------+
 | The number of the parts of each model          | Burger | Waffle  |
@@ -112,12 +112,12 @@ Assembly Manual
 
 Every TurtleBots come unassembled in boxes. Follow the instructions to assemble the TurtleBot3.
 
-BURGER Model
+Burger Model
 ~~~~~~~~~~~~
 
 :download: `Assembly manual for TurtleBot3 Burger`_
 
-WAFFLE Model
+Waffle Model
 ~~~~~~~~~~~~
 
 :download: `Assembly manual for TurtleBot3 Waffle`_
@@ -128,7 +128,7 @@ Assembly Video
 If it is difficult to assemble only the assembly manual, please refer to the following video.
 
 
-BURGER Model
+Burger Model
 ~~~~~~~~~~~~
 
 .. raw:: html
@@ -137,7 +137,7 @@ BURGER Model
 
 |
 
-WAFFLE Model
+Waffle Model
 ~~~~~~~~~~~~
 
 .. raw:: html
@@ -149,12 +149,12 @@ WAFFLE Model
 Open Source Hardware
 --------------------
 
-The components of Turtlebot3 as a default are the following: the Chassis, the Motors, the Wheels, the OpenCR board, the Computer, the Sensor, the Battery. The chassis are the Waffle plates, the Board support, the Ball caster, etc. The big feature of the chassis is in the Waffle plate, which is the biggest in all TurtleBot3 parts, but is smaller than the hand. This plate will be provided as an injection molded, and it achieves the low cost, but the CAD data for 3D printing is also available. The Turtlebot3 BURGER is a Two-wheeled differential drive type platform, but is able to be structurally and mechanically customized in many ways: the Cars, the Bikes, the Trailers and so on.
+The components of Turtlebot3 as a default are the following: the Chassis, the Motors, the Wheels, the OpenCR board, the Computer, the Sensor, the Battery. The chassis are the Waffle plates, the Board support, the Ball caster, etc. The big feature of the chassis is in the Waffle plate, which is the biggest in all TurtleBot3 parts, but is smaller than the hand. This plate will be provided as an injection molded, and it achieves the low cost, but the CAD data for 3D printing is also available. The Turtlebot3 Burger is a Two-wheeled differential drive type platform, but is able to be structurally and mechanically customized in many ways: the Cars, the Bikes, the Trailers and so on.
 
 The CAD data is released to the Onshape, which is a full-cloud 3D CAD editor. Get access through a web browser by using the computer or even by the portable devices. Here allows the works of drawing, assemblying with the co-workers.
 
-- TurtleBot3 BURGER Model: https://goo.gl/n3bGNr
-- TurtleBot3 WAFFLE Model: https://goo.gl/wCDvVI
+- TurtleBot3 Burger Model: https://goo.gl/n3bGNr
+- TurtleBot3 Waffle Model: https://goo.gl/wCDvVI
 
 
 .. _Assembly manual for TurtleBot3 Burger: https://drive.google.com/file/d/0B5tlMnyFIdLYWDRfRjRLUHduRDA/view?usp=sharing

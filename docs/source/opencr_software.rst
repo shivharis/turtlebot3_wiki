@@ -169,7 +169,7 @@ Add the TurtleBot3 firmware into the OpenCR
 
 [Remote PC] Click ``File`` → ``Examples`` → ``turtlebot3`` → ``turtlebot_burger`` → ``turtlebot3_core``.
 
-[Remote PC] If your robot is TurtleBot3 WAFFLE,
+[Remote PC] If your robot is TurtleBot3 Waffle,
 
 [Remote PC] Click ``File`` → ``Examples`` → ``turtlebot3`` → ``turtlebot_waffle`` → ``turtlebot3_core``.
 

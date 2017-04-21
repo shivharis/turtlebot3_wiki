@@ -19,7 +19,7 @@ Bringup the TurtleBot3
   roscore
 
 
-TurtleBot3 BURGER
+TurtleBot3 Burger
 ~~~~~~~~~~~~~~~~~
 
 [TurtleBot3 SBC] Give the LiDAR connected to ttyUSB0 socket the read/write permissions.
@@ -38,7 +38,7 @@ TurtleBot3 BURGER
   If the terminal shows `lost sync with device` error message, the sensor device of the TurtleBot3 must be incompletely connected.
 
 
-TurtleBot3 WAFFLE
+TurtleBot3 Waffle
 ~~~~~~~~~~~~~~~~~
 
 [TurtleBot3 SBC] Give the LiDAR connected to ttyUSB0 socket the read/write permissions.

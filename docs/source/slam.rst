@@ -20,7 +20,7 @@ The SLAM technique is a typical function of the TurtleBot3, and is a class of th
 |
 
 :Date: 2016.11.29
-:Robot: TurtleBot3 BURGER model
+:Robot: TurtleBot3 Burger model
 :Sensor: Laser Distance Sensor
 :Packages: Gmapping / Cartographer
 :Place: ROBOTIS Labs & HQ, 15th-floor corridor
@@ -34,7 +34,7 @@ The SLAM technique is a typical function of the TurtleBot3, and is a class of th
 |
 
 :Date: 2017.04.20
-:Robot: TurtleBot3 BURGER model and WAFFLE model
+:Robot: TurtleBot3 Burger model and Waffle model
 :Sensor: Laser Distance Sensor
 :Packages: Gmapping
 :Place: ROBOTIS HQ Education Room
