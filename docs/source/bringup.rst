@@ -8,7 +8,7 @@ Bringup
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
 
-.. WARNING:: Follow the instructions and do at the your ``TurtleBot``.
+.. WARNING:: Follow the instructions and do at your ``TurtleBot`` without roscore command.
 
 .. WARNING:: Check if the IP addresses on each devices are set correctly.
 
@@ -25,7 +25,7 @@ Bringup the TurtleBot3
 TurtleBot3 Burger
 ~~~~~~~~~~~~~~~~~
 
-[``TurtleBot``] Give the LiDAR connected to ttyUSB0 socket the read/write permissions.
+[``TurtleBot``] Give the LiDAR connected to ``ttyUSB0`` socket the read/write permissions.
 
 .. code-block:: bash
 
