@@ -6,7 +6,7 @@ Appendix #RealSense™
 Overview
 --------
 
-`Intel® RealSense™`_ is a platform for implementing gesture-based human-computer interaction techniques. It consists of series of consumer grade 3D cameras together with an easy to use machine perception library. The Intel® RealSense™ R200 camera is a USB 3.0 device that can provide color, depth, and infrared video streams. The TURTLEBOT3 Waffle model adopts Intel® RealSense™ R200 to enable 3D SLAM and navigation, and it is possible to apply various applications such as gesture recognition, object recognition and scene recognition based on 3D depth information obtained using RealSense™'s innovative Active Stereo Technology.
+`Intel® RealSense™`_ is a platform for implementing gesture-based human-computer interaction techniques. It consists of series of consumer grade 3D cameras together with an easy to use machine perception library. The Intel® RealSense™ R200 camera is a USB 3.0 device that can provide color, depth, and infrared video streams. The TurtleBot3 Waffle model adopts Intel® RealSense™ R200 to enable 3D SLAM and navigation, and it is possible to apply various applications such as gesture recognition, object recognition and scene recognition based on 3D depth information obtained using RealSense™'s innovative Active Stereo Technology.
 
 Specification
 -------------
@@ -63,17 +63,17 @@ Minimum System Requirements
 
 Here is the detail specification document: `Intel® RealSense™ Datasheet`_
 
-Intel® RealSense™ R200 for the TURTLEBOT3
+Intel® RealSense™ R200 for the TurtleBot3
 -----------------
 
-The Intel® RealSense™ R200 is used for the TURTLEBOT3 Waffle.
+The Intel® RealSense™ R200 is used for the TurtleBot3 Waffle.
 
 .. image:: _static/hardware/turtlebot3_models.png
 
 Introduction Video
 ------------------
 
-The TURTLEBOT3 Waffle uses Intel® RealSense™ Camera R200 as a default vision sensor. Now, here is a movie that shows how TURTLEBOT3 Waffle can be powerful with the camera.
+The TurtleBot3 Waffle uses Intel® RealSense™ Camera R200 as a default vision sensor. Now, here is a movie that shows how TurtleBot3 Waffle can be powerful with the camera.
 
 .. raw:: html
 
