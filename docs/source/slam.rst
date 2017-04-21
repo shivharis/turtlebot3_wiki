@@ -29,7 +29,7 @@ The SLAM technique is a typical function of the TurtleBot3, and is a class of th
 
 .. raw:: html
 
-  <iframe width="640" height="360" src="https://www.youtube.com/embed/7mEKrT_cKWI" frameborder="0" allowfullscreen></iframe> 
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/7mEKrT_cKWI" frameborder="0" allowfullscreen></iframe>
 
 |
 
@@ -44,20 +44,28 @@ The SLAM technique is a typical function of the TurtleBot3, and is a class of th
 Create a map through the teleoperation
 ------------------------------
 
-[Remote PC] Open a terminal, then run the SLAM launch file.
+[``Remote PC``] Open a terminal, then run the SLAM launch file.
 
 .. code-block:: bash
 
   export TURTLEBOT3_MODEL=burger
   roslaunch turtlebot3_slam turtlebot3_slam.launch
 
-[Remote PC] Visualize the model by the Rviz.
+If your robot is TurtleBot3 Waffle,
+
+.. code-block:: bash
+
+  export TURTLEBOT3_MODEL=waffle
+  roslaunch turtlebot3_slam turtlebot3_slam.launch
+
+
+[``Remote PC``] Visualize the model by the RViz.
 
 .. code-block:: bash
 
   rosrun rviz rviz -d `rospack find turtlebot3_slam`/rviz/turtlebot3_slam.rviz
 
-[Remote PC] Teleoperation with Keyboard
+[``Remote PC``] Teleoperation with Keyboard
 
 .. code-block:: bash
 
@@ -66,7 +74,7 @@ Create a map through the teleoperation
 Save the map to file
 --------------------
 
-[Remote PC] Open a terminal, then run map saver node.
+[``Remote PC``] Open a terminal, then run map saver node.
 
 .. code-block:: bash
 

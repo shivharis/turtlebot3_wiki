@@ -8,14 +8,14 @@ Bringup
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
 
-.. WARNING:: Follow the instructions and do at the TurtleBot3 SBC.
+.. WARNING:: Follow the instructions and do at the your ``TurtleBot``.
 
 .. WARNING:: Check if the IP addresses on each devices are set correctly.
 
 Bringup the TurtleBot3
 ----------------------
 
-[Remote PC] Run roscore.
+[``Remote PC``] Run roscore.
 
 .. code-block:: bash
 
@@ -25,13 +25,15 @@ Bringup the TurtleBot3
 TurtleBot3 Burger
 ~~~~~~~~~~~~~~~~~
 
-[TurtleBot3 SBC] Give the LiDAR connected to ttyUSB0 socket the read/write permissions.
+[``TurtleBot``] Give the LiDAR connected to ttyUSB0 socket the read/write permissions.
 
 .. code-block:: bash
 
   sudo chmod a+rw /dev/ttyUSB0
 
-[TurtleBot3 SBC] Bring up the basic packages to start the TurtleBot3 applications.
+.. WARNING:: The value of ``/dev/ttyUSB0`` may be different depending on the environment connected to the TurtleBot's SBC.
+
+[``TurtleBot``] Bring up the basic packages to start the TurtleBot3 applications.
 
 .. code-block:: bash
 
@@ -40,17 +42,16 @@ TurtleBot3 Burger
 .. NOTE::
   If the terminal shows `lost sync with device` error message, the sensor device of the TurtleBot3 must be incompletely connected.
 
-
 TurtleBot3 Waffle
 ~~~~~~~~~~~~~~~~~
 
-[TurtleBot3 SBC] Give the LiDAR connected to ttyUSB0 socket the read/write permissions.
+[``TurtleBot``] Give the LiDAR connected to ``ttyUSB0`` socket the read/write permissions.
 
 .. code-block:: bash
 
   sudo chmod a+rw /dev/ttyUSB0
 
-[TurtleBot3 SBC] Bring up the basic packages to start the TurtleBot3 applications.
+[``TurtleBot``] Bring up the basic packages to start the TurtleBot3 applications.
 
 .. code-block:: bash
 
