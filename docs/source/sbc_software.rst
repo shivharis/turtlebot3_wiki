@@ -3,14 +3,14 @@ SBC Software Setup
 
 .. NOTE:: A ``SBC(Single-Board Computer)`` is a complete computer built on a single circuit board, with microprocessor(s), memory, input/output (I/O) and other features required of a functional computer. The TurtleBot3 uses Raspberry Pi (TB3 Burger) and Intel® Joule™ (TB3 Waffle) as SBC.
 
-.. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
+.. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
 
 Install the Linux for TurtleBot3 Burger (Raspberry Pi 3)
 ---------------------------------------------------------
 
 .. WARNING:: The SDcard should have its capacity more than **8 GB** for the installation of the TurtleBot3.
 
-[Remote PC] Download the ``Ubuntu MATE 16.04.1`` version on the Raspberry Pi 3 from the link.
+[Remote PC] Download the ``Ubuntu MATE 16.04`` version on the Raspberry Pi 3 from the link.
 
 - https://ubuntu-mate.org/download/
 
@@ -33,8 +33,8 @@ Install the Linux for TurtleBot3 Burger (Raspberry Pi 3)
   .. code-block:: bash
 
     sudo apt-get install gddrescue xz-utils
-    unxz ubuntu-mate-16.04.1-desktop-armhf-raspberry-pi.img.xz
-    sudo ddrescue -D --force ubuntu-mate-16.04.1-desktop-armhf-raspberry-pi.img /dev/sdx
+    unxz ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img.xz
+    sudo ddrescue -D --force ubuntu-mate-16.04.2-desktop-armhf-raspberry-pi.img /dev/sdx
 
 .. TIP:: We recommend using GNOME Disks, but we can use other methods using ``Win32 Disk Imager`` on Windows
 

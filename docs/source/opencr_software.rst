@@ -5,7 +5,7 @@ OpenCR Software Setup
 
 .. NOTE:: TurtleBot3 is released with OpenCR firmware for each model. Please refer to the following information only when writing new firmware of OpenCR.
 
-.. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
+.. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
 
 The OpenCR controls the Dynamixels on the instructions from the SBC. To do this, a specific firmware should be built in the board. See the descriptions and configure the settings.
 

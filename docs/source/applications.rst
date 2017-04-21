@@ -17,7 +17,7 @@ For implementing you have to install the turtlebot3_applications package.
 
   cm
 
-.. NOTE:: The Turtlebot3 has been tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
+.. NOTE:: The Turtlebot3 has been tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
 .. NOTE:: Turtlebot Follower Demo requires scikit-learn, NumPy and ScyPy packages. Instructions for installing are found in http://scikit-learn.org/stable/install.html 
 .. NOTE:: The turtlebot3_panorama demo uses pano_ros for taking snapshots and stitching them together to create panorama pictures.
 .. NOTE:: Panorama Demo requires to have Raspicam package installed. Instructions for installing this package can be found in https://github.com/UbiquityRobotics/raspicam_node

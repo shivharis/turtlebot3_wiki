@@ -3,7 +3,7 @@
 Bringup
 =======
 
-.. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
+.. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
 
 .. WARNING:: Follow the instructions and do at the TurtleBot3 SBC.
 

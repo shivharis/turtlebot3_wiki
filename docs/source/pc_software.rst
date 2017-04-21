@@ -3,12 +3,12 @@ PC Software Setup
 
 .. WARNING:: The following contents correspond to ``Remote PC`` (your desktop or laptop PC) which controls TurtleBot3. You should never apply the following to your TurtleBot3 SBC.
 
-.. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
+.. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
 
 Install the Ubuntu in the remote PC (Desktop or Laptop PC)
 -----------------------------------------------------------
 
-[Remote PC] Download the ``Ubuntu 16.04.1`` version on the remote PC from the following link.
+[Remote PC] Download the ``Ubuntu 16.04`` version on the remote PC from the following link.
 
 - https://www.ubuntu.com/download/desktop
 

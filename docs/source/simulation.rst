@@ -3,7 +3,7 @@
 Simulation
 ==========
 
-.. NOTE:: This instruction was tested on ``Ubuntu 16.04.1`` and ``ROS Kinetic Kame`` version.
+.. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
 
 TurtleBot3 fake node implementation
 -----------------------------------
