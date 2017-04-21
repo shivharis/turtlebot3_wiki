@@ -144,7 +144,7 @@ Run DFU mode.
 
 [Remote PC] Press the ``Reset`` button while the ``Boot`` button is being pushed. This activates the DFU mode.
 
-.. image:: _static/preparation/ide8.png
+.. image:: _static/preparation/opencr_button_for_dfu.png
 
 Download the bootloader.
 ......................
