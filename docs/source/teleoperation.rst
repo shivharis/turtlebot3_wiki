@@ -83,7 +83,7 @@ PS3 Joystick
 XBOX 360 Joystick
 -----------------
 
-[``Remote PC``] Connect the PS3 Joystick to the PC via the Bluetooth.
+[``Remote PC``] Connect the XBOX 360 Joystick to the PC via the Wireless Adapter or the USB cable.
 
 [``Remote PC``] Install the packages for the teleoperation using XBOX 360 joystick.
 
