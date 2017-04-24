@@ -30,7 +30,7 @@ TurtleBot3 Friends List (2017.03.03)
 
 .. raw:: html
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/gI0T4-aqTpI" frameborder="0" allowfullscreen></iframe>
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/gI0T4-aqTpI" frameborder="0" allowfullscreen></iframe>
 
 |
 
