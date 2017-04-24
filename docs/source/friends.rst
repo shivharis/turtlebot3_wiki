@@ -28,6 +28,12 @@ TurtleBot3 Friends List (2017.03.03)
 
 .. image:: _static/friends/All_friends.jpg
 
+.. raw:: html
+
+  <iframe width="640" height="360" src="https://www.youtube.com/embed/gI0T4-aqTpI" frameborder="0" allowfullscreen></iframe>
+
+|
+
 Get sources and make friends! To do this, see ``Examples`` → ``turtlebot3`` → ``turtlebot3_friends``
 
 .. image:: _static/friends/ide.png
