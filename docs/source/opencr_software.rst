@@ -121,8 +121,6 @@ Port setting
 
 .. image:: _static/preparation/ide6.png
 
-(TODO : the programmer in the picture should be changed into not the AVRISP mkll)
-
 Modemmanager removal
 ~~~~~~~~~~~~~~~~~~~~
 
