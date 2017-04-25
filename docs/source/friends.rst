@@ -254,12 +254,12 @@ TurtleBot3 Friends: Real TurtleBot
 TurtleBot3 Friends: Carrier
 ----------------------------
 
-.. image::
+.. image:: _static/friends/friends_carrier.png
 
 :``Type``: 2 Wheel mobile based platform as service robot
 :``Features``: 4 Joints and 4 wheels will become a futuristic technology on transportation society by overcoming fuel-consuming mechanics.
 :``Components``: A TurtleBot3 Waffle, 6 supports for 4th layer, another 6 supports for 5th layer construction, extra Waffle Plates in each layers, customized 3D printed wheel and ball caster.
-:``Hardware``:
+:``Hardware``: https://goo.gl/5LKFxs
 :``Software``: ``Examples`` → ``turtlebot3`` → ``turtlebot3_waffle`` → ``turtlebot3_waffle``
 :``Video``:
 
