@@ -96,6 +96,12 @@ or follow the typical instruction in the link.
 
 If catkin_make is completed without any errors, the preparation for using TurtleBot3 will be finished.
 
+.. WARNING:: When you are working in Raspberry Pi 3, you should delete ''turtlebot3_gazebo'' folder before catkin_make.
+
+.. code-block:: bash
+
+  cd ~/catkin_ws/src/turtlebot3
+  sudo rm -r turtlebot3_gazebo
 
 USB settings (Burger and Waffle)
 --------------------------------
