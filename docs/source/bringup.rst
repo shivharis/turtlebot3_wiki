@@ -44,15 +44,15 @@ TurtleBot3 Burger
 .. TIP::
   Someone who want to launch Lidar sensor or core separately, use below command
 
-.. code-block:: bash
+  .. code-block:: bash
 
-  roslaunch turtlebot3_bringup turtlebot3_lidar.launch
+    roslaunch turtlebot3_bringup turtlebot3_lidar.launch
 
-or
+  or
 
-.. code-block:: bash
+  .. code-block:: bash
 
-  roslaunch turtlebot3_bringup turtlebot3_core.launch
+    roslaunch turtlebot3_bringup turtlebot3_core.launch
 
 .. NOTE::
   If the terminal shows `lost sync with device` error message, the sensor device of the TurtleBot3 must be incompletely connected.
@@ -84,21 +84,21 @@ TurtleBot3 Waffle
 .. TIP::
   Someone who want to launch Lidar sensor, Intel® RealSense™ R200 or core separately, use below command
 
-.. code-block:: bash
+  .. code-block:: bash
 
-  roslaunch turtlebot3_bringup turtlebot3_lidar.launch
+    roslaunch turtlebot3_bringup turtlebot3_lidar.launch
 
-or
+  or
 
-.. code-block:: bash
+  .. code-block:: bash
 
-  roslaunch turtlebot3_bringup turtlebot3_realsense.launch
+    roslaunch turtlebot3_bringup turtlebot3_realsense.launch
 
-or
+  or
 
-.. code-block:: bash
+  .. code-block:: bash
 
-  roslaunch turtlebot3_bringup turtlebot3_core.launch
+    roslaunch turtlebot3_bringup turtlebot3_core.launch
 
 .. NOTE::
   If the terminal shows `lost sync with device` error message, the sensor device of the TurtleBot3 must be incompletely connected.
