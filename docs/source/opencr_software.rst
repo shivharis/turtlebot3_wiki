@@ -191,6 +191,6 @@ If your robot is TurtleBot3 Waffle,
 
 .. NOTE:: Check again if the port is set properly by seeing ``Tools`` → ``Port``.
 
-[``Remote PC``] When it completes the upload, the text ``Download completed`` will be shown.
+[``Remote PC``] When it completes the upload, the text ``jump_to_fw`` will be shown.
 
 .. _ROS: http://wiki.ros.org
