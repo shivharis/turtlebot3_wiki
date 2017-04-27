@@ -38,6 +38,8 @@ or follow the typical instruction in the link below.
 
 - http://wiki.ros.org/kinetic/Installation/Ubuntu
 
+.. NOTE:: Someone who want to show which packages are installed, Please following this link. https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh
+
 Install the dependent packages
 ------------------------------
 

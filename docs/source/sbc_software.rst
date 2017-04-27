@@ -82,6 +82,8 @@ or follow the typical instruction in the link.
 
 - http://wiki.ros.org/kinetic/Installation/Ubuntu
 
+.. NOTE:: Someone who want to show which packages are installed, Please following this link. https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh
+
 [``TurtleBot``] The next step is to install the dependent packages for the TurtleBot3 control.
 
 .. code-block:: bash
