@@ -65,6 +65,7 @@ What will be installed is an Alternative Ubuntu Desktop 16.04 LTS image by follo
 [``Intel® Joule™``] Put a ``micro HDMI to HDMI cable``, a ``power connector supplied by OpenCR``, some ``USB devices`` including a ``Bootable USB drive``, ``mouse`` and ``keyboard``. 
 
 [``Intel® Joule™``] Monitor will show a series of installation screens as following walkthroughs. When it powers on, monitor will blink about 3 times after 5 seconds, and shows some options. Press ``f7`` to go to ``boot manager``
+
 .. image:: _static/preparation/j1.JPG
 
 [``Intel® Joule™``] Select ``USB disk``.
