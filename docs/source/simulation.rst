@@ -10,10 +10,10 @@ Simulation
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
 
-.. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
-
 TurtleBot3 fake node implementation
 -----------------------------------
+
+.. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
 
 ``TurtleBot3 fake node`` is a very simple simulation node that can be run without a real robot. You can move a robot through a teleop node on a virtual TurtleBot3 on RViz.
 
@@ -45,6 +45,8 @@ Gazebo (3D)
   <iframe width="640" height="360" src="https://www.youtube.com/embed/xXM5r_SVkWM" frameborder="0" allowfullscreen></iframe>
 
 |
+
+.. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
 
 Before launch gazebo simulation with TurtleBot3, ``TurtleBot3 model files`` are moved to ``gazebo model folder``.
 

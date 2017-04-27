@@ -8,8 +8,6 @@ Teleoperation
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
 
-.. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
-
 .. WARNING:: Make sure that the step :ref:`[Bringup]<chapter_bringup>` was carried on previously to follow the instructions.
 
 .. WARNING:: Be careful when the test is being carried on the table.
@@ -26,6 +24,8 @@ TurtleBot3 can be teleoperated by various devices. it is tested by using several
 
 Keyboard
 --------
+
+.. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
 
 [``Remote PC``] Get the teleoperation package which uses the keyboard.
 

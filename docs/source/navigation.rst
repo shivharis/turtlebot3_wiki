@@ -5,8 +5,6 @@ Navigation
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
 
-.. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
-
 .. WARNING:: Make sure that the step :ref:`[Bringup]<chapter_bringup>` was carried on previously to follow the instructions.
 
 .. WARNING:: The navigation uses the map data created in the step :ref:`[SLAM]<chapter_slam>`. Check if the previous step is not done yet.
@@ -18,6 +16,8 @@ The main use of the navigation technique is to bring the robot into the expected
 
 Do the navigation
 -----------------------------------------
+
+.. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
 
 [``Remote PC``] Launch the navigation file.
 

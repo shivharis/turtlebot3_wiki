@@ -4,6 +4,8 @@ Applications
 This section shows some demos using Turtlebot3.
 For implementing you have to install the turtlebot3_applications package.
 
+.. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
+
 [``Remote PC``] Go to  ROS source directory (/home/<user_name>/catkin_ws/src) and clone the turtlebot3_applications repository.
 
 .. code-block:: bash

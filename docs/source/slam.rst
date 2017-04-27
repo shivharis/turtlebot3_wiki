@@ -5,8 +5,6 @@ SLAM
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
 
-.. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
-
 .. WARNING:: Make sure that the step :ref:`[Bringup]<chapter_bringup>` was carried on previously to follow the instructions.
 
 .. TIP:: Here recommends to use the joystick pad instead of the keyboard, because of its operability.
@@ -45,6 +43,8 @@ The SLAM technique is a typical function of the TurtleBot3, and is a class of th
 
 Create a map through the teleoperation
 ------------------------------
+
+.. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
 
 [``Remote PC``] Open a terminal, then run the SLAM launch file.
 
