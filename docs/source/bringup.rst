@@ -8,6 +8,8 @@ Bringup
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
 
+.. NOTE:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
+
 .. WARNING:: Follow the instructions and do at your ``TurtleBot`` without roscore command.
 
 .. WARNING:: Check if the IP addresses on each devices are set correctly.

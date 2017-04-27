@@ -72,6 +72,8 @@ Install the ROS and packages (Burger and Waffle)
 
 [``TurtleBot``] Install the `ROS`_ by using a simple installation script file.
 
+.. NOTE:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
+
 .. code-block:: bash
 
   wget https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh && chmod 755 ./ros_install.sh && bash ./ros_install.sh catkin_ws kinetic

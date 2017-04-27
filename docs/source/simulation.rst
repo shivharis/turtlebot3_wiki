@@ -10,6 +10,8 @@ Simulation
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
 
+.. NOTE:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
+
 TurtleBot3 fake node implementation
 -----------------------------------
 

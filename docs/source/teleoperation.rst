@@ -8,6 +8,8 @@ Teleoperation
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
 
+.. NOTE:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
+
 .. WARNING:: Make sure that the step :ref:`[Bringup]<chapter_bringup>` was carried on previously to follow the instructions.
 
 .. WARNING:: Be careful when the test is being carried on the table.
