@@ -60,11 +60,14 @@ What will be installed is an Alternative Ubuntu Desktop 16.04 LTS image by follo
 
 - https://software.intel.com/en-us/flashing-the-bios-on-joule
 
-[``Intel® Joule™``] Put a ``micro HDMI to HDMI cable``, a ``power connector supplied by OpenCR``, some ``USB devices`` including a ``Bootable USB drive``, ``mouse`` and ``keyboard``. When it powers on, monitor will blink about 3 times after 5 seconds, and shows some options. Press ``f7`` to go to ``boot manager``, then select ``USB disk``.
+.. WARNING:: ``Intel® Joule™`` has its ``passive heatsink`` in its product. It recommends to use the heatsink. To use the Joule while the heatsink is not used, follow the extra instruction: https://software.intel.com/en-us/node/721471
 
-[``Intel® Joule™``] Monitor will show a series of installation screens as following walkthroughs. 
+[``Intel® Joule™``] Put a ``micro HDMI to HDMI cable``, a ``power connector supplied by OpenCR``, some ``USB devices`` including a ``Bootable USB drive``, ``mouse`` and ``keyboard``. 
 
+[``Intel® Joule™``] Monitor will show a series of installation screens as following walkthroughs. When it powers on, monitor will blink about 3 times after 5 seconds, and shows some options. Press ``f7`` to go to ``boot manager``
 .. image:: _static/preparation/j1.JPG
+
+[``Intel® Joule™``] Select ``USB disk``.
 
 .. image:: _static/preparation/j2.JPG
 
@@ -74,23 +77,37 @@ What will be installed is an Alternative Ubuntu Desktop 16.04 LTS image by follo
 
 .. image:: _static/preparation/j5.JPG
 
+[``Intel® Joule™``] Select ``Erase drive and install Ubuntu`` then ``continue``.
+
 .. image:: _static/preparation/j6.JPG
+
+[``Intel® Joule™``] Every ``Intel® Joule™`` has two different disk drive: 16GB micro SD Card and 16GB eMMC. This description suggest to install the ``Alternarive Ubuntu for Joule`` into the ``16GB eMMC``. Select ``MMC/SD card #2 (mmcblk1) - 15.7 GB MMC 016G32`` then ``continue``.
 
 .. image:: _static/preparation/j7.JPG
 
 .. image:: _static/preparation/j8.JPG
 
+[``Intel® Joule™``] The installation will take 10 or more minutes.
+
 .. image:: _static/preparation/j9.JPG
+
+[``Intel® Joule™``] After the installation, click ``Restart Now``.
 
 .. image:: _static/preparation/j10.JPG
 
+[``Intel® Joule™``] Remove bootable USB drive.
+
 .. image:: _static/preparation/j11.JPG
+
+[``Intel® Joule™``] Don't press any key. It will boot with ``16GB eMMC`` as a default boot device.
 
 .. image:: _static/preparation/j12.JPG
 
 .. image:: _static/preparation/j13.JPG
 
 .. image:: _static/preparation/j14.JPG
+
+[``Intel® Joule™``] Finish the rest of settings.
 
 .. image:: _static/preparation/j15.JPG
 
