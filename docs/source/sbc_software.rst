@@ -74,37 +74,37 @@ What will be installed is an Alternative Ubuntu Desktop 16.04 LTS image by follo
 
 .. image:: _static/preparation/j5.JPG
 
-.. image:: _static/preparation/j6.jpg
+.. image:: _static/preparation/j6.JPG
 
-.. image:: _static/preparation/j7.jpg
+.. image:: _static/preparation/j7.JPG
 
-.. image:: _static/preparation/j8.jpg
+.. image:: _static/preparation/j8.JPG
 
-.. image:: _static/preparation/j9.jpg
+.. image:: _static/preparation/j9.JPG
 
-.. image:: _static/preparation/j10.jpg
+.. image:: _static/preparation/j10.JPG
 
-.. image:: _static/preparation/j11.jpg
+.. image:: _static/preparation/j11.JPG
 
-.. image:: _static/preparation/j12.jpg
+.. image:: _static/preparation/j12.JPG
 
-.. image:: _static/preparation/j13.jpg
+.. image:: _static/preparation/j13.JPG
 
-.. image:: _static/preparation/j14.jpg
+.. image:: _static/preparation/j14.JPG
 
-.. image:: _static/preparation/j15.jpg
+.. image:: _static/preparation/j15.JPG
 
-.. image:: _static/preparation/j16.jpg
+.. image:: _static/preparation/j16.JPG
 
-.. image:: _static/preparation/j17.jpg
+.. image:: _static/preparation/j17.JPG
 
-.. image:: _static/preparation/j18.jpg
+.. image:: _static/preparation/j18.JPG
 
-.. image:: _static/preparation/j19.jpg
+.. image:: _static/preparation/j19.JPG
 
-.. image:: _static/preparation/j20.jpg
+.. image:: _static/preparation/j20.JPG
 
-.. image:: _static/preparation/j21.jpg
+.. image:: _static/preparation/j21.JPG
 
 
 
