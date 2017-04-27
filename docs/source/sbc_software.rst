@@ -46,17 +46,27 @@ Install the Linux for TurtleBot3 Burger (Raspberry Pi 3)
 Install the Linux for TurtleBot3 Waffle (Intel® Joule™)
 -------------------------------------------------------
 
-[``Remote PC``] Download the image ``Ubuntu 16.04`` version in the Intel® Joule™ from the link below.
+What will be installed is an Alternative Ubuntu Desktop 16.04 LTS image by following the instructions.
 
-- https://developer.ubuntu.com/core/get-started/intel-joule#alternative-install:-ubuntu-desktop-16.04-lts
+[``Remote PC``] Download the image ``Alternative Ubuntu 16.04 for Intel® Joule™`` from the link.
 
-[``Remote PC``] Make a bootable USB drive to install Ubuntu.
+- http://people.canonical.com/~platform/snappy/tuchuck/desktop-beta4/tuchuck-xenial-desktop-iso-20170109-0.iso
 
-- https://software.intel.com/en-us/node/705675#ubuntu
+[``Remote PC``] To make a bootable USB drive to install Ubuntu, follow the steps shown in linked page.
 
-If necessary, see the other information in the link.
+- https://developer.ubuntu.com/core/get-started/installation-medias
 
-- https://software.intel.com/en-us/node/700692
+[``Remote PC``] Before Ubuntu installation, Joule needs BIOS upgrade to get Ubuntu Image. Download firmware which contains  Joule's new BIOS and flash the BIOS into the Joule by following instructions linked below.
+
+- https://software.intel.com/en-us/flashing-the-bios-on-joule
+
+[``Intel® Joule™``] Put a ``micro HDMI to HDMI cable``, a ``power connector supplied by OpenCR``, some ``USB devices`` including a ``Bootable USB drive``, ``mouse`` and ``keyboard``. When it powers on, monitor will blink about 3 times after 5 seconds, and shows some options. Press ``f7`` to go to ``boot manager``, then select ``USB disk``.
+
+[``Intel® Joule™``] Monitor will show a series of installation screens as following walkthroughs. 
+
+
+
+
 
 
 Install the ROS and packages (Burger and Waffle)
