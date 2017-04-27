@@ -108,7 +108,7 @@ USB settings (Burger and Waffle)
 .. code-block:: bash
 
   wget https://raw.githubusercontent.com/ROBOTIS-GIT/turtlebot3/master/99-turtlebot3-cdc.rules
-  sudo cp ./99-opencr-cdc.rules /etc/udev/rules.d/
+  sudo cp ./99-turtlebot3-cdc.rules /etc/udev/rules.d/
   sudo udevadm control --reload-rules
   sudo udevadm trigger
 
