@@ -22,7 +22,7 @@ USB port settings
 
 [``Remote PC``] Make the OpenCR USB port be able to upload the ``Arduino IDE`` program without root permission.
 
-.. NOTE:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
+.. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
 
 .. code-block:: bash
 

@@ -8,7 +8,7 @@ Bringup
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
 
-.. NOTE:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
+.. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
 
 .. WARNING:: Follow the instructions and do at your ``TurtleBot`` without roscore command.
 
@@ -41,8 +41,30 @@ TurtleBot3 Burger
 
   roslaunch turtlebot3_bringup turtlebot3_robot.launch
 
+.. TIP::
+  Someone who want to launch Lidar sensor or core separately, use below command
+
+.. code-block:: bash
+
+  roslaunch turtlebot3_bringup turtlebot3_lidar.launch
+
+or
+
+.. code-block:: bash
+
+  roslaunch turtlebot3_bringup turtlebot3_core.launch
+
 .. NOTE::
   If the terminal shows `lost sync with device` error message, the sensor device of the TurtleBot3 must be incompletely connected.
+
+[``Remote PC``] Run rviz
+
+.. code-block:: bash
+
+  export TURTLEBOT3_MODEL=burger
+  roslaunch turtlebot3_bringup turtlebot3_model.launch
+
+.. image:: _static/bringup/rviz_burger_model.jpg
 
 TurtleBot3 Waffle
 ~~~~~~~~~~~~~~~~~
@@ -59,6 +81,25 @@ TurtleBot3 Waffle
 
   roslaunch turtlebot3_bringup turtlebot3_robot.launch
 
+.. TIP::
+  Someone who want to launch Lidar sensor, Intel® RealSense™ R200 or core separately, use below command
+
+.. code-block:: bash
+
+  roslaunch turtlebot3_bringup turtlebot3_lidar.launch
+
+or
+
+.. code-block:: bash
+
+  roslaunch turtlebot3_bringup turtlebot3_realsense.launch
+
+or
+
+.. code-block:: bash
+
+  roslaunch turtlebot3_bringup turtlebot3_core.launch
+
 .. NOTE::
   If the terminal shows `lost sync with device` error message, the sensor device of the TurtleBot3 must be incompletely connected.
 
@@ -66,8 +107,9 @@ TurtleBot3 Waffle
 
 .. code-block:: bash
 
+  export TURTLEBOT3_MODEL=waffle
   roslaunch turtlebot3_bringup turtlebot3_model.launch
 
-.. image:: _static/bringup/rviz_model.jpg
+.. image:: _static/bringup/rviz_waffle_model.jpg
 
 Now, test the TurtleBot3 with various teleoperation methods.
