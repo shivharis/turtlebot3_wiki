@@ -29,6 +29,7 @@ USB port settings
   wget https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR/master/99-opencr-cdc.rules
   sudo cp ./99-opencr-cdc.rules /etc/udev/rules.d/
   sudo udevadm control --reload-rules
+  sudo udevadm trigger
 
 Compiler Settings
 ~~~~~~~~~~~~~~~~~
