@@ -100,13 +100,6 @@ or follow the typical instruction in the link.
 
 If catkin_make is completed without any errors, the preparation for using TurtleBot3 will be finished.
 
-.. WARNING:: When you are working in Raspberry Pi 3, you should delete ''turtlebot3_gazebo'' folder before catkin_make.
-
-.. code-block:: bash
-
-  cd ~/catkin_ws/src/turtlebot3
-  sudo rm -r turtlebot3_gazebo
-
 USB settings (Burger and Waffle)
 --------------------------------
 
@@ -114,10 +107,10 @@ USB settings (Burger and Waffle)
 
 .. code-block:: bash
 
-  wget https://raw.githubusercontent.com/ROBOTIS-GIT/OpenCR/master/99-opencr-cdc.rules
+  wget https://raw.githubusercontent.com/ROBOTIS-GIT/turtlebot3/master/99-turtlebot3-cdc.rules
   sudo cp ./99-opencr-cdc.rules /etc/udev/rules.d/
   sudo udevadm control --reload-rules
-
+  sudo udevadm trigger
 
 Network Configuration (Burger and Waffle)
 -----------------------------------------
