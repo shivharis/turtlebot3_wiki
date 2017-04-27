@@ -47,11 +47,6 @@ TurtleBot3 Burger
   .. code-block:: bash
 
     roslaunch turtlebot3_bringup turtlebot3_lidar.launch
-
-  or
-
-  .. code-block:: bash
-
     roslaunch turtlebot3_bringup turtlebot3_core.launch
 
 .. NOTE::
@@ -87,17 +82,7 @@ TurtleBot3 Waffle
   .. code-block:: bash
 
     roslaunch turtlebot3_bringup turtlebot3_lidar.launch
-
-  or
-
-  .. code-block:: bash
-
     roslaunch turtlebot3_bringup turtlebot3_realsense.launch
-
-  or
-
-  .. code-block:: bash
-
     roslaunch turtlebot3_bringup turtlebot3_core.launch
 
 .. NOTE::
