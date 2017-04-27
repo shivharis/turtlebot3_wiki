@@ -6,9 +6,9 @@ OpenCR Software Setup
 
 .. WARNING:: The following contents correspond to ``Remote PC`` (your desktop or laptop PC) which controls TurtleBot3. You should never apply the following to your TurtleBot.
 
-.. NOTE:: TurtleBot3 is released with OpenCR firmware for each model. Please refer to the following information only when writing new firmware of OpenCR.
+.. NOTE:: TurtleBot3 is released with OpenCR firmware for each model. OpenCR firmware was already downloaded when you buy new one. Please refer to the following information only when writing new firmware of OpenCR.
 
-.. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
+.. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version and this setup can be done on Intel® Joule™.
 
 The OpenCR controls the Dynamixels on the instructions from the SBC. To do this, a specific firmware should be built in the board. See the descriptions and configure the settings.
 
