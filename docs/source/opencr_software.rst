@@ -20,9 +20,9 @@ Follow the instructions to get the OpenCR Arduino development environment on the
 USB port settings
 ~~~~~~~~~~~~~~~~~
 
-[``Remote PC``] Make the OpenCR USB port be able to upload the ``Arduino IDE`` program without root permission.
-
 .. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
+
+[``Remote PC``] Make the OpenCR USB port be able to upload the ``Arduino IDE`` program without root permission.
 
 .. code-block:: bash
 
