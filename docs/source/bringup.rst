@@ -62,4 +62,12 @@ TurtleBot3 Waffle
 .. NOTE::
   If the terminal shows `lost sync with device` error message, the sensor device of the TurtleBot3 must be incompletely connected.
 
+[``Remote PC``] Run rviz
+
+.. code-block:: bash
+
+  roslaunch turtlebot3_bringup turtlebot3_model.launch
+
+.. image:: _static/bringup/rviz_model.jpg
+
 Now, test the TurtleBot3 with various teleoperation methods.
