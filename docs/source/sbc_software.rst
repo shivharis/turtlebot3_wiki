@@ -64,7 +64,47 @@ What will be installed is an Alternative Ubuntu Desktop 16.04 LTS image by follo
 
 [``Intel® Joule™``] Monitor will show a series of installation screens as following walkthroughs. 
 
+.. image:: _static/preparation/j1.jpg
 
+.. image:: _static/preparation/j2.jpg
+
+.. image:: _static/preparation/j3.jpg
+
+.. image:: _static/preparation/j4.jpg
+
+.. image:: _static/preparation/j5.jpg
+
+.. image:: _static/preparation/j6.jpg
+
+.. image:: _static/preparation/j7.jpg
+
+.. image:: _static/preparation/j8.jpg
+
+.. image:: _static/preparation/j9.jpg
+
+.. image:: _static/preparation/j10.jpg
+
+.. image:: _static/preparation/j11.jpg
+
+.. image:: _static/preparation/j12.jpg
+
+.. image:: _static/preparation/j13.jpg
+
+.. image:: _static/preparation/j14.jpg
+
+.. image:: _static/preparation/j15.jpg
+
+.. image:: _static/preparation/j16.jpg
+
+.. image:: _static/preparation/j17.jpg
+
+.. image:: _static/preparation/j18.jpg
+
+.. image:: _static/preparation/j19.jpg
+
+.. image:: _static/preparation/j20.jpg
+
+.. image:: _static/preparation/j21.jpg
 
 
 
