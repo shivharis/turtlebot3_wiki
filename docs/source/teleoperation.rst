@@ -31,34 +31,30 @@ Keyboard
 
 .. code-block:: bash
 
-  sudo apt-get install ros-kinetic-teleop-twist-keyboard
+  git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
 
 [``Remote PC``] Launch the file for simple teleoperation test.
 
 .. code-block:: bash
 
-  roslaunch turtlebot3_bringup turtlebot3_teleop_key.launch
+  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
 [``Remote PC``] If the file succeeds to be launched, the following will be appeared to the terminal.
 
 .. code-block:: bash
 
-  Control Your Turtlebot!
+  Control Your Turtlebot3!
   ---------------------------
   Moving around:
-     u    i    o
-     j    k    l
-     m    ,    .
+          w
+     a    s    d
+          x
 
-  q/z : increase/decrease max speeds by 10%
-  w/x : increase/decrease only linear speed by 10%
-  e/c : increase/decrease only angular speed by 10%
-  space key, k : force stop
-  anything else : stop smoothly
+  w/x : increase/decrease linear velocity
+  a/d : increase/decrease angular velocity
+  space key, s : force stop
 
   CTRL-C to quit
-
-  currently:	speed 0.2	turn 1
 
 RC100
 -----
