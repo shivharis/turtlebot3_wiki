@@ -25,22 +25,7 @@ For implementing you have to install the turtlebot3_applications package.
 TurtleBot Follower Demo
 -----------------------
 
-.. NOTE:: Turtlebot Follower Demo requires scikit-learn, NumPy and ScyPy packages. Instructions for installing are found in http://scikit-learn.org/stable/install.html
-
-The robot follower demo was implemented using only HLS-LFCD LDS, a classification algorithm is used based on previous fitting with samples of person and obstacles positions to take actions. It follows someone in front of the robot inside the 1 meter range and 120 degrees.
-
-[``Remote PC``] Move to turtlebot3_follower source directory
-
-.. code-block:: bash
-
-  roscd turtlebot3_follower/src/
-
-[``Remote PC``] Run Turtlebot3 Follower demo
-
-.. code-block:: bash
-
-  rosrun turtlebot3_follower follower.py
-
+(TODO)
 
 TurtleBot Panorama Demo Using Raspberry Pi Camera Module
 --------------------------------------------------------
