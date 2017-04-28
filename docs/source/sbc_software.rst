@@ -62,7 +62,7 @@ What will be installed is an Alternative Ubuntu Desktop 16.04 LTS image by follo
 
 .. WARNING:: ``Intel® Joule™`` has its ``passive heatsink`` in its product. It recommends to use the heatsink. To use the Joule while the heatsink is not used, follow the extra instruction: https://software.intel.com/en-us/node/721471
 
-[``Intel® Joule™``] Put a ``micro HDMI to HDMI cable``, a ``power connector supplied by OpenCR``, some ``USB devices`` including a ``Bootable USB drive``, ``mouse`` and ``keyboard``. 
+[``Intel® Joule™``] Put a ``micro HDMI to HDMI cable``, a ``power connector supplied by OpenCR``, some ``USB devices`` including a ``Bootable USB drive``, ``mouse`` and ``keyboard``.
 
 [``Intel® Joule™``] Monitor will show a series of installation screens as following walkthroughs. When it powers on, monitor will blink about 3 times after 5 seconds, and shows some options. Press ``f7`` to go to ``boot manager``
 
@@ -175,7 +175,7 @@ USB settings (Burger and Waffle)
 
 .. code-block:: bash
 
-  wget https://raw.githubusercontent.com/ROBOTIS-GIT/turtlebot3/master/99-turtlebot3-cdc.rules
+  cd ~/catkin_ws/src/turtlebot3
   sudo cp ./99-turtlebot3-cdc.rules /etc/udev/rules.d/
   sudo udevadm control --reload-rules
   sudo udevadm trigger
