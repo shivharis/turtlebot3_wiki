@@ -60,7 +60,7 @@ Before launch gazebo simulation with TurtleBot3, ``TurtleBot3 model files`` are 
 
 .. code-block:: bash
 
-  cp -r  ~/catkin_ws/src/turtlebot3/turtlebot3_gazebo/worlds/turtlebot3 ~/.gazebo/models/
+  cp -r  ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/worlds/turtlebot3 ~/.gazebo/models/
 
 Set Turtlebot3 model. (burger or waffle)
 
@@ -96,12 +96,14 @@ The TurtleBot3 can freely moves in a turtlebot3 world.
 
 .. code-block:: bash
 
+  export TURTLEBOT3_MODEL=burger
   roslaunch turtlebot3_gazebo turtlebot3_simulation.launch
 
 Rviz shows published topics when simulation is launched.
 
 .. code-block:: bash
 
+  export TURTLEBOT3_MODEL=burger
   roslaunch turtlebot3_gazebo turtlebot3_gazebo_rviz.launch
 
 .. image:: _static/simulation/turtlebot3_gazebo_rviz.png
