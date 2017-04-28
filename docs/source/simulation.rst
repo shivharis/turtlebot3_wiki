@@ -20,7 +20,7 @@ Install the dependent packages for the TurtleBot3 Simulations.
 .. code-block:: bash
 
   cd ~/catkin_ws/src/
-  https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+  git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
   cd ~/catkin_ws && catkin_make
 
 ``TurtleBot3 fake node`` is a very simple simulation node that can be run without a real robot. You can move a robot through a teleop node on a virtual TurtleBot3 on RViz.
