@@ -27,12 +27,6 @@ Keyboard
 
 .. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
 
-[``Remote PC``] Get the teleoperation package which uses the keyboard.
-
-.. code-block:: bash
-
-  git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
-
 [``Remote PC``] Launch the file for simple teleoperation test.
 
 .. code-block:: bash
