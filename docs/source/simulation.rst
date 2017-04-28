@@ -32,7 +32,7 @@ Install the dependent packages for the TurtleBot3 Simulations.
 
 .. code-block:: bash
 
-  roslaunch turtlebot3_bringup turtlebot3_teleop_key.launch
+  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
 .. raw:: html
 
@@ -80,7 +80,7 @@ The TurtleBot3 drives by teleoperation with a keyboard.
 
 .. code-block:: bash
 
-  roslaunch turtlebot3_bringup turtlebot3_teleop_key.launch
+  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
 ``TurtleBot3 world`` is a simple map has the shape of a TurtleBot3 symbol.
   

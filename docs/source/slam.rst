@@ -71,7 +71,7 @@ If your robot is TurtleBot3 Waffle,
 
 .. code-block:: bash
 
-  roslaunch turtlebot3_bringup turtlebot3_teleop_key.launch
+  roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
 
 Save the map to file
 --------------------
