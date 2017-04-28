@@ -12,6 +12,9 @@ Bringup
 
 .. WARNING:: Check if the IP addresses on each devices are set correctly.
 
+.. WARNING:: The buzzer alarm is continuously sounded and the robot's actuator operation is stopped when the battery of the robot reaches 11V. The battery must be charged when the buzzer alarm sounds.
+
+
 Bringup the TurtleBot3
 ----------------------
 
