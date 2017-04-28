@@ -27,14 +27,6 @@ Bringup the TurtleBot3
 TurtleBot3 Burger
 ~~~~~~~~~~~~~~~~~
 
-[``TurtleBot``] Give the LiDAR connected to ``ttyUSB0`` socket the read/write permissions.
-
-.. code-block:: bash
-
-  sudo chmod a+rw /dev/ttyUSB0
-
-.. WARNING:: The value of ``/dev/ttyUSB0`` may be different depending on the environment connected to the TurtleBot's SBC.
-
 [``TurtleBot``] Bring up the basic packages to start the TurtleBot3 applications.
 
 .. code-block:: bash
@@ -63,12 +55,6 @@ TurtleBot3 Burger
 
 TurtleBot3 Waffle
 ~~~~~~~~~~~~~~~~~
-
-[``TurtleBot``] Give the LiDAR connected to ``ttyUSB0`` socket the read/write permissions.
-
-.. code-block:: bash
-
-  sudo chmod a+rw /dev/ttyUSB0
 
 [``TurtleBot``] Bring up the basic packages to start the TurtleBot3 applications.
 
