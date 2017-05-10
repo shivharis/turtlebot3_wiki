@@ -111,13 +111,13 @@ Run realsense_camera node
 
   roslaunch realsense_camera r200_nodelet_default.launch
   
-When the realsense_camera node is running, you can view various data including images acquired from Intel® RealSense™ by launching rqt_image_view.
+While the realsense_camera node is running, you can view various data from Intel® RealSense™ by launching rqt_image_view.
 
 .. code-block:: bash
 
   rqt_image_view
   
-Once the gui application is appeared on the screen, you can select various data from drop down menu at the top of the application.
+Once the gui application is appeared on the screen, you can select data topic name related to Intel® RealSense™ from drop down menu at the top of the application.
 
 References
 ----------
