@@ -6,7 +6,7 @@ OpenCR Software Setup
 
 .. WARNING:: The following contents correspond to ``Remote PC`` (your desktop or laptop PC) which controls TurtleBot3. You should never apply the following to your TurtleBot.
 
-.. NOTE:: TurtleBot3 is released with OpenCR firmware for each model. Please refer to the following information only when writing new firmware of OpenCR. (OpenCR firmware was already downloaded when you get new one) 
+.. NOTE:: The OpenCR board is pre-loaded with the software needed to run your specific TurtleBot3 model(Burger or Waffle). Refer to the information below only if you want to modify the existing software or write new software for the OpenCR. 
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version and this setup can be done on Intel® Joule™.
 
