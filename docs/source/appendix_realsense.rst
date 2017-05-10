@@ -84,7 +84,7 @@ The TurtleBot3 Waffle uses Intel® RealSense™ Camera R200 as a default vision 
 User's guide
 ------------
 
-`Intel® RealSense™ packages`_ to enable the use of Intel® RealSense™ R200, F200, and SR300 cameras with ROS. To use RealSense™, please refer to the following two packages.
+`Intel® RealSense™ packages`_ enable the use of Intel® RealSense™ R200, F200, and SR300 cameras with ROS. Below links are describing packages needed to operate Intel® RealSense™. You will be guided to install these packaged in the next section.
 
 +---------------------+---------------------------------------------------------------------------+
 | Package             | Description                                                               |
@@ -96,6 +96,8 @@ User's guide
 
 Installation
 ~~~~~~~~~~~~
+
+The following commands will install relevant Intel® RealSense™ packages on your ROS system.
 
 .. code-block:: bash
 
