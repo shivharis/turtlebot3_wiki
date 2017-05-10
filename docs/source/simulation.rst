@@ -56,10 +56,14 @@ Gazebo (3D)
 
 .. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
 
+.. WARNING:: When you launch gazebo for the first time in your ``Remote PC``, it takes few more time.
+
 Before launch gazebo simulation with TurtleBot3, ``TurtleBot3 model files`` are moved to ``gazebo model folder``.
 
 .. code-block:: bash
-
+  
+  mkdir ~/.gazebo/
+  mkdir ~/.gazebo/models/
   cp -r  ~/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/worlds/turtlebot3 ~/.gazebo/models/
 
 Set Turtlebot3 model. (burger or waffle)
