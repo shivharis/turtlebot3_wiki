@@ -8,7 +8,7 @@ PC Software Setup
 
 .. NOTE:: This instruction was tested on ``Ubuntu 16.04`` and ``ROS Kinetic Kame`` version.
 
-Install the Ubuntu in the remote PC (Desktop or Laptop PC)
+Install Ubuntu in the remote PC (Desktop or Laptop PC)
 -----------------------------------------------------------
 
 [``Remote PC``] Download the ``Ubuntu 16.04`` version on the remote PC from the following link.
@@ -19,14 +19,16 @@ If it needs some help to install Ubuntu, check out the step-by-step guide.
 
 - https://www.ubuntu.com/download/desktop/install-ubuntu-desktop
 
-Install the ROS in the remote PC
+Install ROS in the remote PC
 --------------------------------
 
 .. image:: _static/logo_ros.png
     :align: center
     :target: http://wiki.ros.org
 
-[``Remote PC``] Install the `ROS`_ by using a simple installation script file
+[``Remote PC``] There are two ways to install `ROS`_. If you prefer manual installation, please take the second method. 
+**First Method**
+Install the `ROS`_ by using a simple installation script file
 
 .. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
 
@@ -34,15 +36,18 @@ Install the ROS in the remote PC
 
   wget https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh && chmod 755 ./ros_install.sh && bash ./ros_install.sh catkin_ws kinetic
 
-or follow the ROS installation instruction in the link below.  
-
-You can start from `1.2 Setup your sources.list`_ and follow the instruction up to `1.7 Getting rosinstall`_.  
+**Second Method**
+You can start from "`1.2 Setup your sources.list`_" and keep working on until "`1.7 Getting rosinstall`_" from below ROS installation instruction link.  
 
 - http://wiki.ros.org/kinetic/Installation/Ubuntu
 
-.. NOTE:: Someone who want to show which packages are installed, Please following this link. https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh
+.. NOTE:: In order to check which packages are installed, Please follow this link. https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh
 
-Install the dependent packages
+If you are going to modify or develop source code from the remote PC, you'll have to configure ROS environment. Steps described in the below link are farily simple and take a couple minutes.
+
+http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
+
+Install dependent packages
 ------------------------------
 
 [``Remote PC``] The next step is to install the dependent packages for the TurtleBot3 control.
