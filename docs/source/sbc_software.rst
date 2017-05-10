@@ -213,5 +213,5 @@ Rectangled text is the IP address of the ``TurtleBot``.
 
 .. image:: _static/software/network_configuration5.png
 
-.. _Alternative install: Ubuntu Desktop 16.04 LTS: https://developer.ubuntu.com/core/get-started/intel-joule#alternative-install:-ubuntu-desktop-16.04-lts
+.. _Alternative install: Ubuntu Desktop 16.04 LTS: Ubuntu Desktop 16.04 LTS: https://developer.ubuntu.com/core/get-started/intel-joule#alternative-install:-ubuntu-desktop-16.04-lts
 .. _ROS: http://wiki.ros.org
