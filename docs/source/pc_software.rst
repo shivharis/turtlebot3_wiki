@@ -30,7 +30,7 @@ Install ROS in the remote PC
 
 **First Method** : Install the `ROS`_ by using a simple installation script file
 
-.. TIP:: Terminal can be searched with the Ubuntu search icon on top left corner of screen. Shortcut key for terminal is Ctrl-Alt-T.
+.. TIP:: The terminal application can be searched with the Ubuntu search icon on top left corner of screen. Shortcut key for terminal is Ctrl-Alt-T.
 
 .. code-block:: bash
 
@@ -49,7 +49,7 @@ If you are going to modify or develop source code from the remote PC, you'll hav
 Install dependent packages
 ------------------------------
 
-[``Remote PC``] The next step is to install the dependent packages for the TurtleBot3 control.
+[``Remote PC``] The next step is to install dependent packages for the TurtleBot3 control.
 
 .. code-block:: bash
 
