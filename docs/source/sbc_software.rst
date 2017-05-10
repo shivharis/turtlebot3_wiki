@@ -50,11 +50,11 @@ What will be installed is an Alternative Ubuntu Desktop 16.04 LTS image by follo
 
 [``Remote PC``] Download the image ``Alternative Ubuntu 16.04 for Intel® Joule™`` from the link.
 
-- http://people.canonical.com/~platform/snappy/tuchuck/desktop-beta4/tuchuck-xenial-desktop-iso-20170109-0.iso
+- http://people.canonical.com/~platform/snappy/tuchuck/desktop-final/tuchuck-xenial-desktop-iso-20170317-0.iso
 
-[``Remote PC``] To make a bootable USB drive to install Ubuntu, follow the steps shown in linked page.
+[``Remote PC``] To make a bootable USB drive to install Ubuntu, you can use `Alternative install: Ubuntu Desktop 16.04 LTS`_ method.
 
-- https://developer.ubuntu.com/core/get-started/installation-medias
+- https://developer.ubuntu.com/core/get-started/intel-joule#alternative-install:-ubuntu-desktop-16.04-lts
 
 [``Remote PC``] Before Ubuntu installation, Joule needs BIOS upgrade to get Ubuntu Image. Download firmware which contains  Joule's new BIOS and flash the BIOS into the Joule by following instructions linked below.
 
@@ -213,5 +213,5 @@ Rectangled text is the IP address of the ``TurtleBot``.
 
 .. image:: _static/software/network_configuration5.png
 
-
+.. _Alternative install: Ubuntu Desktop 16.04 LTS: https://developer.ubuntu.com/core/get-started/intel-joule#alternative-install:-ubuntu-desktop-16.04-lts
 .. _ROS: http://wiki.ros.org
