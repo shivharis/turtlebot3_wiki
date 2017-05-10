@@ -5,19 +5,19 @@ Features
 
 WORLD’S MOST POPULAR ROS PLATFORM
 ---------------------------------
-TurtleBot is the most popular open source robot for education and research. The new generation 'TurtleBot3' is a small, low cost, fully programmable, ROS based mobile robot. It is intended to be used for the purpose of education, research, product prototyping, and hobby application.
+TurtleBot is the most popular open source robot for education and research. The new generation 'TurtleBot3' is a small, low cost, fully programmable, ROS based mobile robot. It is intended to be used for education, research, hobby and product prototyping.
 
 AFFORDABLE COST
 ---------------
-TurtleBot was built for the cost-conscious needs from the educations and the research & developments. TurtleBot3 is the most affordable robot among the SLAM-able mobile robots equipped with a general 360-degree LiDAR.
+TurtleBot was developed to meet the cost-conscious needs of schools, laboratories and companies. TurtleBot3 is the most affordable robot among the SLAM-able mobile robots equipped with a general 360-degree LiDAR.
 
 SMALL SIZE
 ----------
-The size of the TurtleBot3 Burger is 138mm x 178mm x 192mm (L x W x H). Its size is about 1/4 of the size of the TurtleBot 1, 2. Imagine the TurtleBot in your backpack and bring it anywhere.
+The dimension of the TurtleBot3 Burger is only 138mm x 178mm x 192mm (L x W x H). Its size is about 1/4 of the size of the predecessor. Imagine the TurtleBot in your backpack and bring it anywhere.
 
 ROS STANDARD
 ------------
-The TurtleBot brand is managed by `Open Source Robotics Foundation, Inc. (OSRF)`_, which develops and manages ROS. Nowadays, ROS has become the go-to platform for all the roboticists around the world. The TurtleBot obviously can be integrated by the existing ROS-based robots, but basically can be an affordable platform for whom want to get started learning ROS.
+The TurtleBot brand is managed by `Open Source Robotics Foundation, Inc. (OSRF)`_, which develops and maintains ROS. Nowadays, ROS has become the go-to platform for all the roboticists around the world. The TurtleBot can obviously can be integrated by the existing ROS-based robots, but basically can be an affordable platform for whom want to get started learning ROS.
 
 EXTENSIBILITY
 -------------
