@@ -27,17 +27,16 @@ Install ROS in the remote PC
     :target: http://wiki.ros.org
 
 [``Remote PC``] There are two ways to install `ROS`_. If you prefer manual installation, please take the second method. 
-**First Method**
-Install the `ROS`_ by using a simple installation script file
 
-.. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
+**First Method** : Install the `ROS`_ by using a simple installation script file
+
+.. TIP:: Terminal can be searched with the Ubuntu search icon on top left corner of screen. Shortcut key for terminal is Ctrl-Alt-T.
 
 .. code-block:: bash
 
   wget https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh && chmod 755 ./ros_install.sh && bash ./ros_install.sh catkin_ws kinetic
 
-**Second Method**
-You can start from "`1.2 Setup your sources.list`_" and keep working on until "`1.7 Getting rosinstall`_" from below ROS installation instruction link.  
+**Second Method** : You can start from "`1.2 Setup your sources.list`_" and keep working on until "`1.7 Getting rosinstall`_" from below ROS installation instruction link.  
 
 - http://wiki.ros.org/kinetic/Installation/Ubuntu
 
@@ -45,7 +44,7 @@ You can start from "`1.2 Setup your sources.list`_" and keep working on until "`
 
 If you are going to modify or develop source code from the remote PC, you'll have to configure ROS environment. Steps described in the below link are farily simple and take a couple minutes.
 
-http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
+- http://wiki.ros.org/ROS/Tutorials/InstallingandConfiguringROSEnvironment
 
 Install dependent packages
 ------------------------------
