@@ -46,29 +46,29 @@ Install the Linux for TurtleBot3 Burger (Raspberry Pi 3)
 Install the Linux for TurtleBot3 Waffle (Intel® Joule™)
 -------------------------------------------------------
 
-What will be installed is an Alternative Ubuntu Desktop 16.04 LTS image by following the instructions.
+In this section, Alternative Ubuntu Desktop 16.04 LTS will be installed on Intel® Joule™ by following below instructions.
 
-[``Remote PC``] Download the image ``Alternative Ubuntu 16.04 for Intel® Joule™`` from the link.
+[``Remote PC``] Download the Ubuntu image ``Alternative Ubuntu 16.04 for Intel® Joule™`` from the link.
 
 - http://people.canonical.com/~platform/snappy/tuchuck/desktop-final/tuchuck-xenial-desktop-iso-20170317-0.iso
 
-[``Remote PC``] To make a bootable USB drive to install Ubuntu, you can use `Alternative install: Ubuntu Desktop 16.04 LTS`_ method.
+[``Remote PC``] To make a bootable installation USB drive, you can use _`Alternative install(Ubuntu Desktop 16.04 LTS)`_ section from below link.
 
-- https://developer.ubuntu.com/core/get-started/intel-joule#alternative-install:-ubuntu-desktop-16.04-lts
+- https://developer.ubuntu.com/core/get-started/intel-joule
 
-[``Remote PC``] Before Ubuntu installation, Joule needs BIOS upgrade to get Ubuntu Image. Download firmware which contains  Joule's new BIOS and flash the BIOS into the Joule by following instructions linked below.
+[``Remote PC``] Before installing Ubuntu, Joule needs a BIOS update to install Ubuntu Image. Download firmware which contains Joule's new BIOS and flash the BIOS into the Joule by following linked instructions below.
 
 - https://software.intel.com/en-us/flashing-the-bios-on-joule
 
-.. WARNING:: ``Intel® Joule™`` has its ``passive heatsink`` in its product. It recommends to use the heatsink. To use the Joule while the heatsink is not used, follow the extra instruction: https://software.intel.com/en-us/node/721471
+.. WARNING:: ``Intel® Joule™`` comes with ``passive heatsink`` in the package. It is recommended to use the heatsink. In order to use Joule without the heatsink, please follow the extra instruction: https://software.intel.com/en-us/node/721471
 
-[``Intel® Joule™``] Put a ``micro HDMI to HDMI cable``, a ``power connector supplied by OpenCR``, some ``USB devices`` including a ``Bootable USB drive``, ``mouse`` and ``keyboard``.
+[``Intel® Joule™``] Connect ``micro HDMI to HDMI cable``, ``power connector supplied by OpenCR``, ``USB devices`` including ``Bootable USB drive``, ``mouse`` and ``keyboard``. You might need a USB hub to plug multiple USB devices.
 
-[``Intel® Joule™``] Monitor will show a series of installation screens as following walkthroughs. When it powers on, monitor will blink about 3 times after 5 seconds, and shows some options. Press ``f7`` to go to ``boot manager``
+[``Intel® Joule™``] Installation will be proceeded as shown in below images. When Joule is turned on, monitor will blink about 3 times after 5 seconds, and display options. Press ``f7`` to go to ``boot manager``.
 
 .. image:: _static/preparation/j1.JPG
 
-[``Intel® Joule™``] Select ``USB disk``.
+[``Intel® Joule™``] Select ``USB Device``.
 
 .. image:: _static/preparation/j2.JPG
 
@@ -78,21 +78,21 @@ What will be installed is an Alternative Ubuntu Desktop 16.04 LTS image by follo
 
 .. image:: _static/preparation/j5.JPG
 
-[``Intel® Joule™``] Select ``Erase drive and install Ubuntu`` then ``continue``.
+[``Intel® Joule™``] Select ``Erase disk and install Ubuntu`` then ``continue``.
 
 .. image:: _static/preparation/j6.JPG
 
-[``Intel® Joule™``] Every ``Intel® Joule™`` has two different disk drive: 16GB micro SD Card and 16GB eMMC. This description suggest to install the ``Alternarive Ubuntu for Joule`` into the ``16GB eMMC``. Select ``MMC/SD card #2 (mmcblk1) - 15.7 GB MMC 016G32`` then ``continue``.
+[``Intel® Joule™``] Every ``Intel® Joule™`` has two different disk drives: 16GB micro SD Card and 16GB eMMC. This description suggest to install the ``Alternarive Ubuntu for Joule`` on the ``16GB eMMC``. Select ``MMC/SD card #2 (mmcblk1) - 15.7 GB MMC 016G32`` then ``continue``.
 
 .. image:: _static/preparation/j7.JPG
 
 .. image:: _static/preparation/j8.JPG
 
-[``Intel® Joule™``] The installation will take 10 or more minutes.
+[``Intel® Joule™``] The installation will take about 10 minutes.
 
 .. image:: _static/preparation/j9.JPG
 
-[``Intel® Joule™``] After the installation, click ``Restart Now``.
+[``Intel® Joule™``] When installation is completed, click ``Restart Now``.
 
 .. image:: _static/preparation/j10.JPG
 
@@ -127,10 +127,10 @@ What will be installed is an Alternative Ubuntu Desktop 16.04 LTS image by follo
 
 
 
-Install the ROS and packages (Burger and Waffle)
+Install ROS and packages (Burger and Waffle)
 ------------------------------------------------
 
-.. WARNING:: The following contents correspond to ``TurtleBot``'s SBC (your Raspberry Pi or Intel® Joule™) which TurtleBot's main computer. You should never apply the following to your Remote PC (your desktop or laptop PC).
+.. WARNING:: The following contents correspond to ``TurtleBot``'s SBC (your Raspberry Pi or Intel® Joule™) which TurtleBot's main computer. You should never apply the following to your Remote PC (your desktop PC or laptop).
 
 .. NOTE:: It takes about 2 hours to install the following ROS and TurtleBot3 related packages. This depends on your network environment.
 
@@ -138,21 +138,23 @@ Install the ROS and packages (Burger and Waffle)
     :align: center
     :target: http://wiki.ros.org
 
-[``TurtleBot``] Install the `ROS`_ by using a simple installation script file.
+[``TurtleBot``] There are two ways to install `ROS`_. If you prefer manual installation, please take the second method.
 
-.. TIP:: Terminal is opened to go to the Ubuntu search icon, type "Terminal" or use Ctrl-Alt-T.
+**First Method** : Install the `ROS`_ by using a simple installation script file.
+
+.. TIP:: The terminal application can be searched with the Ubuntu search icon on top left corner of screen. Shortcut key for terminal is Ctrl-Alt-T.
 
 .. code-block:: bash
 
   wget https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh && chmod 755 ./ros_install.sh && bash ./ros_install.sh catkin_ws kinetic
 
-or follow the typical instruction in the link.
+**Second Method** : You can start from "`1.2 Setup your sources.list`_" and keep working on until "`1.7 Getting rosinstall`_" from below ROS installation instruction link.
 
 - http://wiki.ros.org/kinetic/Installation/Ubuntu
 
-.. NOTE:: Someone who want to show which packages are installed, Please following this link. https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh
+.. NOTE:: In order to check which packages are installed, please follow this link. https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh
 
-[``TurtleBot``] The next step is to install the dependent packages for the TurtleBot3 control.
+[``TurtleBot``] The next step is to install dependent packages for the TurtleBot3 control.
 
 .. code-block:: bash
 
@@ -213,5 +215,7 @@ Rectangled text is the IP address of the ``TurtleBot``.
 
 .. image:: _static/software/network_configuration5.png
 
-.. _Alternative install: Ubuntu Desktop 16.04 LTS: Ubuntu Desktop 16.04 LTS: https://developer.ubuntu.com/core/get-started/intel-joule#alternative-install:-ubuntu-desktop-16.04-lts
+.. _Alternative install(Ubuntu Desktop 16.04 LTS): https://developer.ubuntu.com/core/get-started/intel-joule#alternative-install:-ubuntu-desktop-16.04-lts
+.. _1.2 Setup your sources.list: http://wiki.ros.org/kinetic/Installation/Ubuntu#Installation.2BAC8-Ubuntu.2BAC8-Sources.Setup_your_sources.list
+.. _1.7 Getting rosinstall : http://wiki.ros.org/kinetic/Installation/Ubuntu#Getting_rosinstall
 .. _ROS: http://wiki.ros.org
