@@ -35,10 +35,7 @@ Install the ROS in the remote PC
   wget https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh && chmod 755 ./ros_install.sh && bash ./ros_install.sh catkin_ws kinetic
 
 or follow the ROS installation instruction in the link below.  
-You can start from `1.2 Setup your sources.list`_ and follow the instruction up to `1.7 Getting rosinstall`_  
-
-.. _1.2 Setup your sources.list: http://wiki.ros.org/kinetic/Installation/Ubuntu#Installation.2BAC8-Ubuntu.2BAC8-Sources.Setup_your_sources.list
-.. _1.7 Getting rosinstall: http://wiki.ros.org/kinetic/Installation/Ubuntu#Getting_rosinstall
+You can start from `1.2 Setup your sources.list`_ and follow the instruction up to `1.7 Getting rosinstall`_.  
 
 - http://wiki.ros.org/kinetic/Installation/Ubuntu
 
@@ -97,4 +94,6 @@ Change the `localhost` into the IP address shown as follows.
 .. image:: _static/software/network_configuration3.png
 
 
+.. _1.2 Setup your sources.list: http://wiki.ros.org/kinetic/Installation/Ubuntu#Installation.2BAC8-Ubuntu.2BAC8-Sources.Setup_your_sources.list
+.. _1.7 Getting rosinstall: http://wiki.ros.org/kinetic/Installation/Ubuntu#Getting_rosinstall
 .. _ROS: http://wiki.ros.org
