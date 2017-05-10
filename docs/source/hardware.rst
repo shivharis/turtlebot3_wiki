@@ -151,13 +151,12 @@ Basic Operations
 
 .. image:: _static/hardware/opencr_models.jpg
 
-You can use the “PUSH SW 1” and “PUSH SW 2” buttons to see whether your robot has been properly assembled. This process tests the left and right Dynamixel and the OpenCR board.
+You can use the ``PUSH SW 1`` and ``PUSH SW 2`` buttons to see whether your robot has been properly assembled. This process tests the left and right Dynamixel and the OpenCR board.
 
-"(1)"  After assembling, connect the battery to the OpenCR board and turn on the power switch. You can
-see that the "Power LED" of OpenCR turns on.
-"(2)"  Place the robot on the floor. At this time, the safety distance should be 1 meter on each side.
-"(3)"  Press the "PUSH SW 1" to confirm that the robot moves 30 centimeters forward.
-"(4)"  Press the "PUSH SW 2" to confirm that the robot rotates 180 degrees in place.
+"1." After assembling, connect the battery to the OpenCR board and turn on the power switch. You can see that the ``Power LED`` of OpenCR turns on.
+"2." Place the robot on the floor. At this time, the safety distance should be 1 meter on each side.
+"3." Press the ``PUSH SW 1`` to confirm that the robot moves 30 centimeters forward.
+"4." Press the ``PUSH SW 2`` to confirm that the robot rotates 180 degrees in place.
 
 Open Source Hardware
 --------------------
