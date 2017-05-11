@@ -21,25 +21,25 @@ The TurtleBot brand is managed by `Open Source Robotics Foundation, Inc. (OSRF)`
 
 EXTENSIBILITY
 -------------
-TurtleBot3 encourages users to customize its mechanical structure themselves using some alternative options: the open source embedded board (as a control board), the computer, and the sensor. The Turtlebot3 Burger is a two-wheeled differential drive type platform, but is able to be structurally and mechanically customized in many ways: the Cars, the Bikes, the Trailers and so on. Extend your ideas beyond imagination with various SBC, sensors, motors on a scalable structure.
+TurtleBot3 encourages users to customize its mechanical structure with some alternative options: open source embedded board (as a control board), computer and sensors. The Turtlebot3 Burger is a two-wheeled differential drive type platform but it is able to be structurally and mechanically customized in many ways: Cars, Bikes, Trailers and so on. Extend your ideas beyond imagination with various SBC, sensors and motors on a scalable structure.
 
 MODULAR ACTUATOR FOR MOBILE ROBOT
 ---------------------------------
-TurtleBot3 allows to get precise spatial data by using 2 Dynamixels in the wheel joints. The Dynamixel XM series can be operated by one of 6 operating modes(XL series: 4 operating modes): the Velocity control mode for wheels, the Torque control mode or the Position control mode for joint, etc. The Dynamixel can be used even to make a mobile manipulator, since it is light but can be precisely controlled with the velocity, the torque and the position. The Dynamixel is a core component that makes the TurtleBot be completed. It is easy to assemble, maintain, replace and reconfigure.
+TurtleBot3 is able to get a precise spatial data by using 2 Dynamixels in the wheel joints. The Dynamixel XM series can be operated by one of 6 operating modes(XL series: 4 operating modes): Velocity control mode for wheels, Torque control mode or Position control mode for joint, etc. The Dynamixel can be used even to make a mobile manipulator which is light but can be precisely controlled with velocity, torque and position control. The Dynamixel is a core component that makes the TurtleBot perfect. It is easy to assemble, maintain, replace and reconfigure.
 
 OPEN CONTROL BOARD FOR ROS
 --------------------------
-The control board which is open-sourced in hardware wise and in software wise for ROS communication, or also called OpenCR, has the bandwidth to support not only for controlling the Dynamixel but also the ROBOTIS sensors which are frequently being used for basic recognition tasks in a cheaper way, such as Touch sensor, Infrared sensor, Color sensor and so on. It has a IMU sensor inside the board so that it can strengthen many precise controls. The board has a 3.3V, 5V, 12V power supplies to reinforce the available computer device lineups.
+The control board is open-sourced in hardware wise and in software wise for ROS communication. The open source control board OpenCR has enough bandwidth to control not only the Dynamixel but also ROBOTIS sensors that are frequently being used for basic recognition tasks in a cheaper way. Various sensors such as Touch sensor, Infrared sensor, Color sensor and a handful more are available. The OpenCR has an IMU sensor inside the board so that it can enhance precise control for countless applications. The board has 3.3V, 5V, 12V power supplies to reinforce the available computer device lineups.
 
 
 STRONG SENSOR LINEUPS
 ---------------------
-TurtleBot3 Burger uses enhanced 360° LiDAR, 9-Axis Inertial Measurement Unit and precise encoder for your robot. The TurtleBot3 Waffle model is equipped with the 360° Lidar as well, but additionally proposes a powerful Intel® RealSense™ with the recognition SDK. This will be the best solution for making a mobile robot.
+The TurtleBot3 Burger uses enhanced 360° LiDAR, 9-Axis Inertial Measurement Unit and precise encoder for your research and development. The TurtleBot3 Waffle is equipped with an identical 360° LiDAR as well but additionally proposes a powerful Intel® RealSense™ with the recognition SDK. This will be the best hardware solution for making a mobile robot.
 
 OPEN SOURCE
 -----------
-TurtleBot3's Hardware, Firmware, and Software are provided as open source. Basically, all components of the TurtleBot3 will be provided as the injection molded, and it achieves the low cost, but the CAD data for 3D printing is also available.
-The CAD data is released to the Onshape, which is a full-cloud 3D CAD editor. Get access through a web browser by using the computer or even by the portable devices. Here allows the works of drawing, assemblying with the co-workers.
+The hardware, firmware and software of TurtleBot3 are open source which means that users are welcomed to download, modify and share source codes. All components of the TurtleBot3 are manufactured with injection molded plastic to achieve low cost, however, the 3D CAD data is also available for 3D printing.
+The 3D CAD data is released via Onshape which is a full-cloud 3D CAD editor. Users can get an access with a web browser on desktop PC, laptop and even portable devices. Onshape allows to draw 3D models and to assemble them with colleagues.
 Besides, all details of the OpenCR board that are necessary for the users who want to make it by themselves, including the Schematics, the PCB Gerber, the BOM and the Firmware source are fully opened under the open-source licenses for the user and the ROS community.
 You can modify the downloaded source code, hardware and share it with your friends.
 
