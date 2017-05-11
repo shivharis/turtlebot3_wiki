@@ -40,8 +40,8 @@ OPEN SOURCE
 -----------
 The hardware, firmware and software of TurtleBot3 are open source which means that users are welcomed to download, modify and share source codes. All components of the TurtleBot3 are manufactured with injection molded plastic to achieve low cost, however, the 3D CAD data is also available for 3D printing.
 The 3D CAD data is released via Onshape which is a full-cloud 3D CAD editor. Users can get an access with a web browser on desktop PC, laptop and even portable devices. Onshape allows to draw 3D models and to assemble them with colleagues.
-Besides, all details of the OpenCR board that are necessary for the users who want to make it by themselves, including the Schematics, the PCB Gerber, the BOM and the Firmware source are fully opened under the open-source licenses for the user and the ROS community.
-You can modify the downloaded source code, hardware and share it with your friends.
+Besides, for the users who want to make OpenCR board by themselves, all details of the OpenCR board such as schematics, PCB gerber files, BOM and firmware source code are fully opened under the open-source licenses for users and ROS community.
+You can modify downloaded source code and hardware to share it with your friends.
 
 .. _Open Source Robotics Foundation, Inc. (OSRF): http://www.osrfoundation.org/
 .. _ROBOTIS: http://wwww.robotis.com/
