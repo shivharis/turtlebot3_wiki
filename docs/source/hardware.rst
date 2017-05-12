@@ -149,7 +149,7 @@ Waffle Model
 Basic Operations
 --------------------
 
-.. image:: _static/hardware/opencr_models.jpg
+.. image:: _static/hardware/opencr_models.png
 
 You can use the ``PUSH SW 1`` and ``PUSH SW 2`` buttons to see whether your robot has been properly assembled. This process tests the left and right Dynamixel and the OpenCR board.
 
