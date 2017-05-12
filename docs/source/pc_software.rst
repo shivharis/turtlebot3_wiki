@@ -34,6 +34,8 @@ Install ROS in the remote PC
 
 .. code-block:: bash
 
+  sudo apt-get update
+  sudo apt-get upgrade
   wget https://raw.githubusercontent.com/oroca/oroca-ros-pkg/kinetic/ros_install.sh && chmod 755 ./ros_install.sh && bash ./ros_install.sh catkin_ws kinetic
 
 **Second Method** : You can start from "`1.2 Setup your sources.list`_" and keep working on until "`1.7 Getting rosinstall`_" from below ROS installation instruction link.  
