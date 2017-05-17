@@ -16,7 +16,7 @@ So, you can download the STL files directly from each Onshape address as shown i
 3. Click the "Parts folder"
 4. Right-click on the icon of the file you want to download.
 5. Click the "Export..."
-6. Finally, you can download the output file type you wa
+6. Finally, you can download the output file type you want.
 
 .. image:: _static/faq/download_the_stl_files_01.png
 
