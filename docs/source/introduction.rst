@@ -24,8 +24,18 @@ TurtleBot3 Collaboration
 Press
 -----
 
-- IEEE Spectrum: http://spectrum.ieee.org/automaton/robotics/diy/robotis-and-osrf-announce-turtlebot-3-smaller-cheaper-and-modular
-- 3D Printing Industry: https://3dprintingindustry.com/news/advances-robotics-made-easier-forthcoming-3d-printed-turtlebot-96844/
-- ROBOHUB: http://robohub.org/celebrating-9-years-of-ros/
+- IEEE Spectrum (May 2, 2017)
+: http://spectrum.ieee.org/automaton/robotics/robotics-hardware/review-robotis-turtlebot-3
+
+- ROBOHUB (December 28, 2016)
+: http://robohub.org/celebrating-9-years-of-ros/
+
+- 3D Printing Industry (October 13, 2016)
+: https://3dprintingindustry.com/news/advances-robotics-made-easier-forthcoming-3d-printed-turtlebot-96844/
+
+- IEEE Spectrum (October 12, 2016)
+: http://spectrum.ieee.org/automaton/robotics/diy/robotis-and-osrf-announce-turtlebot-3-smaller-cheaper-and-modular
+
+
 
 .. _ROBOTIS: www.robotis.com
