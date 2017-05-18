@@ -62,6 +62,7 @@ Install dependent packages
   cd ~/catkin_ws/src/
   git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
   git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
+  source /opt/ros/kinetic/setup.bash
   cd ~/catkin_ws && catkin_make
 
 If catkin_make is completed without any errors, the preparation for using TurtleBot3 will be finished.
