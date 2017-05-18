@@ -16,6 +16,11 @@ Authors: Yoonseok Pyo, Yoshihiro Shibata, Leon Jung, Darby Lim (`ROBOTIS`_)
 - PDF: http://roscon.ros.org/2016/presentations/ROSCon2016_Turtlebot3_ROBOTIS.pdf
 - Video: https://vimeo.com/187699447
 
+TurtleBot3 Collaboration
+------------------------
+
+.. image:: _static/logo_cooperation.png
+
 Press
 -----
 
